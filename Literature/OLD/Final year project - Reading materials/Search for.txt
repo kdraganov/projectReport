@@ -1,0 +1,14 @@
+Assessment of temporal and spatial effects of bus arrival time information and implications for spatially targeted location-based services 
+
+Analyses of Bus Travel Time Reliability and Transit Signal Priority at the Stop-To-Stop Segment Level
+
+
+search Terms:
+making sense of time series data
+time series data fleet management delay
+Fleet management
+AVL
+Bus arrival time analysis
+time series analysis
+Processing AVL DATA
+online processing of AVL Data

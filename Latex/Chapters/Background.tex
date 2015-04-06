@@ -1,0 +1,68 @@
+\chapter{Background research}
+The background should set the project into context by motivating the subject matter and relating it to existing published work. The background will include a critical evaluation of the existing literature in the area in which your project work is based and should lead the reader to understand how your work is motivated by and related to existing work.
+
+\section{CentreComm}
+	CentreComm is TFL’s emergency control room for all London buses. It is
+has been in operation for more than 30 years [12] and it employs a dedicated
+team who work 24/7 and are responsible for dealing with more than a 1000
+calls each day. These are call either from bus drivers or bus company operators
+regarding incidents and disruptions in the bus network. CentreComm
+staff are responsible for maintaining the smooth, reliable and sage operation
+of London busy bus network consisting of more than 8000 buses [13]. Their
+job has been made easier with the introduction of a modern and innovative
+AVL system. CentreComm’s way of operation has been transformed beyond recognition since it first opened and today. It has started as few people and
+pen and paper to modern, electronic real-time GPS systems nowadays [12].
+However there is still a lot of room for improvement in their way of operation.
+\section{iBus}
+	AVL stands for Automatic Vehicle Location. iBus is an AVL system which
+has been developed by Trapeze ITS (http://www.trapezegroup.co.uk/) for
+TFL’s needs. The iBus system is complex and consists of a number of computer
+systems, sensors and transmitters as described in [8]. One of the key
+components of the system on-board unit (OBU) which mounted on each of
+buses in the TFL bus fleet and consists of a computational unit connected to
+sensors and GPS transmitters (see figure 1 below). This OBU is responsible
+for a number of tasks including a regular transmission of the bus location.
+This information is currently used by the different bus operators for fleet management
+as well as CentreComm. There are already modern and innovative
+fleet management and public information systems which incorporate iBus to
+improve the service which are not further discussed here as they are not related
+to the problem this project is focussed on.
+CentreComm is not responsible for the fleet management as this is contracted
+to the bus operators which are responsible for maintaining reliable
+service according to agreed contracts. The emergency control room comes in
+place when there are planned or unplanned events which disrupt the transport
+network. They are also responsible for helping the bus operators once they cannot
+maintain the service they are responsible for due to traffic congestion or
+other issues which are beyond their control. However currently CentreComm
+relies on the bus drivers and bus operators for letting them know of such cases
+as they do not have a system which to signal them about these issues. All the
+information they need is there and they have access to it however they do not
+have the resources to manually monitor each of the 8000+ buses.Currently CentreComm has system which displays information for all routes
+what is the expected and actual arrival time of a bus at stop. Staff use this
+tool for analysing and trying to find out if there is a problem once they have
+been alerted by bus drivers or operators. This is very inefficient and not in
+sync with 21st century. They also have access to a map which display each
+single bus and their status, but no overall network or route status.
+\section{Data}
+	iBus system generate very short telegram messages with the bus location [8].
+This information is then processed on a server and more information is derived.
+The information we are interested is the deviation from the schedule. This is
+calculated by knowing the expected arrival time of the bus at a stop from
+the schedule and is compared to the observed time. This value is calculated
+the same way for both low and high frequency buses(Low frequency buses are
+supposed to run according to a fixed schedule (e.g. a bus should arrive at stop
+at predefined time) and usually routes which have less than 5 buses an hour.
+High frequency bus routes should maintain headways - this meaning a bus
+should be arriving at stop at predefined intervals (e.g. each 2 minutes)). More
+about the supplied data for this project would be covered in the requirements
+section.
+\section{Approaches}
+	\subsection{Time series analysis}
+		\subsubsection{Simple moving average}
+		\subsubsection{Weighted moving average}
+		\subsubsection{Exponential moving average}
+		\subsection{Peak detection}
+		\subsection{Autoregressive moving average}
+	\subsection{Machine learning}
+	\subsection{Historical}
+\section{Summary}

@@ -1,0 +1,61 @@
+\chapter{Requirements}
+
+In this subsection I have introduced and formalised the current requirements.
+This is an important step of any project as it formalises the problems that the
+project is trying to address. It also allows to be used as a measure for evaluating
+the success of the project once it has been completed. The requirements
+presented below could evolve during the progressing of the project however
+they are expected to remain mostly the the as defined.
+	\section{User Requirements}
+	The user requirements provide a list of the functionalities that the user is
+expecting to be able to see in the end product. The system is expected to be
+able carry out and achieve the following actions and tasks:
+• The tool must be able to produce a prioritised list of the disruption in
+the bus network that it has knowledge of.
+• The tool must be prioritising the disruptions according to the user defined
+rules (these are still discussed and gathered from the user)
+The tool must be updating this list of disruptions whenever there is more
+data. This should happen as real-time as possible.
+• The tool must be able to provide more details regarding a disruption (e.g.
+which section and which routes are affected and what is the severity).
+• The user must be able to interact with the system in order to lower or
+increase the priority of a given disruption (even ignore one).
+Based on the above list of requirements the use case diagram below presents
+the way in which users (actors) interact with the tool (system).
+	\section{Functional Requirements}
+	System requirements are the specification of how the system behaves. These
+are requirements are built using the user requirements as an input. They are
+details of what the system (tool) should be able to accomplish technically.
+• The system must be able to read and process CSV (comma-separated
+values) files.The system must be able to calculate and perform time-series analysis
+on the data producing list of the disruption in the network according to
+configurable threshold parameters (e.g. delay of more than 20 minutes
+in a given section of a route).
+• The system must be able to update it self as near real-time as possible
+without user interaction or request.
+• The system must be able to visualise the output as list.
+• The system must be able to expand each list item and display further
+details.
+The functional requirement require us to deal with CSV file which are currently
+updated each 5 minutes and pushed each 15 minutes. The technical
+group at TFL has agreed that it would not be problem accessing the 5 minute
+snapshots. However going more real-time than 5 minutes probably would be
+left for post deployment as it would require a formal change request to be raised
+which costs time and resources. The system must be capable of updating itself
+as near real-time as possible even though for the moment we work with 5 to
+15 minutes update intervals.
+The CSV files that the tool would have to work contains number of fields
+including:
+• Unique vehicle identifier.
+• Time when the data has been received.
+• The type of the bus trip (e.g. normal trip with passengers, trip to depot
+etc.).
+• The route number.
+• The last stop.
+• Deviation from the schedule as described in the background section above.
+11
+• Longitude and latitude.
+There a number of other fields which are not interesting with respect to this
+project. The data is unordered and there are multiple files produced one for
+each bus operator company. The tool should be able to aggregate all the data
+and analysis it and treat it as a single network.
