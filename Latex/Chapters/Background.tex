@@ -1,23 +1,33 @@
+%The background should set the project into context by motivating the subject matter and relating it to existing published work. The background will include a critical evaluation of the existing literature in the area in which your project work is based and should lead the reader to understand how your work is motivated by and related to existing work.
 \chapter{Background research}
-The background should set the project into context by motivating the subject matter and relating it to existing published work. The background will include a critical evaluation of the existing literature in the area in which your project work is based and should lead the reader to understand how your work is motivated by and related to existing work.
+This section aims to help the read by providing some background of the problem and its domain. Below I have included a literature review of the related work that has been done in the area of our problem. The below sections look at some of the key aspects and problems that arise. I then conclude by providing a number of alternative methods for solving our problem.
+
+\section{London Bus Network}
+London bus network is one of the most advanced and renowned in the world. It runs 24 hours and it is extensive and frequent. Every route in the network is tendered to different bus company operator \cite{busTendering}. These operators agree with TFL that the routes they are operating would be served either according to a predefined fixed schedule (e.g. a bus stop need to be served at 1pm, 3pm etc.)or on a headway (e.g. a bus stop need to be served every 5 minutes). However under different circumstances some delays occurring on a given route are beyond the control of the different bus operator companies. A simple example could be a burst water/gas pipe on a street used by a bus route or any other incident (even terrorist attacks \cite{centreComm}) and even simply a severe congestion. In situations like this bus operators have no authority or power to overcome such problems on their own. They can only ask CentreComm to intervene. CentreComm can do so by for example implementing a short/long term diversions or curtail some of the buses on the affected routes.
 
 \section{CentreComm}
-	CentreComm is TFL’s emergency control room for all London buses. It is
-has been in operation for more than 30 years [12] and it employs a dedicated
-team who work 24/7 and are responsible for dealing with more than a 1000
-calls each day. These are call either from bus drivers or bus company operators
-regarding incidents and disruptions in the bus network. CentreComm
-staff are responsible for maintaining the smooth, reliable and sage operation
-of London busy bus network consisting of more than 8000 buses [13]. Their
-job has been made easier with the introduction of a modern and innovative
-AVL system. CentreComm’s way of operation has been transformed beyond recognition since it first opened and today. It has started as few people and
-pen and paper to modern, electronic real-time GPS systems nowadays [12].
-However there is still a lot of room for improvement in their way of operation.
-\section{iBus}
-	AVL stands for Automatic Vehicle Location. iBus is an AVL system which
+CentreComm is TFL's emergency command and control room responsible for all public buses in London. It is has been in operation for more than 30 years \cite{centreComm} and it employs a dedicated
+team of professionals who work 24 hours 364 days in the year. They are dealing with more than a 1000 calls on a daily basis. The majority of these calls come from bus drivers or bus company operators regarding problems and incidents happening within the bus network. CentreComm staff implement planned long and short term changes in the bus network in response to different events taking place in the capital (including the 2012 Olympics). They are also responsible for reacting in real time to any unexpected and unpredicted changes and disruptions, maintaining the smooth, reliable and sage operation of London busy bus network.
+
+London bus network consists of around 680 bus routes operated by more than 8000 buses \cite{glads}. Each of this buses is equipped with state of the art iBus system to help monitor and manage this enormous fleet. CentreComm's way of operation has been transformed beyond recognition since it has first opened and today. It started more than 30 years ago \cite{centreComm} and it consisted of a couple of operators equipped with two way radios and pen and papers. Today CentreComm operators make use of numerous screens each displaying interactive maps (displaying each bus location) and CCTV cameras in real-time. However there is still a lot of room for automation and improvement in their way of operation in order to effectively and efficiently maintain the growing bus network.
+
+\section{iBus AVL}
+It provide passenger information
+Tracking and fleet management capability
+Bus priority at traffic signals
+
+What is Intelligent Transportation Systems 
+%Need to mention High (5 or more buses per hours) and Low (4 or less) frequency buses
+%Explain Curtailments (short turning) - reasons for this are: delays, planned roadworks or events, insufficient layover, improve overall realiability of the service fill gaps, prevent breaches - drivers hours regulation
+%What is AVL the advatanges and possibilities it has brought
+%How it works - how it relates to our problem
+%One of the worlds largest integrated AVL projects https://www.tfl.gov.uk/info-for/media/press-releases/2009/april/all-londons-buses-now-fitted-with-ibus
+
+%Have received awards https://www.tfl.gov.uk/info-for/media/press-releases/2008/march/transport-for-londons-ibus-wins-innovation-award
+AVL stands for Automatic Vehicle Location. iBus is an AVL system which
 has been developed by Trapeze ITS (http://www.trapezegroup.co.uk/) for
 TFL’s needs. The iBus system is complex and consists of a number of computer
-systems, sensors and transmitters as described in [8]. One of the key
+systems, sensors and transmitters as described in \cite{Hounsell201276}. One of the key
 components of the system on-board unit (OBU) which mounted on each of
 buses in the TFL bus fleet and consists of a computational unit connected to
 sensors and GPS transmitters (see figure 1 below). This OBU is responsible
@@ -40,11 +50,16 @@ information they need is there and they have access to it however they do not
 have the resources to manually monitor each of the 8000+ buses.Currently CentreComm has system which displays information for all routes
 what is the expected and actual arrival time of a bus at stop. Staff use this
 tool for analysing and trying to find out if there is a problem once they have
-been alerted by bus drivers or operators. This is very inefficient and not in
-sync with 21st century. They also have access to a map which display each
-single bus and their status, but no overall network or route status.
+been alerted by bus drivers or operators. 
+
+%Innaproprite language 
+This is very inefficient and not in sync with 21st century. They also have access to a map which display each single bus and their status, but no overall network or route status.
+
 \section{Data}
-	iBus system generate very short telegram messages with the bus location [8].
+%Include a sample of the data and explanation of all fields
+%Explain what the schedule deviation value means
+%Include discussion on how the network is represented and the source of the file - TFL open data
+	iBus system generate very short telegram messages with the bus location \cite{Hounsell201276}.
 This information is then processed on a server and more information is derived.
 The information we are interested is the deviation from the schedule. This is
 calculated by knowing the expected arrival time of the bus at a stop from
@@ -56,9 +71,16 @@ High frequency bus routes should maintain headways - this meaning a bus
 should be arriving at stop at predefined intervals (e.g. each 2 minutes)). More
 about the supplied data for this project would be covered in the requirements
 section.
+
+\section{Relate Work}
+Most of the related work that has been done in this area focusses on highways speed/delay detection or where it has to do with urban street it uses historical data. Urban environment creates a lot of problems due to the nature of the environment/infrastructure itself. Reading sent from the buses sometimes are skipped due to high building obstructions.
+
 \section{Approaches}
+%Mention that most research and application for congestion detection has taken place in non urban networks or base on historical data rather than in real time
 	\subsection{Time series analysis}
+	Time series is a sequence of data reading taken during successive time intervals. Time series analysis is performed on time series data in order to extract some meaningful statistics from the data. In addition to the time series analysis time series forecasting could also be performed to come up with a prediction for the next period in time based on what has been observed in the past. In our problem this would mean having a number of bus readings we could analyse them and come up with prediction of what would be state in the next point in time. However for our prototype we are mostly concerned with the actual state rather than predicting the future. Forecasting in our problem domain is complex and unpredictable due to the constraints and characteristics of the environment as described above.
 		\subsubsection{Simple moving average}
+		Simple arithmetic moving average is calculated by adding all the observations for a given period of time and dividing this sum by the total number of observations.
 		\subsubsection{Weighted moving average}
 		\subsubsection{Exponential moving average}
 		\subsection{Peak detection}

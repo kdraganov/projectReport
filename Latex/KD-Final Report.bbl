@@ -1,10 +1,23 @@
 \begin{thebibliography}{1}
 
+\bibitem{glads}
+Greater~London Authority.
+\newblock \url{http://data.london.gov.uk/dataset/number-buses-type-bus-london}.
+\newblock Online, 2014.
+\newblock Online; accessed 22-October-2014.
+
 \bibitem{ibusdeployment}
 Bowen~T. Clarke~R. and Head J.
 \newblock Mass deployment of bus priority using real-time passenger information
   systems in london.
 \newblock pages 891--921, 2007.
+
+\bibitem{centreComm}
+Transport for London~Media.
+\newblock
+  \url{https://www.tfl.gov.uk/info-for/media/press-releases/2009/may/centrecomm-celebrates-30-years-keeping-londons-buses-moving}.
+\newblock Online, May 2009.
+\newblock Online; accessed 2-December-2014.
 
 \bibitem{TFL1}
 Transport for London~Media.
@@ -13,11 +26,24 @@ Transport for London~Media.
 \newblock Online, May 2014.
 \newblock Online; accessed 2-December-2014.
 
+\bibitem{Hounsell201276}
+N.B. Hounsell, B.P. Shrestha, and A.~Wong.
+\newblock Data management and applications in a world-leading bus fleet.
+\newblock {\em Transportation Research Part C: Emerging Technologies}, 22(0):76
+  -- 87, 2012.
+
 \bibitem{TFL2}
 BBC News.
 \newblock Extra 500 buses planned for growing capital before 2021.
 \newblock \url{http://www.bbc.co.uk/news/uk-england-london-30285777}, 2014.
 \newblock Online; accessed 2-December-2014.
+
+\bibitem{busTendering}
+TFL.
+\newblock
+  \url{https://www.tfl.gov.uk/cdn/static/cms/documents/uploads/forms/lbsl-tendering-and-contracting.pdf},
+  2008.
+\newblock Online; accessed 2-April-2015.
 
 \bibitem{eps354267}
 Alan Wong and Nick Hounsell.

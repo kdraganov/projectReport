@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.9.29)  6 APR 2015 02:44
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.9.29)  7 APR 2015 03:30
 entering extended mode
 **KD-Final*Report.tex
 
@@ -244,19 +244,19 @@ x\Appendices/appendix.aux")
 x\Appendices/UserGuide.aux")
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\Appendices/SourceCode.aux"))
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 24.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 26.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -346,7 +346,7 @@ File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 File: FrontMatter/logo.png Graphic file (type png)
 
 <use FrontMatter/logo.png>
-Package pdftex.def Info: FrontMatter/logo.png used on input line 25.
+Package pdftex.def Info: FrontMatter/logo.png used on input line 27.
 (pdftex.def)             Requested size: 93.94933pt x 85.91946pt.
  [1
 
@@ -358,7 +358,7 @@ omputer Science/Final Year Project/Final report/Latex/FrontMatter/logo.png (PNG
 x\FrontMatter/abstract.tex") [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 25--25
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
 
  []
 
@@ -407,7 +407,7 @@ File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 11.
- [4]) [5] [6]
+ [4] [5]) [6]
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\Chapters/Background.tex"
 Chapter 2.
@@ -415,35 +415,35 @@ Chapter 2.
 
 
 
-] [8]) [9]
+] [8] [9] [10]) [11]
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\Chapters/Requirements.tex"
 Chapter 3.
-[10
+[12
 
 
 
-]) [11] [12]
+] [13]) [14]
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\Chapters/Design.tex"
 Chapter 4.
-) [13
+[15
 
 
 
-]
+]) [16]
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\Chapters/Testing.tex"
 Chapter 5.
-) [14
+[17
 
 
 
-] [15]
+]) [18]
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\Chapters/Evaluation.tex"
 Chapter 6.
-) [16
+) [19
 
 
 
@@ -451,7 +451,7 @@ Chapter 6.
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\Chapters/ProfessionalIssues.tex"
 Chapter 7.
-) [17
+) [20
 
 
 
@@ -459,50 +459,73 @@ Chapter 7.
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\Chapters/Conclusion.tex"
 Chapter 8.
-) [18
+) [21
 
 
 
-] [19]
+] [22]
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\KD-Final Report.bbl"
-LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 12.
-
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 5.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmtt.fd"
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Underfull \hbox (badness 10000) in paragraph at lines 10--15
+Underfull \hbox (badness 2229) in paragraph at lines 4--8
+[]\OT1/lmr/m/n/10 Greater Lon-don Au-thor-ity.  $\OT1/lmtt/m/n/10 http : / / da
+ta . london . gov . uk / dataset /$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--21
 []\OT1/lmr/m/n/10 Transport for Lon-don Me-dia.  $\OT1/lmtt/m/n/10 https : / / 
 www . tfl .$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10--15
+Underfull \hbox (badness 10000) in paragraph at lines 16--21
+$\OT1/lmtt/m/n/10 gov . uk / info-[]for / media / press-[]releases / 2009 / may
+ /$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--21
+$\OT1/lmtt/m/n/10 centrecomm-[]celebrates-[]30-[]years-[]keeping-[]londons-[]bu
+ses-[]moving$\OT1/lmr/m/n/10 .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--28
+[]\OT1/lmr/m/n/10 Transport for Lon-don Me-dia.  $\OT1/lmtt/m/n/10 https : / / 
+www . tfl .$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--28
 $\OT1/lmtt/m/n/10 gov . uk / info-[]for / media / press-[]releases / 2014 / may
  /$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10--15
+Underfull \hbox (badness 10000) in paragraph at lines 23--28
 $\OT1/lmtt/m/n/10 annual-[]passenger-[]journeys-[]on-[]london-[]s-[]buses-[]top
 -[]2-[]4-[]billion$\OT1/lmr/m/n/10 .
  []
 
-) [20
+[23
 
 
-]
+]) [24]
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\Appendices/appendix.tex"
 Appendix A.
-) [21
+) [25
 
 
 ]
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\Appendices/UserGuide.tex"
 Appendix B.
-) [22
+) [26
 
 
 
@@ -510,11 +533,11 @@ Appendix B.
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\Appendices/SourceCode.tex"
 Appendix C.
-[23
+[27
 
 
 
-]) [24]
+]) [28]
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\KD-Final Report.aux"
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
@@ -540,25 +563,26 @@ x\Appendices/UserGuide.aux")
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\Appendices/SourceCode.aux")) ) 
 Here is how much of TeX's memory you used:
- 3692 strings out of 493921
- 59597 string characters out of 3147267
- 121262 words of memory out of 3000000
- 6854 multiletter control sequences out of 15000+200000
- 41513 words of font info for 34 fonts, out of 3000000 for 9000
+ 3706 strings out of 493921
+ 59840 string characters out of 3147267
+ 121322 words of memory out of 3000000
+ 6867 multiletter control sequences out of 15000+200000
+ 45731 words of font info for 35 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 34i,6n,34p,1271b,262s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 34i,6n,34p,1271b,278s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm
-/lm-rmtt.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/
-Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiK
-TeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/p
+/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rmtt.enc}{C:/Prog
+ram Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 
+2.9/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/p
 ublic/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.p
 fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm
-/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb>
-Output written on "KD-Final Report.pdf" (28 pages, 208199 bytes).
+/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb>
+Output written on "KD-Final Report.pdf" (32 pages, 233036 bytes).
 PDF statistics:
- 125 PDF objects out of 1000 (max. 8388607)
+ 142 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
