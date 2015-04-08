@@ -1,10 +1,17 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{glads}
 Greater~London Authority.
-\newblock \url{http://data.london.gov.uk/dataset/number-buses-type-bus-london}.
-\newblock Online, 2014.
+\newblock Number of buses by type of bus in london.
+\newblock \url{http://data.london.gov.uk/dataset/number-buses-type-bus-london},
+  2014.
 \newblock Online; accessed 22-October-2014.
+
+\bibitem{bcsCodeOfConduct}
+BCS.
+\newblock Bcs code of conduct.
+\newblock \url{http://www.bcs.org/category/6030}, June 2011.
+\newblock Online; accessed 6-April-2015.
 
 \bibitem{ibusdeployment}
 Bowen~T. Clarke~R. and Head J.
@@ -12,8 +19,31 @@ Bowen~T. Clarke~R. and Head J.
   systems in london.
 \newblock pages 891--921, 2007.
 
+\bibitem{ibusAward}
+Transport for London.
+\newblock Transport for london's ibus wins innovation award.
+\newblock
+  \url{https://www.tfl.gov.uk/info-for/media/press-releases/2008/march/transport-for-londons-ibus-wins-innovation-award},
+  March 2008.
+\newblock Online; accessed 2-April-2015.
+
+\bibitem{busTendering}
+Transport for London.
+\newblock
+  \url{https://www.tfl.gov.uk/cdn/static/cms/documents/uploads/forms/lbsl-tendering-and-contracting.pdf},
+  2008.
+\newblock Online; accessed 2-April-2015.
+
+\bibitem{ibus}
+Transport for London.
+\newblock All london's buses now fitted with ibus.
+\newblock
+  \url{https://www.tfl.gov.uk/info-for/media/press-releases/2009/april/all-londons-buses-now-fitted-with-ibus},
+  April 2009.
+\newblock Online; accessed 2-April-2015.
+
 \bibitem{centreComm}
-Transport for London~Media.
+Transport for London.
 \newblock
   \url{https://www.tfl.gov.uk/info-for/media/press-releases/2009/may/centrecomm-celebrates-30-years-keeping-londons-buses-moving}.
 \newblock Online, May 2009.
@@ -32,18 +62,24 @@ N.B. Hounsell, B.P. Shrestha, and A.~Wong.
 \newblock {\em Transportation Research Part C: Emerging Technologies}, 22(0):76
   -- 87, 2012.
 
+\bibitem{urbanBusArrivalTimeCompModels}
+Metin~ZontulT Mehmet~Altinkaya.
+\newblock Urban bus arrival time prediction: A review of computational models.
+\newblock {\em International Journal of Recent Technology and Engineering
+  (IJRTE)}, 2(4), September 2013.
+
 \bibitem{TFL2}
 BBC News.
 \newblock Extra 500 buses planned for growing capital before 2021.
 \newblock \url{http://www.bbc.co.uk/news/uk-england-london-30285777}, 2014.
 \newblock Online; accessed 2-December-2014.
 
-\bibitem{busTendering}
-TFL.
-\newblock
-  \url{https://www.tfl.gov.uk/cdn/static/cms/documents/uploads/forms/lbsl-tendering-and-contracting.pdf},
-  2008.
-\newblock Online; accessed 2-April-2015.
+\bibitem{surveyAIApplications}
+MINA~BASIRAT SEYED MOJTABA TAFAGHOD SADAT~ZADEH, TONI~ANWAR.
+\newblock A survey on application of artificial intelligence for bus arrival
+  time prediction.
+\newblock {\em Journal of Theoretical and Applied Information Technology
+  (JATIT)}, 46(1):516 -- 525, December 2012.
 
 \bibitem{eps354267}
 Alan Wong and Nick Hounsell.

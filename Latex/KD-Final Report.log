@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.9.29)  7 APR 2015 03:30
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.9.29)  8 APR 2015 03:54
 entering extended mode
 **KD-Final*Report.tex
 
@@ -231,6 +231,8 @@ x\Chapters/Requirements.aux")
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\Chapters/Design.aux")
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
+x\Chapters/Implementation.aux")
+("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\Chapters/Testing.aux")
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\Chapters/Evaluation.aux")
@@ -401,12 +403,12 @@ Chapter 1.
 
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 11.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 12.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 11.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 12.
  [4] [5]) [6]
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\Chapters/Background.tex"
@@ -415,117 +417,171 @@ Chapter 2.
 
 
 
-] [8] [9] [10]) [11]
+] [8] <Figures/iBus.png, id=45, 407.27156pt x 427.5975pt>
+File: Figures/iBus.png Graphic file (type png)
+
+<use Figures/iBus.png>
+Package pdftex.def Info: Figures/iBus.png used on input line 27.
+(pdftex.def)             Requested size: 325.81767pt x 342.07846pt.
+ [9] [10 <E:/Kings College London/Computer Science/Final Year Project/Final rep
+ort/Latex/Figures/iBus.png>] [11]) [12]
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\Chapters/Requirements.tex"
 Chapter 3.
-[12
+[13
 
 
 
-] [13]) [14]
+] [14]) [15]
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\Chapters/Design.tex"
 Chapter 4.
-[15
+[16
 
 
 
-]) [16]
+]) [17]
+("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
+x\Chapters/Implementation.tex"
+Chapter 5.
+[18
+
+
+
+]) [19]
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\Chapters/Testing.tex"
-Chapter 5.
-[17
+Chapter 6.
+[20
 
 
 
-]) [18]
+]) [21]
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\Chapters/Evaluation.tex"
-Chapter 6.
-) [19
+Chapter 7.
+) [22
 
 
 
 ]
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\Chapters/ProfessionalIssues.tex"
-Chapter 7.
-) [20
+Chapter 8.
+) [23
 
 
 
-]
+] [24]
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\Chapters/Conclusion.tex"
-Chapter 8.
-) [21
+Chapter 9.
+[25
 
 
 
-] [22]
+]) [26]
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\KD-Final Report.bbl"
-LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 5.
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 6.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmtt.fd"
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Underfull \hbox (badness 2229) in paragraph at lines 4--8
-[]\OT1/lmr/m/n/10 Greater Lon-don Au-thor-ity.  $\OT1/lmtt/m/n/10 http : / / da
-ta . london . gov . uk / dataset /$
+Underfull \hbox (badness 10000) in paragraph at lines 4--9
+[]\OT1/lmr/m/n/10 Greater Lon-don Au-thor-ity.  Num-ber of buses by type
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--21
-[]\OT1/lmr/m/n/10 Transport for Lon-don Me-dia.  $\OT1/lmtt/m/n/10 https : / / 
-www . tfl .$
+Underfull \hbox (badness 10000) in paragraph at lines 4--9
+\OT1/lmr/m/n/10 of bus in lon-don.  $\OT1/lmtt/m/n/10 http : / / data . london 
+. gov . uk / dataset /$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--21
-$\OT1/lmtt/m/n/10 gov . uk / info-[]for / media / press-[]releases / 2009 / may
- /$
+Underfull \hbox (badness 10000) in paragraph at lines 23--29
+$\OT1/lmtt/m/n/10 2008 / march / transport-[]for-[]londons-[]ibus-[]wins-[]inno
+vation-[]award$\OT1/lmr/m/n/10 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--21
+Underfull \hbox (badness 10000) in paragraph at lines 31--36
+$\OT1/lmtt/m/n/10 documents / uploads / forms / lbsl-[]tendering-[]and-[]contra
+cting . pdf$\OT1/lmr/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 6608) in paragraph at lines 38--44
+[]\OT1/lmr/m/n/10 Transport for Lon-don.  All lon-don's buses now fit-ted with
+ []
+
+
+Underfull \hbox (badness 2653) in paragraph at lines 38--44
+\OT1/lmr/m/n/10 ibus.  $\OT1/lmtt/m/n/10 https : / / www . tfl . gov . uk / inf
+o-[]for / media / press-[]releases /$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--51
+[]\OT1/lmr/m/n/10 Transport for Lon-don.  $\OT1/lmtt/m/n/10 https : / / www . t
+fl . gov .$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--51
+$\OT1/lmtt/m/n/10 uk / info-[]for / media / press-[]releases / 2009 / may /$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--51
 $\OT1/lmtt/m/n/10 centrecomm-[]celebrates-[]30-[]years-[]keeping-[]londons-[]bu
 ses-[]moving$\OT1/lmr/m/n/10 .
  []
 
+[27
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--28
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 53--58
 []\OT1/lmr/m/n/10 Transport for Lon-don Me-dia.  $\OT1/lmtt/m/n/10 https : / / 
 www . tfl .$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--28
+Underfull \hbox (badness 10000) in paragraph at lines 53--58
 $\OT1/lmtt/m/n/10 gov . uk / info-[]for / media / press-[]releases / 2014 / may
  /$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--28
+Underfull \hbox (badness 10000) in paragraph at lines 53--58
 $\OT1/lmtt/m/n/10 annual-[]passenger-[]journeys-[]on-[]london-[]s-[]buses-[]top
 -[]2-[]4-[]billion$\OT1/lmr/m/n/10 .
  []
 
-[23
+
+Underfull \hbox (badness 1092) in paragraph at lines 72--76
+[]\OT1/lmr/m/n/10 BBC News.  Ex-tra 500 buses planned for grow-ing cap-i-tal be
+-fore
+ []
 
 
-]) [24]
+Underfull \hbox (badness 2547) in paragraph at lines 72--76
+\OT1/lmr/m/n/10 2021.  $\OT1/lmtt/m/n/10 http : / / www . bbc . co . uk / news 
+/ uk-[]england-[]london-[]30285777$\OT1/lmr/m/n/10 ,
+ []
+
+) [28]
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\Appendices/appendix.tex"
 Appendix A.
-) [25
+) [29
 
 
 ]
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\Appendices/UserGuide.tex"
 Appendix B.
-) [26
+) [30
 
 
 
@@ -533,11 +589,11 @@ Appendix B.
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\Appendices/SourceCode.tex"
 Appendix C.
-[27
+[31
 
 
 
-]) [28]
+]) [32]
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\KD-Final Report.aux"
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
@@ -548,6 +604,8 @@ x\Chapters/Background.aux")
 x\Chapters/Requirements.aux")
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\Chapters/Design.aux")
+("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
+x\Chapters/Implementation.aux")
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\Chapters/Testing.aux")
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
@@ -563,13 +621,13 @@ x\Appendices/UserGuide.aux")
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\Appendices/SourceCode.aux")) ) 
 Here is how much of TeX's memory you used:
- 3706 strings out of 493921
- 59840 string characters out of 3147267
- 121322 words of memory out of 3000000
- 6867 multiletter control sequences out of 15000+200000
+ 3736 strings out of 493921
+ 60979 string characters out of 3147267
+ 120712 words of memory out of 3000000
+ 6888 multiletter control sequences out of 15000+200000
  45731 words of font info for 35 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 34i,6n,34p,1271b,278s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 34i,8n,34p,1797b,294s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm
 /lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rmtt.enc}{C:/Prog
 ram Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 
@@ -580,9 +638,9 @@ les/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm
 /lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/P
 rogram Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb>
-Output written on "KD-Final Report.pdf" (32 pages, 233036 bytes).
+Output written on "KD-Final Report.pdf" (36 pages, 565234 bytes).
 PDF statistics:
- 142 PDF objects out of 1000 (max. 8388607)
+ 157 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
