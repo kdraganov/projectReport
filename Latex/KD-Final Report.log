@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.9.29)  8 APR 2015 03:54
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.9.29)  9 APR 2015 03:39
 entering extended mode
 **KD-Final*Report.tex
 
@@ -421,46 +421,57 @@ Chapter 2.
 File: Figures/iBus.png Graphic file (type png)
 
 <use Figures/iBus.png>
-Package pdftex.def Info: Figures/iBus.png used on input line 27.
+Package pdftex.def Info: Figures/iBus.png used on input line 28.
 (pdftex.def)             Requested size: 325.81767pt x 342.07846pt.
  [9] [10 <E:/Kings College London/Computer Science/Final Year Project/Final rep
-ort/Latex/Figures/iBus.png>] [11]) [12]
+ort/Latex/Figures/iBus.png>] [11] [12]
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
+
+ []
+
+[13]
+Overfull \hbox (24.1201pt too wide) in paragraph at lines 68--69
+\OT1/lmr/m/n/10 Exponential smooth-ing was first sug-gested by Robert Good-ell 
+Brown in 1956,[Brown,
+ []
+
+[14] [15]) [16]
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\Chapters/Requirements.tex"
 Chapter 3.
-[13
+[17
 
 
 
-] [14]) [15]
+] [18]) [19]
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\Chapters/Design.tex"
 Chapter 4.
-[16
-
-
-
-]) [17]
-("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
-x\Chapters/Implementation.tex"
-Chapter 5.
-[18
-
-
-
-]) [19]
-("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
-x\Chapters/Testing.tex"
-Chapter 6.
 [20
 
 
 
 ]) [21]
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
+x\Chapters/Implementation.tex"
+Chapter 5.
+[22
+
+
+
+]) [23]
+("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
+x\Chapters/Testing.tex"
+Chapter 6.
+[24
+
+
+
+]) [25]
+("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\Chapters/Evaluation.tex"
 Chapter 7.
-) [22
+) [26
 
 
 
@@ -468,19 +479,19 @@ Chapter 7.
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\Chapters/ProfessionalIssues.tex"
 Chapter 8.
-) [23
+) [27
 
 
 
-] [24]
+] [28]
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\Chapters/Conclusion.tex"
 Chapter 9.
-[25
+[29
 
 
 
-]) [26]
+]) [30]
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\KD-Final Report.bbl"
 LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 6.
@@ -537,7 +548,7 @@ $\OT1/lmtt/m/n/10 centrecomm-[]celebrates-[]30-[]years-[]keeping-[]londons-[]bu
 ses-[]moving$\OT1/lmr/m/n/10 .
  []
 
-[27
+[31
 
 
 ]
@@ -570,18 +581,18 @@ Underfull \hbox (badness 2547) in paragraph at lines 72--76
 / uk-[]england-[]london-[]30285777$\OT1/lmr/m/n/10 ,
  []
 
-) [28]
+) [32]
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\Appendices/appendix.tex"
 Appendix A.
-) [29
+) [33
 
 
 ]
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\Appendices/UserGuide.tex"
 Appendix B.
-) [30
+) [34
 
 
 
@@ -589,11 +600,11 @@ Appendix B.
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\Appendices/SourceCode.tex"
 Appendix C.
-[31
+[35
 
 
 
-]) [32]
+]) [36]
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\KD-Final Report.aux"
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
@@ -638,9 +649,9 @@ les/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm
 /lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/P
 rogram Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb>
-Output written on "KD-Final Report.pdf" (36 pages, 565234 bytes).
+Output written on "KD-Final Report.pdf" (40 pages, 579126 bytes).
 PDF statistics:
- 157 PDF objects out of 1000 (max. 8388607)
+ 172 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

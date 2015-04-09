@@ -9,62 +9,59 @@
 \contentsline {section}{\numberline {2.2}CentreComm}{8}
 \contentsline {section}{\numberline {2.3}iBus AVL}{9}
 \contentsline {section}{\numberline {2.4}Related Work}{11}
-\contentsline {section}{\numberline {2.5}Approaches}{11}
-\contentsline {subsection}{\numberline {2.5.1}Statistical}{12}
-\contentsline {subsubsection}{Simple moving average}{12}
-\contentsline {subsubsection}{Weighted moving average}{12}
-\contentsline {subsubsection}{Exponential moving average}{12}
-\contentsline {subsection}{\numberline {2.5.2}Peak detection}{12}
-\contentsline {subsection}{\numberline {2.5.3}Autoregressive moving average}{12}
-\contentsline {subsection}{\numberline {2.5.4}Machine learning}{12}
-\contentsline {subsection}{\numberline {2.5.5}Historical Data}{12}
-\contentsline {subsection}{\numberline {2.5.6}Hybrid}{12}
-\contentsline {section}{\numberline {2.6}Summary}{12}
-\contentsline {chapter}{\numberline {3}Requirements}{13}
-\contentsline {section}{\numberline {3.1}User Requirements}{13}
-\contentsline {section}{\numberline {3.2}Functional Requirements}{14}
-\contentsline {chapter}{\numberline {4}Design}{16}
-\contentsline {section}{\numberline {4.1}Use cases}{16}
-\contentsline {section}{\numberline {4.2}System architecture}{16}
-\contentsline {section}{\numberline {4.3}Class organisation}{16}
-\contentsline {section}{\numberline {4.4}Database}{17}
-\contentsline {section}{\numberline {4.5}Software Platform}{17}
-\contentsline {section}{\numberline {4.6}User Interface}{17}
-\contentsline {chapter}{\numberline {5}Implementation}{18}
-\contentsline {section}{\numberline {5.1}Data}{18}
-\contentsline {section}{\numberline {5.2}Disruption Engine}{19}
-\contentsline {subsection}{\numberline {5.2.1}Input}{19}
-\contentsline {subsection}{\numberline {5.2.2}Bus Network representation}{19}
-\contentsline {subsection}{\numberline {5.2.3}Applying WMA}{19}
-\contentsline {subsection}{\numberline {5.2.4}Applying EMA}{19}
-\contentsline {subsection}{\numberline {5.2.5}Problems \& Optimisations}{19}
-\contentsline {section}{\numberline {5.3}User Interface}{19}
-\contentsline {chapter}{\numberline {6}Testing}{20}
-\contentsline {section}{\numberline {6.1}Unit Testing}{21}
-\contentsline {section}{\numberline {6.2}Functional Testing}{21}
-\contentsline {section}{\numberline {6.3}Integration Testing}{21}
-\contentsline {section}{\numberline {6.4}Stress Testing}{21}
-\contentsline {chapter}{\numberline {7}Results \& Evaluation}{22}
-\contentsline {section}{\numberline {7.1}Evaluation}{22}
-\contentsline {section}{\numberline {7.2}Results}{22}
-\contentsline {subsection}{\numberline {7.2.1}Problems}{22}
-\contentsline {chapter}{\numberline {8}Professional \& Ethical Issues}{23}
-\contentsline {chapter}{\numberline {9}Conclusion \& Future Work}{25}
-\contentsline {section}{\numberline {9.1}Conclusion}{25}
-\contentsline {section}{\numberline {9.2}Future Work}{25}
-\contentsline {section}{\numberline {9.3}Project Retrospective}{26}
-\contentsline {chapter}{References}{28}
-\contentsline {chapter}{\numberline {A}Extra Information}{29}
-\contentsline {section}{\numberline {A.1}Use Case Diagram}{29}
-\contentsline {section}{\numberline {A.2}Architecture Diagram}{29}
-\contentsline {section}{\numberline {A.3}Class Diagram}{29}
-\contentsline {section}{\numberline {A.4}Relational Model}{29}
-\contentsline {chapter}{\numberline {B}User Guide}{30}
-\contentsline {section}{\numberline {B.1}Installation}{30}
-\contentsline {section}{\numberline {B.2}Execution}{30}
-\contentsline {section}{\numberline {B.3}Dependencies}{30}
-\contentsline {chapter}{\numberline {C}Source Code}{31}
-\contentsline {section}{\numberline {C.1}Engine}{32}
-\contentsline {section}{\numberline {C.2}Web Front End}{32}
-\contentsline {section}{\numberline {C.3}Database}{32}
-\contentsline {section}{\numberline {C.4}Dependencies}{32}
+\contentsline {section}{\numberline {2.5}Moving Averages}{13}
+\contentsline {subsection}{\numberline {2.5.1}Simple Moving Average}{13}
+\contentsline {subsection}{\numberline {2.5.2}Weighted Moving Average}{14}
+\contentsline {subsection}{\numberline {2.5.3}Exponential Moving Average}{14}
+\contentsline {subsection}{\numberline {2.5.4}Summary}{15}
+\contentsline {section}{\numberline {2.6}Peak Detection}{15}
+\contentsline {section}{\numberline {2.7}Other}{16}
+\contentsline {section}{\numberline {2.8}Summary}{16}
+\contentsline {chapter}{\numberline {3}Requirements}{17}
+\contentsline {section}{\numberline {3.1}User Requirements}{17}
+\contentsline {section}{\numberline {3.2}Functional Requirements}{18}
+\contentsline {chapter}{\numberline {4}Design}{20}
+\contentsline {section}{\numberline {4.1}Use cases}{20}
+\contentsline {section}{\numberline {4.2}System architecture}{20}
+\contentsline {section}{\numberline {4.3}Class organisation}{20}
+\contentsline {section}{\numberline {4.4}Database}{21}
+\contentsline {section}{\numberline {4.5}Software Platform}{21}
+\contentsline {section}{\numberline {4.6}User Interface}{21}
+\contentsline {chapter}{\numberline {5}Implementation}{22}
+\contentsline {section}{\numberline {5.1}Data}{22}
+\contentsline {section}{\numberline {5.2}Disruption Engine}{23}
+\contentsline {subsection}{\numberline {5.2.1}Input}{23}
+\contentsline {subsection}{\numberline {5.2.2}Bus Network representation}{23}
+\contentsline {subsection}{\numberline {5.2.3}Applying WMA}{23}
+\contentsline {subsection}{\numberline {5.2.4}Applying EMA}{23}
+\contentsline {subsection}{\numberline {5.2.5}Problems \& Optimisations}{23}
+\contentsline {section}{\numberline {5.3}User Interface}{23}
+\contentsline {chapter}{\numberline {6}Testing}{24}
+\contentsline {section}{\numberline {6.1}Unit Testing}{25}
+\contentsline {section}{\numberline {6.2}Functional Testing}{25}
+\contentsline {section}{\numberline {6.3}Integration Testing}{25}
+\contentsline {section}{\numberline {6.4}Stress Testing}{25}
+\contentsline {chapter}{\numberline {7}Results \& Evaluation}{26}
+\contentsline {section}{\numberline {7.1}Evaluation}{26}
+\contentsline {section}{\numberline {7.2}Results}{26}
+\contentsline {subsection}{\numberline {7.2.1}Problems}{26}
+\contentsline {chapter}{\numberline {8}Professional \& Ethical Issues}{27}
+\contentsline {chapter}{\numberline {9}Conclusion \& Future Work}{29}
+\contentsline {section}{\numberline {9.1}Conclusion}{29}
+\contentsline {section}{\numberline {9.2}Future Work}{29}
+\contentsline {section}{\numberline {9.3}Project Retrospective}{30}
+\contentsline {chapter}{References}{32}
+\contentsline {chapter}{\numberline {A}Extra Information}{33}
+\contentsline {section}{\numberline {A.1}Use Case Diagram}{33}
+\contentsline {section}{\numberline {A.2}Architecture Diagram}{33}
+\contentsline {section}{\numberline {A.3}Class Diagram}{33}
+\contentsline {section}{\numberline {A.4}Relational Model}{33}
+\contentsline {chapter}{\numberline {B}User Guide}{34}
+\contentsline {section}{\numberline {B.1}Installation}{34}
+\contentsline {section}{\numberline {B.2}Execution}{34}
+\contentsline {section}{\numberline {B.3}Dependencies}{34}
+\contentsline {chapter}{\numberline {C}Source Code}{35}
+\contentsline {section}{\numberline {C.1}Engine}{36}
+\contentsline {section}{\numberline {C.2}Web Front End}{36}
+\contentsline {section}{\numberline {C.3}Database}{36}
+\contentsline {section}{\numberline {C.4}Dependencies}{36}

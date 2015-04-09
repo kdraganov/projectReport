@@ -19,6 +19,12 @@ The information we are interested is the deviation from the schedule. This is ca
 	\subsection{Bus Network representation}
 	
 	\subsection{Applying WMA}
+	The important factors to consider are the weights and the period/window size to use. We could also apply exponential smoothing on top of the WMA.
+	Problems:
+The bus could have started the journey ahead of schedule and thus to intentionally be losing time.
+The buses could curtail anywhere on a route without notification
+The buses could be diverted (this could be short term or long term) it can also be for few stops or it could be a longer diversion.
+
 	
 	\subsection{Applying EMA}
 	
