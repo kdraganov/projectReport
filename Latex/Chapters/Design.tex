@@ -1,25 +1,48 @@
-\chapter{Design}
-This section focuses on modelling the requirements defined in the previous
-section in an abstract level. This allows us to better organise and structure
-our problem. Below I have presented initial design decisions and diagrams
-related to the project. This however are expected to evolve during the course
-of the project.
+\chapter{Design Specification}
+For the purpose of the successful completion of this project I have decided to employ agile software development methodologies with evolutionary prototyping. The reason for taking this approach are the strengths of the agile software developmental methodology which is that it is incremental, cooperative, flexible and adaptive \cite{4147390}. The research nature (as seen in chapter 2 of this report) of this project itself makes it sensible to use evolutionary prototyping as this helps minimise the impact of misunderstanding or miscommunication of the requirements. The risk of which are relatively high as the goals of this project are relatively new and there is not much similar work done. This technique would also give better idea of what the end product would be capable of and would look like to the client. With evolutionary prototyping the system is continuously refined and improved. Each iteration builds on top of the previous thus meaning that with each increment we add more functionality and features or/and refine/improve what has already been implemented. Simply stated this means that with each iteration we are one step closer to the end product. This allows us to add features which were not previously considered or remove ones that are no longer viable or needed. In addition this approach also allows us to engage with the key stakeholders very early in the project life-cycle. This would provide us with valuable feedback which again brings a lot of advantages.
+
+\begin{itemize}
+	\item The delivery of the tool is speeded up and also minimises the risks of having no working product by the project deadline.[INCLUDE REFERENCE]
+	\item Users would engage with the product early in the project lifetime. This however poses some risk like the users requesting more features which were not previously mentioned or discussed. This means that we need to maintain some balance as this project has a fixed deadline and limited resources.
+	\item Increased chances of fully understanding and meeting the user requirements and expectations from the tool.
+\end{itemize}
+
+Each increment (iteration) consists of the following stages:
+\begin{enumerate}
+	\item Requirements specification \& refinement
+	\item Design
+	\item Prototype implementation \& Testing
+	\item User testing and feedback provision
+	\item Evaluate
+\end{enumerate}
+The requirements and specification step would document what the tool should look and work like at the end of each iteration. These would be following the aims and objectives we have defined in Chapter 1 of this report. After a prototype has been implemented and tested by the user we will evaluate the progress and make any changes in out requirements, design and project plan accordingly. Thus after a number of iteration we should have a prototype which to resemble the desired product as required by the user.
+
+In the below sections I have presented the system at an abstract level. This follows from careful analysis and consideration of the requirements stated in the previous chapter. I have tried to highlight all major key components and classes which are described formally. This allows us to better organise and structure our problem. 
 
 \section{Use cases}
+Base on the user requirements stated in the previous chapter a use case diagram has been presented in the [Appendix]. The use case diagram depicts the way users(actors) interact with the tool (system). Three different types of users have been defined and each of them is an extension of the others. 
+ 
 Explanation and discussion of the use case diagram.
 
 \section{System architecture}
-Explanation and discussion of the Architecture diagram.
+In figure [APPENDIX fig something] the architecture diagram of the system could be viewed. Overall the architecture consists of three main layers:
+\begin{itemize}
+	\item Representation layer
+	\item Business logic (functional core) layer
+	\item Data layer
+\end{itemize}
+Explain what each layer contains and how it relates/connects to the others...
+
+\section{State Machine}
+State machine diagrams are useful in explaining what in what states the system could be and how it transitions from one state to the other. The state diagram on [FIGURE APPENDIX] depicts ...
 
 \section{Class organisation}
-Explanation and discussion of the Class organisation. What is each class representing and what is it responsible for.
+In [FIGURE] I have presented a class diagram which provides formal specification and visualisation of the key classes, in our system, and the relationship between them. Each subsection below represents a class from the diagram and explains in more detail its role and relations in our tool.
 
-\section{Database}
-Explanation and discussion of the database model.
+\subsection{BusStop}
 
-\section{Software Platform}
-Why Scala and DB Postgresql. 
+\subsection{Route}
 
-\section{User Interface}
-Why Ruby on Rails as front end. Foundation as CSS layout framework as it is lightweight and it enables easy responsive design.
-Ajax short polling - as this is only prototype and is supported by all major browsers.
+\subsection{Run}
+
+\subsection{Section}

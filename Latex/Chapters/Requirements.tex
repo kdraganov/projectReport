@@ -1,10 +1,10 @@
 \chapter{Requirements}
-In this subsection I have introduced and formalised the user and functional requirements.
+In this chapter I have introduced and formalised the user and functional requirements.
 This is an important step of any project, especially computer science project,as it formalises the problems that the project is trying to address as outlined by the project aims and objectives in chapter 1. It also allows to be used as a measure for evaluating the success of the project once it has been completed. The requirements presented below have evolved and have been refined throughout the project lifetime in response to feedback and discussions carried out with the key stakeholders.
 
-\section{User Requirements}
-The user requirements provide a list of the functionalities that the user expects to be able to perform and see the according results, in the end product. These are what is expected from the system, but are not concerned how they are designed or implemented. The main user requirements are listed below:
-\begin{itemize}
+\section{User}
+The user requirements provide a list of the functionalities that the user(s) expects to be able to perform and see the according results, in the end product. These are what is expected from the system, but are not concerned how they are designed or implemented. The main user requirements are listed below:
+\begin{enumerate}
 	\item The tool must be able to produce a prioritised list of the disruption in
 the bus network that it has knowledge of.
 	\item The tool must be prioritising the disruptions according to the user defined
@@ -14,57 +14,20 @@ data. This should happen as real-time as possible.
 	\item The tool must be able to provide detailed information for every detected disruption. This has to include the specific section and route that are affected and its severity.
 	\item The user must be able to interact with the system in order to lower or
 increase the priority of a given disruption (even ignore one).
-\end{itemize}
+\end{enumerate}
 
-\section{Functional Requirements}
-These requirements specify in more details what the expected behaviour and functionality of the system is. They are built using the user requirements as an input and are detailed list of what the system should be able to accomplish technically.
-\begin{itemize}
-	\item The system must have a representation of the whole bus network.
-	\item The system must be able to read and process CSV files.
-	\item The system must listen for new incoming data and process it in real-time.
-	\item The system must be able to update it self whenever new data is detected.
-	\item The system must be able to run without intervention 24/7.
-	\item The system must keep track of the disruption detected and track how they evolve and develop.
-	\item The tool must be able to keep information for a given window of time (e.g. data feeds from the last 2 hours).
-	\item The tool must be able to output a prioritised list of disruptions.
-	\item The tool must visualise the generated output appropriately.
-	\item The system must be easily configurable and maintainable.
-	\item The tool must display on request detailed information for the requested disruption.
-\end{itemize}
-
-\begin{itemize}
-	\item The system must be able to read and process CSV (comma-separated
-values) files.The system must be able to calculate and perform time-series analysis
-on the data producing list of the disruption in the network according to
-configurable threshold parameters (e.g. delay of more than 20 minutes
-in a given section of a route).
-	\item The system must be able to update it self as near real-time as possible
-without user interaction or request.
-	\item The system must be able to visualise the output as list.
-	\item The system must be able to expand each list item and display further
-details.
-\end{itemize}
-
-The functional requirement require us to deal with CSV file which are currently
-updated each 5 minutes and pushed each 15 minutes. The technical
-group at TFL has agreed that it would not be problem accessing the 5 minute
-snapshots. However going more real-time than 5 minutes probably would be
-left for post deployment as it would require a formal change request to be raised
-which costs time and resources. The system must be capable of updating itself
-as near real-time as possible even though for the moment we work with 5 to
-15 minutes update intervals.
-The CSV files that the tool would have to work contains number of fields
-including:
-• Unique vehicle identifier.
-• Time when the data has been received.
-• The type of the bus trip (e.g. normal trip with passengers, trip to depot
-etc.).
-• The route number.
-• The last stop.
-• Deviation from the schedule as described in the background section above.
-11
-• Longitude and latitude.
-There a number of other fields which are not interesting with respect to this
-project. The data is unordered and there are multiple files produced one for
-each bus operator company. The tool should be able to aggregate all the data
-and analysis it and treat it as a single network.
+\section{Functional}
+These requirements specify in more details what the expected behaviour and functionality of the system/tool is. They are built on top of the user requirements as an input and are detailed list of what the system should be able to accomplish technically. The tool/system must:
+\begin{enumerate}
+	\item Have an appropriate and useful representation of the bus network in order to be able to monitor and detect problems in it.
+	\item Be able to read and process CSV files as this is the primary input of the AVL feed files (more detailed discussion on the exact input and its format is presented in Chapter 5).
+	\item Listen/monitor for new incoming data and process it in real-time.
+	\item Be able to update it self whenever new data is detected and processed.
+	\item Be able to run without intervention 24/7.
+	\item Keep track of the disruption detected and track how they evolve and develop.
+	\item Be able to keep information for a given window of time (e.g. data feeds from the last 2 hours).
+	\item Be able to output a prioritised list of disruptions.
+	\item Visualise the generated output appropriately. It should be compatible to run under Firefox or Internet Explorer as this are the main browsers used by CentreComm/TFL staff.
+	\item Display on request detailed information for the requested disruption. This should include a graph representing the route/section average disruption time.
+	\item Be easily configurable and maintainable.
+\end{enumerate}
