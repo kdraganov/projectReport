@@ -13,9 +13,3 @@ A level-1 auxiliary file: Appendices/appendix.aux
 A level-1 auxiliary file: Appendices/UserGuide.aux
 A level-1 auxiliary file: Appendices/SourceCode.aux
 Database file #1: References/references.bib
-Repeated entry---line 148 of file References/references.bib
- : @unpublished{eps354267
- :                       ,
-I'm skipping whatever remains of this entry
-Warning--empty booktitle in ibusdeployment
-(There was 1 error message)

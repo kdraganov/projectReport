@@ -13,11 +13,11 @@ BCS.
 \newblock \url{http://www.bcs.org/category/6030}, June 2011.
 \newblock Online; accessed 6-April-2015.
 
-\bibitem{ibusdeployment}
-Bowen~T. Clarke~R. and Head J.
-\newblock Mass deployment of bus priority using real-time passenger information
-  systems in london.
-\newblock pages 891--921, 2007.
+\bibitem{Connell89}
+J.~L. Connell and L.~Shafer.
+\newblock {\em Structured Rapid Prototyping: An Evolutionary Approach to
+  Software Development}.
+\newblock Yourdon Press, Upper Saddle River, NJ, USA, 1989.
 
 \bibitem{ibusAward}
 Transport for London.
@@ -56,6 +56,11 @@ Transport for London~Media.
 \newblock Online, May 2014.
 \newblock Online; accessed 2-December-2014.
 
+\bibitem{fowler2003patterns}
+Martin Fowler.
+\newblock {\em Patterns of enterprise application architecture}.
+\newblock Addison-Wesley, Boston, 2003.
+
 \bibitem{Hounsell201276}
 N.B. Hounsell, B.P. Shrestha, and A.~Wong.
 \newblock Data management and applications in a world-leading bus fleet.
@@ -81,17 +86,34 @@ BBC News.
 \newblock \url{http://www.bbc.co.uk/news/uk-england-london-30285777}, 2014.
 \newblock Online; accessed 2-December-2014.
 
-\bibitem{surveyAIApplications}
-MINA~BASIRAT SEYED MOJTABA TAFAGHOD SADAT~ZADEH, TONI~ANWAR.
-\newblock A survey on application of artificial intelligence for bus arrival
-  time prediction.
-\newblock {\em Journal of Theoretical and Applied Information Technology
-  (JATIT)}, 46(1):516 -- 525, December 2012.
+\bibitem{mda}
+Object Management~Group (OMG).
+\newblock Mda.
+\newblock \url{http://www.omg.org/mda/}, August 2014.
+\newblock Online; accessed 2-April-2015.
+
+\bibitem{uml}
+Object Management~Group (OMG).
+\newblock Uml.
+\newblock \url{http://www.uml.org/}, April 2015.
+\newblock Online; accessed 2-April-2015.
+
+\bibitem{ibusdeployment}
+Clarke R., Bowen T., and Head J.
+\newblock Mass deployment of bus priority using real-time passenger information
+  systems in london, 2007.
 
 \bibitem{eps354267}
 Alan Wong and Nick Hounsell.
 \newblock Using the ibus system to provide improved public transport
   information and applications for london.
 \newblock Paper 01753, July 2010.
+
+\bibitem{surveyAIApplications}
+Seyed Mojtaba Tafaghod~Sadat Zadeh, Toni Anwar, and Mina Basirat.
+\newblock A survey on application of artificial intelligence for bus arrival
+  time prediction.
+\newblock {\em Journal of Theoretical and Applied Information Technology
+  (JATIT)}, 46(1):516 -- 525, December 2012.
 
 \end{thebibliography}

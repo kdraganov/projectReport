@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.9.29)  10 APR 2015 04:09
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.9.29)  12 APR 2015 05:09
 entering extended mode
 **KD-Final*Report.tex
 
@@ -220,6 +220,9 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count131
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\placeins\placeins.sty"
+Package: placeins 2005/04/18  v 2.2
+)
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\KD-Final Report.aux"
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
@@ -227,7 +230,7 @@ x\Chapters/Introduction.aux")
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\Chapters/Background.aux")
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
-x\Chapters/Requirements.aux")
+x\Chapters/Specification.aux")
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\Chapters/Design.aux")
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
@@ -243,38 +246,35 @@ x\Chapters/Conclusion.aux")
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\Appendices/appendix.aux"
 
-LaTeX Warning: Label `overflow' multiply defined.
+LaTeX Warning: Label `fig:key' multiply defined.
 
 
-LaTeX Warning: Label `overflow' multiply defined.
+LaTeX Warning: Label `fig:key' multiply defined.
 
 
-LaTeX Warning: Label `overflow' multiply defined.
+LaTeX Warning: Label `fig:key' multiply defined.
 
 
-LaTeX Warning: Label `overflow' multiply defined.
-
-
-LaTeX Warning: Label `overflow' multiply defined.
+LaTeX Warning: Label `fig:key' multiply defined.
 
 )
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\Appendices/UserGuide.aux")
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\Appendices/SourceCode.aux"))
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 26.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 27.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -364,7 +364,7 @@ File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 File: FrontMatter/logo.png Graphic file (type png)
 
 <use FrontMatter/logo.png>
-Package pdftex.def Info: FrontMatter/logo.png used on input line 27.
+Package pdftex.def Info: FrontMatter/logo.png used on input line 28.
 (pdftex.def)             Requested size: 93.94933pt x 85.91946pt.
  [1
 
@@ -376,7 +376,7 @@ omputer Science/Final Year Project/Final report/Latex/FrontMatter/logo.png (PNG
 x\FrontMatter/abstract.tex") [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 27--27
+Underfull \hbox (badness 10000) in paragraph at lines 28--28
 
  []
 
@@ -453,7 +453,7 @@ Brown in 1956,[Brown,
 
 [14] [15]) [16]
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
-x\Chapters/Requirements.tex"
+x\Chapters/Specification.tex"
 Chapter 3.
 [17
 
@@ -467,47 +467,47 @@ Chapter 4.
 
 
 
-] [21]) [22] [23]
+] [21] [22] [23] [24] [25]) [26]
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\Chapters/Implementation.tex"
 Chapter 5.
-[24
-
-
-
-] [25]) [26]
-("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
-x\Chapters/Testing.tex"
-Chapter 6.
 [27
 
 
 
-]) [28]
+] [28]) [29]
+("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
+x\Chapters/Testing.tex"
+Chapter 6.
+[30
+
+
+
+]) [31]
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\Chapters/Evaluation.tex"
 Chapter 7.
-[29
+) [32
 
 
 
-]) [30]
+]
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\Chapters/ProfessionalIssues.tex"
 Chapter 8.
-) [31
+) [33
 
 
 
-] [32]
+] [34]
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\Chapters/Conclusion.tex"
 Chapter 9.
-[33
+[35
 
 
 
-]) [34]
+]) [36]
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\KD-Final Report.bbl"
 LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 6.
@@ -564,7 +564,7 @@ $\OT1/lmtt/m/n/10 centrecomm-[]celebrates-[]30-[]years-[]keeping-[]londons-[]bu
 ses-[]moving$\OT1/lmr/m/n/10 .
  []
 
-[35
+[37
 
 
 ]
@@ -586,101 +586,80 @@ $\OT1/lmtt/m/n/10 annual-[]passenger-[]journeys-[]on-[]london-[]s-[]buses-[]top
  []
 
 
-Underfull \hbox (badness 1092) in paragraph at lines 79--83
+Underfull \hbox (badness 1092) in paragraph at lines 84--88
 []\OT1/lmr/m/n/10 BBC News.  Ex-tra 500 buses planned for grow-ing cap-i-tal be
 -fore
  []
 
 
-Underfull \hbox (badness 2547) in paragraph at lines 79--83
+Underfull \hbox (badness 2547) in paragraph at lines 84--88
 \OT1/lmr/m/n/10 2021.  $\OT1/lmtt/m/n/10 http : / / www . bbc . co . uk / news 
 / uk-[]england-[]london-[]30285777$\OT1/lmr/m/n/10 ,
  []
 
-) [36]
+[38]) [39]
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\Appendices/appendix.tex"
 Appendix A.
-<Figures/UseCases.jpg, id=140, 508.90125pt x 581.17125pt>
-File: Figures/UseCases.jpg Graphic file (type jpg)
+<Figures/UseCases.png, id=150, 510.58755pt x 582.0144pt>
+File: Figures/UseCases.png Graphic file (type png)
 
-<use Figures/UseCases.jpg>
-Package pdftex.def Info: Figures/UseCases.jpg used on input line 6.
-(pdftex.def)             Requested size: 407.12155pt x 464.93764pt.
+<use Figures/UseCases.png>
+Package pdftex.def Info: Figures/UseCases.png used on input line 6.
+(pdftex.def)             Requested size: 407.60284pt x 464.64415pt.
 
-Overfull \hbox (67.45164pt too wide) in paragraph at lines 6--7
- [][] 
- []
+<Figures/Architecture.png, id=151, 472.164pt x 615.9813pt>
+File: Figures/Architecture.png Graphic file (type png)
 
-<Figures/Architecture.jpg, id=141, 472.01344pt x 634.62094pt>
-File: Figures/Architecture.jpg Graphic file (type jpg)
+<use Figures/Architecture.png>
+Package pdftex.def Info: Figures/Architecture.png used on input line 12.
+(pdftex.def)             Requested size: 407.60284pt x 531.7544pt.
 
-<use Figures/Architecture.jpg>
-Package pdftex.def Info: Figures/Architecture.jpg used on input line 12.
-(pdftex.def)             Requested size: 377.61127pt x 507.69743pt.
+<Figures/Class.png, id=152, 563.9469pt x 809.424pt>
+File: Figures/Class.png Graphic file (type png)
+ <use Figures/Class.png>
+Package pdftex.def Info: Figures/Class.png used on input line 18.
+(pdftex.def)             Requested size: 407.60284pt x 585.03268pt.
 
-Overfull \hbox (37.94136pt too wide) in paragraph at lines 12--13
- [][] 
- []
+<Figures/DBModel.png, id=153, 507.5763pt x 701.019pt>
+File: Figures/DBModel.png Graphic file (type png)
 
-<Figures/Class.jpg, id=142, 811.53188pt x 532.99126pt>
-File: Figures/Class.jpg Graphic file (type jpg)
- <use Figures/Class.jpg>
-Package pdftex.def Info: Figures/Class.jpg used on input line 18.
-(pdftex.def)             Requested size: 649.22638pt x 426.39359pt.
+<use Figures/DBModel.png>
+Package pdftex.def Info: Figures/DBModel.png used on input line 24.
+(pdftex.def)             Requested size: 407.60284pt x 562.95529pt.
 
-Overfull \hbox (309.55647pt too wide) in paragraph at lines 18--19
- [][] 
- []
+<Figures/StateDiagram.png, id=154, 414.95026pt x 506.73315pt>
+File: Figures/StateDiagram.png Graphic file (type png)
 
-<Figures/DBModel.jpg, id=143, 506.6428pt x 700.86844pt>
-File: Figures/DBModel.jpg Graphic file (type jpg)
-
-<use Figures/DBModel.jpg>
-Package pdftex.def Info: Figures/DBModel.jpg used on input line 24.
-(pdftex.def)             Requested size: 405.31479pt x 560.69551pt.
-
-Overfull \hbox (65.64488pt too wide) in paragraph at lines 24--25
- [][] 
- []
-
-<Figures/StateDiagram.jpg, id=144, 352.31625pt x 456.20438pt>
-File: Figures/StateDiagram.jpg Graphic file (type jpg)
-
-<use Figures/StateDiagram.jpg>
-Package pdftex.def Info: Figures/StateDiagram.jpg used on input line 30.
-(pdftex.def)             Requested size: 352.31538pt x 456.20325pt.
-
-Overfull \hbox (12.64548pt too wide) in paragraph at lines 30--31
- [][] 
- []
-
-) [37
+<use Figures/StateDiagram.png>
+Package pdftex.def Info: Figures/StateDiagram.png used on input line 30.
+(pdftex.def)             Requested size: 407.60284pt x 497.77039pt.
+ [40
 
 
-] [38 <E:/Kings College London/Computer Science/Final Year Project/Final report
-/Latex/Figures/UseCases.jpg>] [39 <E:/Kings College London/Computer Science/Fin
-al Year Project/Final report/Latex/Figures/Architecture.jpg>] [40 <E:/Kings Col
+] [41 <E:/Kings College London/Computer Science/Final Year Project/Final report
+/Latex/Figures/UseCases.png>] [42 <E:/Kings College London/Computer Science/Fin
+al Year Project/Final report/Latex/Figures/Architecture.png>] [43 <E:/Kings Col
 lege London/Computer Science/Final Year Project/Final report/Latex/Figures/Clas
-s.jpg>] [41 <E:/Kings College London/Computer Science/Final Year Project/Final 
-report/Latex/Figures/DBModel.jpg>] [42 <E:/Kings College London/Computer Scienc
-e/Final Year Project/Final report/Latex/Figures/StateDiagram.jpg>]
+s.png>] [44 <E:/Kings College London/Computer Science/Final Year Project/Final 
+report/Latex/Figures/DBModel.png>] [45 <E:/Kings College London/Computer Scienc
+e/Final Year Project/Final report/Latex/Figures/StateDiagram.png>]) [46]
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\Appendices/UserGuide.tex"
 Appendix B.
-) [43
+) [47
 
 
 
-] [44]
+] [48]
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\Appendices/SourceCode.tex"
 Appendix C.
-[45
+[49
 
 
 
-]) [46]
+]) [50]
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\KD-Final Report.aux"
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
@@ -688,7 +667,7 @@ x\Chapters/Introduction.aux")
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\Chapters/Background.aux")
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
-x\Chapters/Requirements.aux")
+x\Chapters/Specification.aux")
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\Chapters/Design.aux")
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
@@ -712,13 +691,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3765 strings out of 493921
- 61603 string characters out of 3147267
- 120768 words of memory out of 3000000
- 6911 multiletter control sequences out of 15000+200000
+ 3792 strings out of 493921
+ 62119 string characters out of 3147267
+ 120746 words of memory out of 3000000
+ 6935 multiletter control sequences out of 15000+200000
  45731 words of font info for 35 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 34i,8n,34p,1797b,298s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 34i,8n,34p,1566b,307s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/M
 iKTeX 2.9/fonts/enc/dvips/lm/lm-rmtt.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc
 /dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-math
@@ -729,9 +708,9 @@ lic/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><
 C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/
 MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/
 type1/public/lm/lmtt10.pfb>
-Output written on "KD-Final Report.pdf" (50 pages, 1502198 bytes).
+Output written on "KD-Final Report.pdf" (54 pages, 3077096 bytes).
 PDF statistics:
- 209 PDF objects out of 1000 (max. 8388607)
+ 226 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

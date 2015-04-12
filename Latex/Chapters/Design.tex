@@ -1,8 +1,8 @@
-\chapter{Design Specification}
-For the purpose of the successful completion of this project I have decided to employ agile software development methodologies with evolutionary prototyping. The reason for taking this approach are the strengths of the agile software developmental methodology which is that it is incremental, cooperative, flexible and adaptive \cite{4147390}. The research nature (as seen in chapter 2 of this report) of this project itself makes it sensible to use evolutionary prototyping as this helps minimise the impact of misunderstanding or miscommunication of the requirements. The risk of which are relatively high as the goals of this project are relatively new and there is not much similar work done. This technique would also give better idea of what the end product would be capable of and would look like to the client. With evolutionary prototyping the system is continuously refined and improved. Each iteration builds on top of the previous thus meaning that with each increment we add more functionality and features or/and refine/improve what has already been implemented. Simply stated this means that with each iteration we are one step closer to the end product. This allows us to add features which were not previously considered or remove ones that are no longer viable or needed. In addition this approach also allows us to engage with the key stakeholders very early in the project life-cycle. This would provide us with valuable feedback which again brings a lot of advantages.
+\chapter{Design}
+For the purpose of the successful completion of this project I have decided to employ agile software development methodologies with evolutionary prototyping. The reason for taking this approach are the strengths of the agile software developmental methodology which is that it is incremental, cooperative, flexible and adaptive \cite{4147390}. The research nature (as seen in chapter 2 of this report) of this project itself makes it sensible to use evolutionary prototyping \cite{Connell89} as this helps minimise the impact of misunderstanding or miscommunication of the requirements. The risk of which are relatively high as the goals of this project are relatively new and there is not much similar work done. This technique would also give better idea of what the end product would be capable of and would look like to the client. With evolutionary prototyping the system is continuously refined and improved. Each iteration builds on top of the previous thus meaning that with each increment we add more functionality and features or/and refine/improve what has already been implemented. Simply stated this means that with each iteration we are one step closer to the end product. This allows us to add features which were not previously considered or remove ones that are no longer viable or needed. In addition this approach also allows us to engage with the key stakeholders very early in the project life-cycle. This would provide us with valuable feedback which again brings a lot of advantages.
 
 \begin{itemize}
-	\item The delivery of the tool is speeded up and also minimises the risks of having no working product by the project deadline.[INCLUDE REFERENCE]
+	\item The delivery of the tool is speeded up and also minimises the risks of failing to deliver a working product before the project deadline \cite{Connell89}.
 	\item Users would engage with the product early in the project lifetime. This however poses some risk like the users requesting more features which were not previously mentioned or discussed. This means that we need to maintain some balance as this project has a fixed deadline and limited resources.
 	\item Increased chances of fully understanding and meeting the user requirements and expectations from the tool.
 \end{itemize}
@@ -17,32 +17,60 @@ Each increment (iteration) consists of the following stages:
 \end{enumerate}
 The requirements and specification step would document what the tool should look and work like at the end of each iteration. These would be following the aims and objectives we have defined in Chapter 1 of this report. After a prototype has been implemented and tested by the user we will evaluate the progress and make any changes in out requirements, design and project plan accordingly. Thus after a number of iteration we should have a prototype which to resemble the desired product as required by the user.
 
-In the below sections I have presented the system at an abstract level. This follows from careful analysis and consideration of the requirements stated in the previous chapter. I have tried to highlight all major key components and classes which are described formally. This allows us to better organise and structure our problem. 
+In the below sections I have presented the system at an abstract level as a. This follows from careful analysis and consideration of the requirements stated in the previous chapter. I have tried to highlight all major key components and classes which are described formally. This allows us to better organise and structure our problem. The diagrams presented follow the unified modelling language (UML) paradigm \cite{uml} and are platform-independent models (PIM) of the system. This allows us to focus on the design of the system itself without distracting our attention with platform specific decisions. Once these models are create we can than easily transform them into platform specific models (PSM) using the desired technologies. This technique is known as Model-Driven Architecture (MDA) software design approach \cite{mda}.
 
 \section{Use cases}
-Base on the user requirements stated in the previous chapter a use case diagram has been presented in the [Appendix]. The use case diagram depicts the way users(actors) interact with the tool (system). Three different types of users have been defined and each of them is an extension of the others. 
- 
-Explanation and discussion of the use case diagram.
+Base on the user requirements stated in the previous chapter a use case diagram has been derived and presented in figure A.1 in Appendix A. The use case diagram depicts the way users(actors) interact with the tool (system). There a three types of users of the system (every next type is extension of the previous as it can be seen from the diagram):
+\begin{itemize}
+	\item \textbf{Normal} users are people with general access to the system. They have read-only right and can interact with the system by requesting a list of disruptions and more details for a selected from them disruption. They have also access to the disruption history of the network. This use case was not in the initial requirements and was identified as a useful feature during demonstrations of the prototype to TFL.
+	\item \textbf{Operator} is supposed to be a CentreComm staff members who need to authenticate into the system. This would allow them the extra functionalities of adding comments to disruptions for others to see. Such users also have the functionality to them of hiding and showing disruptions that are currently detected in the bus network.
+	\item \textbf{Administrator} users have the most privileges of all type of users of the system. In addition to the above actions they are also allowed to view and change the configuration settings of the system. This is to allow easier configuration of the application.
+\end{itemize}
 
 \section{System architecture}
-In figure [APPENDIX fig something] the architecture diagram of the system could be viewed. Overall the architecture consists of three main layers:
+In figure A.2 in Appendix A the architecture diagram of the system could be seen. The overall architecture is following a four-tier architecture with an model view controller (MVC) patter for the user interface. This architecture allows us to decompose to system into separate subsystems where lower tiers do not depend on higher tiers. This system allows for the implementation details of subsystems to be changed without affecting other components if the interfaces do not change.
+
+As it can be seen from the diagram the system is divided in four main layers:
 \begin{itemize}
-	\item Representation layer
-	\item Business logic (functional core) layer
-	\item Data layer
+	\item Representation Layer - responsible for visualisation of the user interface. It consists of a number of user views.
+	\item Representation  Control Layer - responsible for the control/transition between user interface windows. In this layer I have made use of the front controller pattern \cite{fowler2003patterns} as it allows us to combine the common logic in one controller.
+	\item Application Logic Layer -  this layer is the functional core of the system. This is where all the business logic is encoded and corresponding calculations are done. The most important part of the system is the Disruption Engine which is responsible for:
+	\begin{enumerate}
+		\item Monitoring for new feeds and processing them.
+		\item Updating the bus network status (calculating delays and detecting disruptions).
+		\item Writing the changes to the system database.
+	\end{enumerate}
+	The Disruption Model is the other major component of the system. It is responsible for retrieving the disruptions and their details from the database and providing them to the representation control tier.
+	\item Data Layer - this the the data repository layer. It consists of comma separated values (CSV) files representing the AVL feeds that are being pushed to the system. Here we also have the system database which contains all the configuration settings parameters and the output of the engine (disruptions and their details that are detected by the tool).
 \end{itemize}
-Explain what each layer contains and how it relates/connects to the others...
+This architecture diagram represents coarse grained view of the system to be implemented. Each of the components presented above could be implemented as a number of smaller components and modules depending on the specific technologies.
 
 \section{State Machine}
-State machine diagrams are useful in explaining what in what states the system could be and how it transitions from one state to the other. The state diagram on [FIGURE APPENDIX] depicts ...
+State machine diagrams are useful in explaining what in what states the system could be and how it transitions from one state to the other. The state machine diagram for our system is presented in figure A.5 in Appendix A. This diagram represent the states in which the disruption engine could reside and the available transitions. As it can be seen from the figure once the engine is initialised correctly it enters a continuous loop. This loop represents the engine waiting for new feeds to be detected by the system. Once detected they are processed and the bus network state is updated. If the change of the bus network has not changes from what was previously observed the tool does not make any changes to the database, else it would write all the changes that have been detected and calculated. In case the system fails to connect or write the changes to the database the system would terminate.
 
 \section{Class organisation}
-In [FIGURE] I have presented a class diagram which provides formal specification and visualisation of the key classes, in our system, and the relationship between them. Each subsection below represents a class from the diagram and explains in more detail its role and relations in our tool.
+Class decomposition diagrams are the main building block of object oriented programming paradigm. They are widely used tool for the organisation and design of a software system. The diagram consist of classes, which encapsulate some attributes (state) and methods (functionalities), and the associations between the individual class. Each class is depicted by a box with the name of the class on top and its member attributes and methods below. Associations are represented by lines connecting those classes where a relation exists. The class diagram for our system is presented in figure A.3 in Appendix A. In the below subsections I have provided some explanation of the most important classes in the class diagram.
+
+\subsection{iBusMonitor}
+This could be viewed as the entry point of the tool engine. It most notable attribute is the link to the configuration file specifying the database connection properties. It can have a number of bus network and is responsible for initialising the tool and monitoring. This means it encapsulates the logic for listening for new feed files being published.
+
+\subsection{BusNetwork}
+This class represent a given bus network. In the context of this project this can be viewed as the TFL bus network. This object encapsulates all attributes that relate to the network state and its behaviour. Each bus network consists of at least one bus stop and at least one route otherwise it does not make any sense to have a network without any stops or routes.
 
 \subsection{BusStop}
+The bus stop class is representation of a bus stop in the bus network. It consists of a number of expected attributes that a stop would have. We also make the assumption that a single stop can belong to only one bus network.
 
 \subsection{Route}
+This class is one of the most important in the context of this project as it encapsulates the state of a single route in the network. Each route is associated with at least one run (in most cases each route would have two runs In/Out-bound) and a number of observations. 
+
+\subsection{Observation}
+The observation class captures the state and functionality of a single observation. By observation we mean a single reading extracted from the AVL data input. This reading is expected to be coming from a single bus logged on a given bus route, thus it would belong to this route. 
 
 \subsection{Run}
+This object represent a route's run state and methods. It main properties consist of list of consecutive readings made on this run for each logged bus. It also provides interface for detecting and updating disruptions on this run, thus it need to keep track of the disruptions that were previously seen along this run.
 
 \subsection{Section}
+This is the most basic part of a bus route apart from the bus stop. Each section represents the part of the route between two consecutive bus stops along this route. This means it is characterised by a start and end stop and the sequence of this section along the route. In this class we calculate the delay per individual section (more on how this is done in the following chapter).
+
+\subsection{Disruption}
+This class simply captures all the attributes of a disruption. Each disruption would have an identification number, sections between the disruption is observed and the corresponding delay and trend. It also provides methods for updating and saving the details to the database.
