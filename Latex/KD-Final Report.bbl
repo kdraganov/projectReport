@@ -103,6 +103,11 @@ Clarke R., Bowen T., and Head J.
 \newblock Mass deployment of bus priority using real-time passenger information
   systems in london, 2007.
 
+\bibitem{Su2006}
+Zhendong Su and Gary Wassermann.
+\newblock The essence of command injection attacks in web applications.
+\newblock {\em SIGPLAN Not.}, 41(1):372--382, January 2006.
+
 \bibitem{eps354267}
 Alan Wong and Nick Hounsell.
 \newblock Using the ibus system to provide improved public transport

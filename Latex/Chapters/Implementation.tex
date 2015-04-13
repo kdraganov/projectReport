@@ -2,6 +2,7 @@
 This chapter aims to present the reader with explanation of the key implementation aspects. These include major challenges, decisions and problems that have been encountered and taken during the course of this project. I have tried not to go into too much technical details except where this would provide better insight and understanding.
 
 \section{iBus AVL Data}
+INCLUDE SAMPLE OF THE DATA IN THE APPENDIX
 %Include a sample of the data and explanation of all fields
 %Explain what the schedule deviation value means
 %Include discussion on how the network is represented and the source of the file - TFL open data
@@ -20,12 +21,13 @@ Why postgresql. Reference to the database model
 Explanation and discussion of the database model.
 
 \section{Disruption Engine}
+What is the general approach I have taken
 %WHAT ARE THE CHALLENGES AND HOW WERE THEY OVERCOMED
 	\subsection{Technologies}
 	SCALA, XML database connection file, Database is Postregsql
 	Why Scala and DB Postgresql.
 	\subsection{Bus Network representation}
-	
+	What other data is needed?
 	\subsection{Monitoring for new feeds}
 	
 	\subsection{Feed File Processing and observation extraction}
@@ -52,5 +54,5 @@ Why Ruby on Rails as front end. Foundation as CSS layout framework as it is ligh
 Ajax short polling - as this is only prototype and is supported by all major browsers.
 
 
-
-
+\subsection{Problems}
+Data available, data frequency, no knowledge when buses do curtail, not taking into account bus dwell time, bus drivers who are running ahead of schedule could be driving slower on purpose and thus. Tool gives an upper bound of the of the WMA lost time per section. 
