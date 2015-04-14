@@ -1,5 +1,12 @@
 \begin{thebibliography}{10}
 
+\bibitem{simplePeakDetection}
+
+
+\bibitem{clarke2007}
+{\em Mass deployment of bus priority using real-time passenger information
+  systems in London}, Leeuwenhorst, Netherlands, 2007.
+
 \bibitem{glads}
 Greater~London Authority.
 \newblock Number of buses by type of bus in london.
@@ -7,11 +14,24 @@ Greater~London Authority.
   2014.
 \newblock Online; accessed 22-October-2014.
 
+\bibitem{Azami2014491}
+Hamed Azami and Saeid Sanei.
+\newblock Spike detection approaches for noisy neuronal data: Assessment and
+  comparison.
+\newblock {\em Neurocomputing}, 133(0):491 -- 506, 2014.
+
 \bibitem{bcsCodeOfConduct}
 BCS.
 \newblock Bcs code of conduct.
 \newblock \url{http://www.bcs.org/category/6030}, June 2011.
 \newblock Online; accessed 6-April-2015.
+
+\bibitem{5625144}
+A.I. Bejan, R.J. Gibbens, D.~Evans, A.R. Beresford, J.~Bacon, and A.~Friday.
+\newblock Statistical modelling and analysis of sparse bus probe data in urban
+  areas.
+\newblock In {\em Intelligent Transportation Systems (ITSC), 2010 13th
+  International IEEE Conference on}, pages 1256--1263, Sept 2010.
 
 \bibitem{Connell89}
 J.~L. Connell and L.~Shafer.
@@ -61,11 +81,44 @@ Martin Fowler.
 \newblock {\em Patterns of enterprise application architecture}.
 \newblock Addison-Wesley, Boston, 2003.
 
+\bibitem{FOR3980040103}
+Everette~S. Gardner.
+\newblock Exponential smoothing: The state of the art.
+\newblock {\em Journal of Forecasting}, 4(1):1--28, 1985.
+
+\bibitem{Guo201450}
+Jianhua Guo, Wei Huang, and Billy~M. Williams.
+\newblock Adaptive kalman filter approach for stochastic short-term traffic
+  flow rate prediction and uncertainty quantification.
+\newblock {\em Transportation Research Part C: Emerging Technologies}, 43, Part
+  1(0):50 -- 64, 2014.
+\newblock Special Issue on Short-term Traffic Flow Forecasting.
+
+\bibitem{herring2010real}
+Ryan~Jay Herring.
+\newblock Real-time traffic modeling and estimation with streaming probe data
+  using machine learning.
+\newblock 2010.
+
+\bibitem{eps52676}
+N.B. Hounsell and B.P. Shrestha.
+\newblock Avl based bus priority at traffic signals: a review of architectures
+  and case study.
+\newblock {\em European Journal of Transport and Infrastructure Research},
+  5(1):13--29, June 2005.
+
 \bibitem{Hounsell201276}
 N.B. Hounsell, B.P. Shrestha, and A.~Wong.
 \newblock Data management and applications in a world-leading bus fleet.
 \newblock {\em Transportation Research Part C: Emerging Technologies}, 22(0):76
   -- 87, 2012.
+
+\bibitem{kalmanFiltering}
+Siem~Jan Koopman.
+\newblock Exact initial kalman filtering and smoothing for nonstationary time
+  series models.
+\newblock {\em Journal of the American Statistical Association},
+  92(440):1630--1638, 1997.
 
 \bibitem{4147390}
 J.A. Livermore.
@@ -73,12 +126,6 @@ J.A. Livermore.
   methodology.
 \newblock In {\em SoutheastCon, 2007. Proceedings. IEEE}, pages 82--86, March
   2007.
-
-\bibitem{urbanBusArrivalTimeCompModels}
-Metin~ZontulT Mehmet~Altinkaya.
-\newblock Urban bus arrival time prediction: A review of computational models.
-\newblock {\em International Journal of Recent Technology and Engineering
-  (IJRTE)}, 2(4), September 2013.
 
 \bibitem{TFL2}
 BBC News.
@@ -98,15 +145,58 @@ Object Management~Group (OMG).
 \newblock \url{http://www.uml.org/}, April 2015.
 \newblock Online; accessed 2-April-2015.
 
+\bibitem{Qi201495}
+Yan Qi and Sherif Ishak.
+\newblock A hidden markov model for short term prediction of traffic conditions
+  on freeways.
+\newblock {\em Transportation Research Part C: Emerging Technologies}, 43, Part
+  1(0):95 -- 111, 2014.
+\newblock Special Issue on Short-term Traffic Flow Forecasting.
+
 \bibitem{ibusdeployment}
 Clarke R., Bowen T., and Head J.
 \newblock Mass deployment of bus priority using real-time passenger information
   systems in london, 2007.
 
+\bibitem{Ramezani20121576}
+Mohsen Ramezani and Nikolas Geroliminis.
+\newblock On the estimation of arterial route travel time distribution with
+  markov chains.
+\newblock {\em Transportation Research Part B: Methodological}, 46(10):1576 --
+  1590, 2012.
+
 \bibitem{Su2006}
 Zhendong Su and Gary Wassermann.
 \newblock The essence of command injection attacks in web applications.
 \newblock {\em SIGPLAN Not.}, 41(1):372--382, January 2006.
+
+\bibitem{1251929}
+S.~Tantiyanugulchai and R.L. Bertini.
+\newblock Arterial performance measurement using transit buses as probe
+  vehicles.
+\newblock In {\em Intelligent Transportation Systems, 2003. Proceedings. 2003
+  IEEE}, volume~1, pages 102--107 vol.1, Oct 2003.
+
+\bibitem{ventzas2011peak}
+D~Ventzas and N~Petrellis.
+\newblock Peak searching algorithms and applications.
+\newblock In {\em The IASTED International Conference on Signal and Image
+  Processing and Applications\~{} SIPA 2011}, 2011.
+
+\bibitem{Vlahogianni20143}
+Eleni~I. Vlahogianni, Matthew~G. Karlaftis, and John~C. Golias.
+\newblock Short-term traffic forecasting: Where we are and where we’re going.
+\newblock {\em Transportation Research Part C: Emerging Technologies}, 43, Part
+  1(0):3 -- 19, 2014.
+\newblock Special Issue on Short-term Traffic Flow Forecasting.
+
+\bibitem{Wang201479}
+Jian Wang, Wei Deng, and Yuntao Guo.
+\newblock New bayesian combination method for short-term traffic flow
+  forecasting.
+\newblock {\em Transportation Research Part C: Emerging Technologies}, 43, Part
+  1(0):79 -- 94, 2014.
+\newblock Special Issue on Short-term Traffic Flow Forecasting.
 
 \bibitem{eps354267}
 Alan Wong and Nick Hounsell.
@@ -114,11 +204,9 @@ Alan Wong and Nick Hounsell.
   information and applications for london.
 \newblock Paper 01753, July 2010.
 
-\bibitem{surveyAIApplications}
-Seyed Mojtaba Tafaghod~Sadat Zadeh, Toni Anwar, and Mina Basirat.
-\newblock A survey on application of artificial intelligence for bus arrival
-  time prediction.
-\newblock {\em Journal of Theoretical and Applied Information Technology
-  (JATIT)}, 46(1):516 -- 525, December 2012.
+\bibitem{youKim}
+Jinsoo You and Tschangho~John Kim.
+\newblock Empirical analysis of a travel-time forecasting model.
+\newblock {\em Geographical Analysis}, 39(4):397--417, 2007.
 
 \end{thebibliography}

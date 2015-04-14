@@ -9,7 +9,20 @@ A level-1 auxiliary file: Chapters/Evaluation.aux
 A level-1 auxiliary file: Chapters/ProfessionalIssues.aux
 A level-1 auxiliary file: Chapters/Conclusion.aux
 The style file: plain.bst
-A level-1 auxiliary file: Appendices/appendix.aux
 A level-1 auxiliary file: Appendices/UserGuide.aux
 A level-1 auxiliary file: Appendices/SourceCode.aux
 Database file #1: References/references.bib
+I was expecting a `,' or a `}'---line 339 of file References/references.bib
+ :  
+ :  year={2007},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--to sort, need editor, organization, or key in clarke2007
+Warning--to sort, need author or key in simplePeakDetection
+Warning--empty author in simplePeakDetection
+Warning--empty title in simplePeakDetection
+Warning--empty booktitle in simplePeakDetection
+Warning--empty publisher in simplePeakDetection
+Warning--empty year in simplePeakDetection
+Warning--empty journal in herring2010real
+(There was 1 error message)
