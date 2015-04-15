@@ -4,7 +4,7 @@
 \contentsline {section}{\numberline {1.3}Aims}{5}
 \contentsline {section}{\numberline {1.4}Objectives}{5}
 \contentsline {section}{\numberline {1.5}Report Structure}{6}
-\contentsline {chapter}{\numberline {2}Background research}{7}
+\contentsline {chapter}{\numberline {2}Background}{7}
 \contentsline {section}{\numberline {2.1}London Bus Network}{7}
 \contentsline {section}{\numberline {2.2}CentreComm}{8}
 \contentsline {section}{\numberline {2.3}iBus AVL}{9}
@@ -20,7 +20,7 @@
 \contentsline {section}{\numberline {2.7}Summary}{16}
 \contentsline {chapter}{\numberline {3}Specification}{17}
 \contentsline {section}{\numberline {3.1}User Requirements}{17}
-\contentsline {section}{\numberline {3.2}Functional}{18}
+\contentsline {section}{\numberline {3.2}Functional Requirements}{18}
 \contentsline {chapter}{\numberline {4}Design}{20}
 \contentsline {section}{\numberline {4.1}Use cases}{22}
 \contentsline {section}{\numberline {4.2}System architecture}{23}
@@ -38,36 +38,33 @@
 \contentsline {section}{\numberline {5.1}iBus AVL Data}{27}
 \contentsline {section}{\numberline {5.2}Prototypical Tool}{29}
 \contentsline {subsection}{\numberline {5.2.1}Disruption Engine}{29}
-\contentsline {subsubsection}{Technologies}{29}
-\contentsline {subsubsection}{Bus Network representation}{29}
-\contentsline {subsubsection}{Monitoring for new feeds}{30}
-\contentsline {subsubsection}{Feed File Processing and observation extraction}{30}
-\contentsline {subsubsection}{Calculating Delay}{30}
-\contentsline {subsubsection}{Detecting disruptions}{30}
-\contentsline {subsection}{\numberline {5.2.2}Graphical User Interface}{30}
-\contentsline {subsection}{\numberline {5.2.3}Problems \& Optimisations}{32}
-\contentsline {chapter}{\numberline {6}Testing}{33}
-\contentsline {section}{\numberline {6.1}Unit Testing}{33}
-\contentsline {section}{\numberline {6.2}Functional Testing}{33}
-\contentsline {section}{\numberline {6.3}Stress Testing}{34}
-\contentsline {chapter}{\numberline {7}Results \& Evaluation}{36}
-\contentsline {section}{\numberline {7.1}Evaluation}{36}
-\contentsline {section}{\numberline {7.2}Results}{36}
-\contentsline {chapter}{\numberline {8}Professional \& Ethical Issues}{37}
-\contentsline {chapter}{\numberline {9}Conclusion \& Future Work}{39}
-\contentsline {section}{\numberline {9.1}Future Work}{39}
-\contentsline {section}{\numberline {9.2}Conclusion}{40}
-\contentsline {chapter}{References}{46}
-\contentsline {chapter}{\numberline {A}Extra Information}{47}
-\contentsline {section}{\numberline {A.1}Figures}{47}
-\contentsline {section}{\numberline {A.2}Design Diagrams}{52}
-\contentsline {section}{\numberline {A.3}Test Results}{58}
-\contentsline {section}{\numberline {A.4}iBus AVL Data Sample}{58}
-\contentsline {chapter}{\numberline {B}User Guide}{59}
-\contentsline {section}{\numberline {B.1}Installation}{59}
-\contentsline {section}{\numberline {B.2}Execution}{59}
-\contentsline {section}{\numberline {B.3}Dependencies}{60}
-\contentsline {chapter}{\numberline {C}Source Code}{61}
-\contentsline {section}{\numberline {C.1}Engine}{62}
-\contentsline {section}{\numberline {C.2}Web Front End}{62}
-\contentsline {section}{\numberline {C.3}Database}{62}
+\contentsline {subsubsection}{Bus Network representation}{30}
+\contentsline {subsubsection}{Monitoring and processing new feeds}{31}
+\contentsline {subsubsection}{Bus network state update}{31}
+\contentsline {subsection}{\numberline {5.2.2}Graphical User Interface}{33}
+\contentsline {subsection}{\numberline {5.2.3}Problems}{35}
+\contentsline {chapter}{\numberline {6}Testing}{37}
+\contentsline {section}{\numberline {6.1}Unit Testing}{37}
+\contentsline {section}{\numberline {6.2}Functional Testing}{37}
+\contentsline {section}{\numberline {6.3}Stress Testing}{38}
+\contentsline {chapter}{\numberline {7}Results \& Evaluation}{40}
+\contentsline {section}{\numberline {7.1}Evaluation}{40}
+\contentsline {section}{\numberline {7.2}Results}{40}
+\contentsline {chapter}{\numberline {8}Professional \& Ethical Issues}{41}
+\contentsline {chapter}{\numberline {9}Conclusion \& Future Work}{43}
+\contentsline {section}{\numberline {9.1}Future Work}{43}
+\contentsline {section}{\numberline {9.2}Conclusion}{44}
+\contentsline {chapter}{References}{50}
+\contentsline {chapter}{\numberline {A}Extra Information}{51}
+\contentsline {section}{\numberline {A.1}Figures}{51}
+\contentsline {section}{\numberline {A.2}Design Diagrams}{56}
+\contentsline {section}{\numberline {A.3}Test Results}{62}
+\contentsline {section}{\numberline {A.4}iBus AVL Data Sample}{62}
+\contentsline {chapter}{\numberline {B}User Guide}{63}
+\contentsline {section}{\numberline {B.1}Installation}{63}
+\contentsline {section}{\numberline {B.2}Execution}{63}
+\contentsline {section}{\numberline {B.3}Dependencies}{64}
+\contentsline {chapter}{\numberline {C}Source Code}{65}
+\contentsline {section}{\numberline {C.1}Engine}{66}
+\contentsline {section}{\numberline {C.2}Web Front End}{73}
+\contentsline {section}{\numberline {C.3}Database}{73}
