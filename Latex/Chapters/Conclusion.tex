@@ -1,12 +1,16 @@
 \chapter{Conclusion \& Future Work}
 
 \section{Future Work}
-Distinction between incidents and congestion (use peak detection algorithm).
-Data from other source could be used (taxis AVL, couriers services AVL) etc.
-Historical data could be employed in order to make further analysis and correlations with weather data, time or the day/week/year etc.
-Increasing the frequency of the data means that we could make use of the actual geo location (alternative approach to one taken) information in order to calculate and monitor the bus speeds rather than the preprocessed schedule deviation value.
+This project has examined carefully the needs of CentreComm for automation of their current work flow which could lead to better operation, management and cut in costs of controlling London's bus network. It has reviewed the literature for related work and approaches and has resulted in a prototypical tool being designed and implemented. This tool has provided some initial results as seen in the previous chapter. There is however a lot that could be improved and built upon on it. In this section I provide some suggestions and direction for taking this work further.
 
-Using data from taxis [Cite - Requirements and Potential of GPS-based Floating Car Data for Traffic Management Stockholm Case study]
+One simple extension that could take this project one step ahead is to try to implement a peak/valley detection algorithm which could distinguish between incidents and just increased traffic congestion. This was briefly discussed in chapter 2 of this report however due to time limits of this project has not been looked in more depth or considered for design and implementation.
+
+Another feature that has received a lot of positive feedback from different levels in TFL is the ability to generate complex historical reports of what has been the network state. According to TFL this would provide more objective view of what has happened in the transport network and who should take the responsibility. 
+
+More historical data could also be employed and correlated with the real-time data received.  Some example of such data may include weather data, time of the day/week, workdays compared to weekends and public holidays etc. This could improve the accuracy of the system as well as bring to light some persisting problems under given environments.
+
+The increased popularity and usage of various AVL systems being used by different fleets could be used along with the data present in this report. This could include taxi fleets \cite{rahmani2010requirements}, delivery service fleet, emergency services and many more. Having more information and especially from different sources could result in one central congestion monitoring system which could more accurately and in shorter-terms calculate and predict traffic conditions in the arterial road network of the city. There is the potential for employing data from GPS enabled devices that most people of the general travelling public own these days. This something is already being investigated \cite{thiagarajan2010cooperative} and I can see it will get more attention in the near future.
+%Increasing the frequency of the data means that we could make use of the actual geo location (alternative approach to one taken) information in order to calculate and monitor the bus speeds rather than the preprocessed schedule deviation value.
 
 \section{Conclusion}
 This report proposed a prototypical tool for detecting disruptions in London bus network. This is achieved by employing moving average smoothing technique for analysis of the time series data presented. The main strength of this approach is its simplicity. This is growing area of interest for intelligent transportation systems (ITS) and I expect to receive much more attention in near future with the rise in AVL data availability from different sources. I have also given some directions and proposal for improving and driving this work further.

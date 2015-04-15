@@ -1,38 +1,24 @@
 \chapter{Testing}
-The disruption engine consists of a number of individual components and algorithms.
-These are tested using a number of unit tests. Due to the nature of
-the engine, stress tests were carried out to test it for any memory leaks and
-performance issues. Evaluation of the output of the disruption engine will be
-performed by first carrying out further literature review to find some guidance
-on what window for the data to consider to use and what weights to use for
-optimal results. This will be followed by running the system on a given set
-of data (e.g. a week worth of AVL data) and comparing the output with the
-actual state of the network during this period.
+Testing is important and integral part of any software development project. It is necessary to carry out testing throughout the implementation as well as once the system is completed in order to make sure it functions correctly according to the requirements and the design.
+%The disruption engine consists of a number of individual components and algorithms.These are tested using a number of unit tests. Due to the nature of the engine, stress tests were carried out to test it for any memory leaks and performance issues. Evaluation of the output of the disruption engine will be performed by first carrying out further literature review to find some guidance on what window for the data to consider to use and what weights to use for optimal results. This will be followed by running the system on a given set of data (e.g. a week worth of AVL data) and comparing the output with the actual state of the network during this period.
 
-The user interface consists of a simple web application capable of displaying
-list of disruptions. Testing and evaluation of this web application will be
-performed as user testing. As I mentioned above, some feedback and problems
-were identified which will be addressed and fixed. Follow up user tests will be
-carried out by giving access to friends and family to the web site to use and
-give feedback on. This should give reasonable confidence in the correctness of
-the user interface as there is no complex logic incorporated in the web front
-end application.
+%The user interface consists of a simple web application capable of displaying list of disruptions. Testing and evaluation of this web application will be performed as user testing. As I mentioned above, some feedback and problems were identified which will be addressed and fixed. Follow up user tests will be carried out by giving access to friends and family to the web site to use and give feedback on. This should give reasonable confidence in the correctness of the user interface as there is no complex logic incorporated in the web front end application.
 \section{Unit Testing} 
-What is it?
-Why was needed?
-How was it performed?
+As described in the previous chapters the system is composed of a number of classes. Each of them representing different part of the bus network with its own functionalities and responsibilities. Thought the development of the product a number of unit test have been carried out in order to ensure that each of the classes function correctly as per requirements and carries out the required task. Each module was tested separately before being connected to the rest of the system.
 
 \section{Functional Testing}
-Focus on the user interface.
-What is it?
-Why was needed?
-How was it performed?
-
-\section{Integration Testing}
-What is it?
-Why was needed?
-How was it performed?
+The proposed prototype system in this project consisted of an engine responsible for calculating the disruption and a separate front end responsible for visualising the output from the engine. Because of this separation most of the functional testing was performed on the front end web application. This was carried out by manually testing the functionality of the web application and verifying that it resulted in the correct output. The user interface has been tested by me throughout development, some feedback has been received on it during demonstration and discussions with CentreComm and my supervisor. In addition to that I have asked family and friends to spend time and test the functionality of the user interface for this I provided them with a list of use cases and the expected behaviour. This has proved useful in identifying some issues with the functionality and the compatibility of the product with different web browsers and systems. All of the identified problems have been addressed and rectified after that.
 
 \section{Stress Testing}
-Why was this needed?
-How was it carried out? - Results/proof
+On of the main requirements for detecting the disruptions in the bus network is for this to be calculated in real time. Because of this we need to make sure that the implementation is able to cope with large amounts of data quickly. Also as the system will run continuously with more data being made available for the system throughout its execution it need to be ensured that any memory that is occupied by data that is irrelevant (old) be discarded appropriately without creating any memory leaks. 
+
+The approach that I have taken in order to test the system for such performance issue consisted of firsly creating a automated script for simulating the feed pushing to the tool. This is achieved by having a separate thread which is configurable and pushes all feeds from a given directory at specified intervals. Currently as discussed previously in this report the AVL data files are generated every 5 minutes. However this could be changed if the tool goes into production. For this reason we need to make sure that the proposed prototype is capable of dealing with large sets of data being pushed every 30 seconds (as this is the current rate iBus equipped buses transmit data). The main bottleneck for the performance of the system becomes the update of the database.
+
+Simulations have been run to make sure the system is capable of processing and updating itself in real-time. This tests have been carried out on a laptop running Intel Core i7-3610QM with 16GB DDR3 1600Mhz of ram and Windows 10 x64 bit operating system. In figure [APPENDIX] the results of those simulation could be seen. The results shows us that there are not problems with dealing with large amount of information in real time even on a normal mobile computer. It can also be seen that memory usage is within the capabilities of typical modern computer. We can see big variations in the memory usage, however this is normal as we do not explicitly allocate and deallocate memory. Scala runs on the Java Virtual Machine (JVM) which has garbage collector reponsible for freeing up unused memory. The only thing the programmer need to make sure for is that any objects that are unused should have no references pointing to them, then when JVM garbage collector executes it will return (free  up) all unused memory. This means that our system memory usage depends on:
+\begin{itemize}
+	\item How fast new data is pushed.
+	\item How much data is being used (as discussed in the previous chapter).
+	\item How often the garbage collector executes.
+\end{itemize}
+
+The system current implementation is updating each route in the network consecutively. However the system has been implemented with concurrent execution of this calculation in mind. This means that it could easily be updated such that each route is concurrently processed. This is also the case for the parsing of the CSV feed files and observation extraction. As the aim of this project is to built a prototype I decided not to spend the limited project time on such optimisations as it is more important to prove if this is viable solution.

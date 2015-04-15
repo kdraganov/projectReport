@@ -1,11 +1,10 @@
 \begin{thebibliography}{10}
 
-\bibitem{simplePeakDetection}
-
-
-\bibitem{clarke2007}
-{\em Mass deployment of bus priority using real-time passenger information
-  systems in London}, Leeuwenhorst, Netherlands, 2007.
+\bibitem{altinkaya2013urban}
+Mehmet Altinkaya and Metin Zontul.
+\newblock Urban bus arrival time prediction: A review of computational models.
+\newblock {\em International Journal of Recent Technology and Engineering
+  (IJRTE)}, 2(4):164--169, 2013.
 
 \bibitem{glads}
 Greater~London Authority.
@@ -153,10 +152,24 @@ Yan Qi and Sherif Ishak.
   1(0):95 -- 111, 2014.
 \newblock Special Issue on Short-term Traffic Flow Forecasting.
 
+\bibitem{clarke2007}
+"Clarke R., Bowen T., and J"~Head.
+\newblock Mass deployment of bus priority using real-time passenger information
+  systems in london.
+\newblock In {\em Proc. European Transport conference, 2007.}, Leeuwenhorst,
+  Netherlands, 2007.
+
 \bibitem{ibusdeployment}
 Clarke R., Bowen T., and Head J.
 \newblock Mass deployment of bus priority using real-time passenger information
   systems in london, 2007.
+
+\bibitem{rahmani2010requirements}
+Mahmood Rahmani, Haris~N Koutsopoulos, and Anand Ranganathan.
+\newblock Requirements and potential of gps-based floating car data for traffic
+  management: Stockholm case study.
+\newblock In {\em Intelligent Transportation Systems (ITSC), 2010 13th
+  International IEEE Conference on}, pages 730--735. IEEE, 2010.
 
 \bibitem{Ramezani20121576}
 Mohsen Ramezani and Nikolas Geroliminis.
@@ -164,6 +177,19 @@ Mohsen Ramezani and Nikolas Geroliminis.
   markov chains.
 \newblock {\em Transportation Research Part B: Methodological}, 46(10):1576 --
   1590, 2012.
+
+\bibitem{simplePeakDetection}
+A.~Sboner, A.~Romanel, A.~Malossini, F.~Ciocchetta, F.~Demichelis, I.~Azzini,
+  E.~Blanzieri, and R.~Dell’Anna.
+\newblock Simple methods for peak and valley detection in time series
+  microarray data.
+\newblock In Patrick McConnell, SimonM. Lin, and Patrick Hurban, editors, {\em
+  Methods of Microarray Data Analysis V}, pages 27--44. Springer US, 2007.
+
+\bibitem{shumway2010time}
+Robert~H Shumway and David~S Stoffer.
+\newblock {\em Time series analysis and its applications: with R examples}.
+\newblock Springer Science \& Business Media, 2010.
 
 \bibitem{Su2006}
 Zhendong Su and Gary Wassermann.
@@ -176,6 +202,18 @@ S.~Tantiyanugulchai and R.L. Bertini.
   vehicles.
 \newblock In {\em Intelligent Transportation Systems, 2003. Proceedings. 2003
   IEEE}, volume~1, pages 102--107 vol.1, Oct 2003.
+
+\bibitem{thiagarajan2010cooperative}
+Arvind Thiagarajan, James Biagioni, Tomas Gerlich, and Jakob Eriksson.
+\newblock Cooperative transit tracking using smart-phones.
+\newblock In {\em Proceedings of the 8th ACM Conference on Embedded Networked
+  Sensor Systems}, pages 85--98. ACM, 2010.
+
+\bibitem{lbsl}
+Trapeze.
+\newblock London bus services limited (lbsl).
+\newblock \url{http://www.trapezegroup.eu/london-bus-services-limited-lbsl}.
+\newblock Online; accessed 2-April-2015.
 
 \bibitem{ventzas2011peak}
 D~Ventzas and N~Petrellis.
