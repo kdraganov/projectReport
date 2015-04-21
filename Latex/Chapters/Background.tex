@@ -32,6 +32,46 @@ This OBU is responsible for a number of tasks including a regular (approximately
 
 CentreComm operators have access to an online system showing each bus location in the network on a map in real-time. This system allows them to see whether a given bus is behind, ahead or on time according to its schedule. However this does not show or alert the control room staff if a bus or a route is disrupted. Control room staff also can see when was a given bus expected to arrive at a given bus stop and when it actually arrived, but this again is only per individual bus. Currently the work-flow is such that CentreComm need to go and analyse all this information manually (once bus drivers or bus company operator have contacted/alerted the control room) in order to figure out if a there is a problem and how severe it is. This is very inefficient, tedious and error prone process. Here is where our project comes into place to address the lack of preprocessed information.
 
+\section{iBus AVL Data}
+%Include a sample of the data and explanation of all fields
+%Explain what the schedule deviation value means
+%Include discussion on how the network is represented and the source of the file - TFL open data
+%iBus system generate very short telegram messages with the bus location \cite{Hounsell201276}. This information is then processed on a server and more information is calculated and derived.
+%The data that has been provided by Technical Service Group (TSG) at TFL for this project consists of preprocessed iBus feeds. This feeds currently are being generated every 5 minutes. Each file consists of the following fields:
+%The information we are interested is the deviation from the schedule. This is calculated by knowing the expected arrival time of the bus at a stop from the schedule and is compared to the observed time. This value is calculated the same way for both low and high frequency buses(Low frequency buses are supposed to run according to a fixed schedule (e.g. a bus should arrive at stop at predefined time) and usually routes which have less than 5 buses an hour. High frequency bus routes should maintain headways - this meaning a bus should be arriving at stop at predefined intervals (e.g. each 2 minutes)). More about the supplied data for this project would be covered in the requirements section.
+%Key property of time series data is stationarity. This means that the behaviour of the time series data does not change over time. In our case the data generally speaking the time series data is not stationary. However if we consider short window size it might be possible to treat the data as close to stationary.
+The data that is used for this project is provided by the Technical Service Group (TSG) at TFL. The data consists of comma separated value files. There is an individual file for every different bus operator which contains the data for all buses currently operated by this company. Initially every bus in the network would transmit its unique identification number and GPS coordinates approximately every 30 seconds \cite{Hounsell201276}. This information is then preprocessed by a central server. This results in more information being derived as the central server has knowledge of the whole network and the bus schedules and headways. This results in the CSV feed files that have been provided to us for this project. An example of the content of the raw feed file and a formatted version is presented in section A.4 of Appendix A. Below I have provided a detailed explanation of each field in these files \cite{infoBusesInservice}.
+\begin{itemize}
+	\item \textbf{Vehicle Id} - this is a unique id of the vehicle.
+	\item \textbf{Bonnet Code} - this is the bonnet code of the bus.
+	\item \textbf{Registration Number} - this is the number of the registration plate of the bus. 
+	\item \textbf{Time of Data} -  this refers to the date and time of when this data is received from the respective vehicle.
+	\item \textbf{Base Version} - this the version of the system that is run by the respective bus.
+	%\item \textbf{Block Number} - this is the block number on which the vehicle is running.
+	\item \textbf{Trip Id} - stores the internal trips id
+	\footnote{\label{loggedProperly}This is only valid when bus is properly logged.}$^{,}$\footnote{\label{routeVariant}Not available in route variant.}. This would increment every time a bus starts new run either at end of its current run or if it is curtailed.
+	\item \textbf{LBSL\footnote{London bus services limited \cite{lbsl}} Trip Number} - this is LBSL trip number\footnotemark[\ref{loggedProperly}]. This is similar to the Trip Id however this is a global trip id thus it is incremented whenever a bus in the network start a new trip.
+	\item \textbf{Trip Type} - the type of the trip as follows:
+\begin{enumerate}
+\item - From depot to start stop of the block.
+\item - To new starting point.
+\item - Normal trip with passengers.
+\item - From the last stop of the block to the depot.
+\item - Without passengers.
+\item - Route variant.
+\item - Vehicle not logged in either block or route.
+\end{enumerate}
+	\item \textbf{Contract Route} - the route name\footnotemark[\ref{loggedProperly}]$^{,}$\footnotemark[\ref{routeVariant}].
+	\item \textbf{Last Stop ShortDesc} - this is the lbsl code of the last stop visited by the respective bus\footnotemark[\ref{loggedProperly}]$^{,}$\footnotemark[\ref{routeVariant}].
+	\item \textbf{Schedule Deviation} - this is the standard deviation from the schedule, calculated using the bus position telegram, for the respective bus\footnotemark[\ref{loggedProperly}]$^{,}$\footnotemark[\ref{routeVariant}].
+	\item \textbf{Longitude} - this is longitude of the place from where the vehicle is sending the telegram\footnote{\label{gps}GPS raw data divided by 3,600,000.}.
+	\item \textbf{Latitude} - this is latitude of the place from where the vehicle is sending the telegram\footnotemark[\ref{gps}].
+	\item \textbf{Event Id} - the last event Id.
+	\item \textbf{Duration} - currently not being populated.
+\end{itemize}
+
+The information we are interested is the deviation from the schedule. This value is calculated the same way for both low\footnote{Less than 5 buses per hour.} and high\footnote{5 or more buses per hour.} frequency buses by knowing the bus schedule. It must be noted that it is possible vehicles would start the route already with some deviation from the schedule.
+
 \section{Related Work}
 The main problem posed by this project of detecting disruptions in the bus network can be also translated to short term traffic congestion detection. This is valid as we are not interested in individual bus delays. Some examples of such single instances of bus disruptions are customer incident on board of a single bus or technical fault with this bus etc. We are interested into finding routes/sections in the network which are delay/disrupted and this beyond the control of individual bus operators. Most often such problems are due some sort of congestion or road closures/repairs. However road problems are in most cases linked with increased traffic congestions as roads are used by other vehicles as well.
 

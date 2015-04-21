@@ -1,70 +1,64 @@
 \contentsline {chapter}{\numberline {1}Introduction}{3}
-\contentsline {section}{\numberline {1.1}Motivation}{3}
-\contentsline {section}{\numberline {1.2}Scope}{4}
-\contentsline {section}{\numberline {1.3}Aims}{5}
-\contentsline {section}{\numberline {1.4}Objectives}{5}
-\contentsline {section}{\numberline {1.5}Report Structure}{6}
+\contentsline {section}{\numberline {1.1}Scope}{4}
+\contentsline {section}{\numberline {1.2}Aims}{5}
+\contentsline {section}{\numberline {1.3}Objectives}{5}
+\contentsline {section}{\numberline {1.4}Report Structure}{6}
 \contentsline {chapter}{\numberline {2}Background}{7}
 \contentsline {section}{\numberline {2.1}London Bus Network}{7}
 \contentsline {section}{\numberline {2.2}CentreComm}{8}
 \contentsline {section}{\numberline {2.3}iBus AVL}{9}
-\contentsline {section}{\numberline {2.4}Related Work}{11}
-\contentsline {section}{\numberline {2.5}Time Series}{12}
-\contentsline {subsection}{\numberline {2.5.1}Moving Averages}{13}
-\contentsline {subsubsection}{Simple Moving Average}{13}
-\contentsline {subsubsection}{Weighted Moving Average}{14}
-\contentsline {subsubsection}{Exponential Moving Average}{14}
-\contentsline {subsubsection}{Summary}{15}
-\contentsline {subsection}{\numberline {2.5.2}Peak Detection}{15}
-\contentsline {section}{\numberline {2.6}Other}{16}
-\contentsline {section}{\numberline {2.7}Summary}{16}
-\contentsline {chapter}{\numberline {3}Specification}{17}
-\contentsline {section}{\numberline {3.1}User Requirements}{17}
-\contentsline {section}{\numberline {3.2}Functional Requirements}{18}
-\contentsline {chapter}{\numberline {4}Design}{20}
-\contentsline {section}{\numberline {4.1}Use cases}{22}
-\contentsline {section}{\numberline {4.2}System architecture}{23}
-\contentsline {section}{\numberline {4.3}State Machine}{24}
-\contentsline {section}{\numberline {4.4}Class organisation}{24}
-\contentsline {subsection}{\numberline {4.4.1}iBusMonitor}{25}
-\contentsline {subsection}{\numberline {4.4.2}BusNetwork}{25}
-\contentsline {subsection}{\numberline {4.4.3}BusStop}{25}
-\contentsline {subsection}{\numberline {4.4.4}Route}{25}
-\contentsline {subsection}{\numberline {4.4.5}Observation}{26}
-\contentsline {subsection}{\numberline {4.4.6}Run}{26}
-\contentsline {subsection}{\numberline {4.4.7}Section}{26}
-\contentsline {subsection}{\numberline {4.4.8}Disruption}{26}
-\contentsline {chapter}{\numberline {5}Implementation}{27}
-\contentsline {section}{\numberline {5.1}iBus AVL Data}{27}
-\contentsline {section}{\numberline {5.2}Prototypical Tool}{29}
-\contentsline {subsection}{\numberline {5.2.1}Disruption Engine}{29}
-\contentsline {subsubsection}{Bus Network representation}{30}
-\contentsline {subsubsection}{Monitoring and processing new feeds}{31}
-\contentsline {subsubsection}{Bus network state update}{31}
-\contentsline {subsection}{\numberline {5.2.2}Graphical User Interface}{33}
-\contentsline {subsection}{\numberline {5.2.3}Problems}{35}
-\contentsline {chapter}{\numberline {6}Testing}{37}
-\contentsline {section}{\numberline {6.1}Unit Testing}{37}
-\contentsline {section}{\numberline {6.2}Functional Testing}{37}
-\contentsline {section}{\numberline {6.3}Stress Testing}{38}
-\contentsline {chapter}{\numberline {7}Results \& Evaluation}{40}
-\contentsline {section}{\numberline {7.1}Evaluation}{40}
-\contentsline {section}{\numberline {7.2}Results}{40}
-\contentsline {chapter}{\numberline {8}Professional \& Ethical Issues}{41}
-\contentsline {chapter}{\numberline {9}Conclusion \& Future Work}{43}
-\contentsline {section}{\numberline {9.1}Future Work}{43}
-\contentsline {section}{\numberline {9.2}Conclusion}{44}
-\contentsline {chapter}{References}{50}
-\contentsline {chapter}{\numberline {A}Extra Information}{51}
-\contentsline {section}{\numberline {A.1}Figures}{51}
-\contentsline {section}{\numberline {A.2}Design Diagrams}{56}
-\contentsline {section}{\numberline {A.3}Test Results}{62}
-\contentsline {section}{\numberline {A.4}iBus AVL Data Sample}{62}
-\contentsline {chapter}{\numberline {B}User Guide}{63}
-\contentsline {section}{\numberline {B.1}Installation}{63}
-\contentsline {section}{\numberline {B.2}Execution}{63}
-\contentsline {section}{\numberline {B.3}Dependencies}{64}
-\contentsline {chapter}{\numberline {C}Source Code}{65}
-\contentsline {section}{\numberline {C.1}Engine}{66}
-\contentsline {section}{\numberline {C.2}Web Front End}{73}
-\contentsline {section}{\numberline {C.3}Database}{73}
+\contentsline {section}{\numberline {2.4}iBus AVL Data}{11}
+\contentsline {section}{\numberline {2.5}Related Work}{13}
+\contentsline {section}{\numberline {2.6}Time Series}{14}
+\contentsline {subsection}{\numberline {2.6.1}Moving Averages}{15}
+\contentsline {subsubsection}{Simple Moving Average}{15}
+\contentsline {subsubsection}{Weighted Moving Average}{16}
+\contentsline {subsubsection}{Exponential Moving Average}{16}
+\contentsline {subsubsection}{Summary}{17}
+\contentsline {subsection}{\numberline {2.6.2}Peak Detection}{17}
+\contentsline {section}{\numberline {2.7}Other}{18}
+\contentsline {section}{\numberline {2.8}Summary}{18}
+\contentsline {chapter}{\numberline {3}Specification}{19}
+\contentsline {section}{\numberline {3.1}User Requirements}{19}
+\contentsline {section}{\numberline {3.2}Functional Requirements}{20}
+\contentsline {chapter}{\numberline {4}Design}{22}
+\contentsline {section}{\numberline {4.1}Use cases}{24}
+\contentsline {section}{\numberline {4.2}System architecture}{25}
+\contentsline {section}{\numberline {4.3}State Machine}{26}
+\contentsline {section}{\numberline {4.4}Class organisation}{26}
+\contentsline {subsection}{\numberline {4.4.1}iBusMonitor}{27}
+\contentsline {subsection}{\numberline {4.4.2}BusNetwork}{27}
+\contentsline {subsection}{\numberline {4.4.3}BusStop}{27}
+\contentsline {subsection}{\numberline {4.4.4}Route}{27}
+\contentsline {subsection}{\numberline {4.4.5}Observation}{28}
+\contentsline {subsection}{\numberline {4.4.6}Run}{28}
+\contentsline {subsection}{\numberline {4.4.7}Section}{28}
+\contentsline {subsection}{\numberline {4.4.8}Disruption}{28}
+\contentsline {chapter}{\numberline {5}Implementation}{29}
+\contentsline {section}{\numberline {5.1}Disruption Engine}{29}
+\contentsline {subsection}{\numberline {5.1.1}Bus Network representation}{31}
+\contentsline {subsection}{\numberline {5.1.2}Monitoring and processing new feeds}{32}
+\contentsline {subsection}{\numberline {5.1.3}Bus network state update}{33}
+\contentsline {section}{\numberline {5.2}Graphical User Interface}{37}
+\contentsline {subsection}{\numberline {5.2.1}Problems}{39}
+\contentsline {chapter}{\numberline {6}Testing}{41}
+\contentsline {section}{\numberline {6.1}Unit Testing}{41}
+\contentsline {section}{\numberline {6.2}White Box Testing}{41}
+\contentsline {section}{\numberline {6.3}Functional Testing}{42}
+\contentsline {section}{\numberline {6.4}Stress Testing}{42}
+\contentsline {chapter}{\numberline {7}Results \& Evaluation}{45}
+\contentsline {section}{\numberline {7.1}Engine}{45}
+\contentsline {section}{\numberline {7.2}Visualisation}{47}
+\contentsline {chapter}{\numberline {8}Professional \& Ethical Issues}{48}
+\contentsline {chapter}{\numberline {9}Conclusion \& Future Work}{50}
+\contentsline {section}{\numberline {9.1}Future Work}{50}
+\contentsline {section}{\numberline {9.2}Conclusion}{51}
+\contentsline {chapter}{References}{57}
+\contentsline {chapter}{\numberline {A}User Guide}{58}
+\contentsline {section}{\numberline {A.1}Installation}{58}
+\contentsline {section}{\numberline {A.2}Execution}{58}
+\contentsline {section}{\numberline {A.3}Dependencies}{59}
+\contentsline {chapter}{\numberline {B}Source Code}{60}
+\contentsline {section}{\numberline {B.1}Engine}{61}
+\contentsline {section}{\numberline {B.2}Web Front End}{68}
+\contentsline {section}{\numberline {B.3}Database}{68}

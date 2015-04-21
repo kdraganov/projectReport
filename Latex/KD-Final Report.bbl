@@ -119,6 +119,11 @@ Siem~Jan Koopman.
 \newblock {\em Journal of the American Statistical Association},
   92(440):1630--1638, 1997.
 
+\bibitem{lerner2007open}
+Reuven~M Lerner.
+\newblock Open-source databases, part iii: choosing a database.
+\newblock {\em Linux Jurnal}, 2007.
+
 \bibitem{4147390}
 J.A. Livermore.
 \newblock Factors that impact implementing an agile software development
@@ -131,6 +136,11 @@ BBC News.
 \newblock Extra 500 buses planned for growing capital before 2021.
 \newblock \url{http://www.bbc.co.uk/news/uk-england-london-30285777}, 2014.
 \newblock Online; accessed 2-December-2014.
+
+\bibitem{odersky2008programming}
+Martin Odersky, Lex Spoon, and Bill Venners.
+\newblock {\em Programming in scala}.
+\newblock Artima Inc, 2008.
 
 \bibitem{mda}
 Object Management~Group (OMG).
@@ -178,6 +188,11 @@ Mohsen Ramezani and Nikolas Geroliminis.
 \newblock {\em Transportation Research Part B: Methodological}, 46(10):1576 --
   1590, 2012.
 
+\bibitem{infoBusesInservice}
+Steve Robinson.
+\newblock Ticket info on buses in service, 2010.
+\newblock Proposed Change Paper Provided by TFL.
+
 \bibitem{simplePeakDetection}
 A.~Sboner, A.~Romanel, A.~Malossini, F.~Ciocchetta, F.~Demichelis, I.~Azzini,
   E.~Blanzieri, and R.~Dell’Anna.
@@ -195,13 +210,6 @@ Robert~H Shumway and David~S Stoffer.
 Zhendong Su and Gary Wassermann.
 \newblock The essence of command injection attacks in web applications.
 \newblock {\em SIGPLAN Not.}, 41(1):372--382, January 2006.
-
-\bibitem{1251929}
-S.~Tantiyanugulchai and R.L. Bertini.
-\newblock Arterial performance measurement using transit buses as probe
-  vehicles.
-\newblock In {\em Intelligent Transportation Systems, 2003. Proceedings. 2003
-  IEEE}, volume~1, pages 102--107 vol.1, Oct 2003.
 
 \bibitem{thiagarajan2010cooperative}
 Arvind Thiagarajan, James Biagioni, Tomas Gerlich, and Jakob Eriksson.
@@ -227,6 +235,12 @@ Eleni~I. Vlahogianni, Matthew~G. Karlaftis, and John~C. Golias.
 \newblock {\em Transportation Research Part C: Emerging Technologies}, 43, Part
   1(0):3 -- 19, 2014.
 \newblock Special Issue on Short-term Traffic Flow Forecasting.
+
+\bibitem{serverSentEvents}
+W3C.
+\newblock Server-sent events.
+\newblock \url{http://www.w3.org/TR/eventsource/}.
+\newblock Online; accessed 2-April-2015.
 
 \bibitem{Wang201479}
 Jian Wang, Wei Deng, and Yuntao Guo.
