@@ -29,36 +29,28 @@
 \contentsline {subsection}{\numberline {4.4.1}iBusMonitor}{27}
 \contentsline {subsection}{\numberline {4.4.2}BusNetwork}{27}
 \contentsline {subsection}{\numberline {4.4.3}BusStop}{27}
-\contentsline {subsection}{\numberline {4.4.4}Route}{27}
+\contentsline {subsection}{\numberline {4.4.4}Route}{28}
 \contentsline {subsection}{\numberline {4.4.5}Observation}{28}
 \contentsline {subsection}{\numberline {4.4.6}Run}{28}
 \contentsline {subsection}{\numberline {4.4.7}Section}{28}
 \contentsline {subsection}{\numberline {4.4.8}Disruption}{28}
-\contentsline {chapter}{\numberline {5}Implementation}{29}
-\contentsline {section}{\numberline {5.1}Disruption Engine}{29}
-\contentsline {subsection}{\numberline {5.1.1}Bus Network representation}{31}
-\contentsline {subsection}{\numberline {5.1.2}Monitoring and processing new feeds}{32}
-\contentsline {subsection}{\numberline {5.1.3}Bus network state update}{33}
-\contentsline {section}{\numberline {5.2}Graphical User Interface}{37}
-\contentsline {subsection}{\numberline {5.2.1}Problems}{39}
-\contentsline {chapter}{\numberline {6}Testing}{41}
-\contentsline {section}{\numberline {6.1}Unit Testing}{41}
-\contentsline {section}{\numberline {6.2}White Box Testing}{41}
-\contentsline {section}{\numberline {6.3}Functional Testing}{42}
-\contentsline {section}{\numberline {6.4}Stress Testing}{42}
-\contentsline {chapter}{\numberline {7}Results \& Evaluation}{45}
-\contentsline {section}{\numberline {7.1}Engine}{45}
-\contentsline {section}{\numberline {7.2}Visualisation}{47}
-\contentsline {chapter}{\numberline {8}Professional \& Ethical Issues}{48}
-\contentsline {chapter}{\numberline {9}Conclusion \& Future Work}{50}
-\contentsline {section}{\numberline {9.1}Future Work}{50}
-\contentsline {section}{\numberline {9.2}Conclusion}{51}
-\contentsline {chapter}{References}{57}
-\contentsline {chapter}{\numberline {A}User Guide}{58}
-\contentsline {section}{\numberline {A.1}Installation}{58}
-\contentsline {section}{\numberline {A.2}Execution}{58}
-\contentsline {section}{\numberline {A.3}Dependencies}{59}
-\contentsline {chapter}{\numberline {B}Source Code}{60}
-\contentsline {section}{\numberline {B.1}Engine}{61}
-\contentsline {section}{\numberline {B.2}Web Front End}{68}
-\contentsline {section}{\numberline {B.3}Database}{68}
+\contentsline {section}{\numberline {4.5}User Interface}{29}
+\contentsline {chapter}{\numberline {5}Implementation}{31}
+\contentsline {section}{\numberline {5.1}Disruption Engine}{31}
+\contentsline {subsection}{\numberline {5.1.1}Bus Network representation}{33}
+\contentsline {subsection}{\numberline {5.1.2}Monitoring and processing new feeds}{34}
+\contentsline {subsection}{\numberline {5.1.3}Bus network state update}{35}
+\contentsline {section}{\numberline {5.2}Graphical User Interface}{39}
+\contentsline {section}{\numberline {5.3}Problems}{42}
+\contentsline {chapter}{\numberline {6}Testing}{46}
+\contentsline {section}{\numberline {6.1}Unit Testing}{46}
+\contentsline {section}{\numberline {6.2}White Box Testing}{46}
+\contentsline {section}{\numberline {6.3}Functional Testing}{47}
+\contentsline {section}{\numberline {6.4}Stress Testing}{48}
+\contentsline {chapter}{\numberline {7}Results \& Evaluation}{52}
+\contentsline {section}{\numberline {7.1}Engine}{52}
+\contentsline {section}{\numberline {7.2}Visualisation}{54}
+\contentsline {chapter}{\numberline {8}Professional \& Ethical Issues}{55}
+\contentsline {chapter}{\numberline {9}Conclusion}{57}
+\contentsline {section}{\numberline {9.1}Future Work}{58}
+\contentsline {chapter}{References}{64}

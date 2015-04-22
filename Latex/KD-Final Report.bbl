@@ -32,6 +32,12 @@ A.I. Bejan, R.J. Gibbens, D.~Evans, A.R. Beresford, J.~Bacon, and A.~Friday.
 \newblock In {\em Intelligent Transportation Systems (ITSC), 2010 13th
   International IEEE Conference on}, pages 1256--1263, Sept 2010.
 
+\bibitem{bozdag2007comparison}
+Engin Bozdag, Ali Mesbah, and Arie Van~Deursen.
+\newblock A comparison of push and pull techniques for ajax.
+\newblock In {\em Web Site Evolution, 2007. WSE 2007. 9th IEEE International
+  Workshop on}, pages 15--22. IEEE, 2007.
+
 \bibitem{Connell89}
 J.~L. Connell and L.~Shafer.
 \newblock {\em Structured Rapid Prototyping: An Evolutionary Approach to
@@ -84,6 +90,11 @@ Martin Fowler.
 Everette~S. Gardner.
 \newblock Exponential smoothing: The state of the art.
 \newblock {\em Journal of Forecasting}, 4(1):1--28, 1985.
+
+\bibitem{guide2006agile}
+A~Pragmatic Guide.
+\newblock Agile web development with rails.
+\newblock 2006.
 
 \bibitem{Guo201450}
 Jianhua Guo, Wei Huang, and Billy~M. Williams.
@@ -141,12 +152,6 @@ BBC News.
 Martin Odersky, Lex Spoon, and Bill Venners.
 \newblock {\em Programming in scala}.
 \newblock Artima Inc, 2008.
-
-\bibitem{mda}
-Object Management~Group (OMG).
-\newblock Mda.
-\newblock \url{http://www.omg.org/mda/}, August 2014.
-\newblock Online; accessed 2-April-2015.
 
 \bibitem{uml}
 Object Management~Group (OMG).
