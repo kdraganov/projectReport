@@ -38,11 +38,26 @@ Engin Bozdag, Ali Mesbah, and Arie Van~Deursen.
 \newblock In {\em Web Site Evolution, 2007. WSE 2007. 9th IEEE International
   Workshop on}, pages 15--22. IEEE, 2007.
 
+\bibitem{brockwell2002introduction}
+Peter~J Brockwell.
+\newblock {\em Introduction to time series and forecasting}, volume~1.
+\newblock Taylor \& Francis, 2002.
+
+\bibitem{brockwell2009time}
+Peter~J Brockwell and Richard~A Davis.
+\newblock {\em Time series: theory and methods}.
+\newblock Springer Science \& Business Media, 2009.
+
 \bibitem{Connell89}
 J.~L. Connell and L.~Shafer.
 \newblock {\em Structured Rapid Prototyping: An Evolutionary Approach to
   Software Development}.
 \newblock Yourdon Press, Upper Saddle River, NJ, USA, 1989.
+
+\bibitem{Dougherty199721}
+Mark~S. Dougherty and Mark~R. Cobbett.
+\newblock Short-term inter-urban traffic forecasts using neural networks.
+\newblock {\em International Journal of Forecasting}, 13(1):21 -- 31, 1997.
 
 \bibitem{ibusAward}
 Transport for London.
@@ -91,6 +106,12 @@ Everette~S. Gardner.
 \newblock Exponential smoothing: The state of the art.
 \newblock {\em Journal of Forecasting}, 4(1):1--28, 1985.
 
+\bibitem{gilmore1995neural}
+John~F Gilmore and Naohiko Abe.
+\newblock Neural network models for traffic control and congestion prediction.
+\newblock {\em Journal of Intelligent Transportation Systems}, 2(3):231--252,
+  1995.
+
 \bibitem{guide2006agile}
 A~Pragmatic Guide.
 \newblock Agile web development with rails.
@@ -123,6 +144,18 @@ N.B. Hounsell, B.P. Shrestha, and A.~Wong.
 \newblock {\em Transportation Research Part C: Emerging Technologies}, 22(0):76
   -- 87, 2012.
 
+\bibitem{jeong2005prediction}
+Ran~Hee Jeong.
+\newblock {\em The prediction of bus arrival time using automatic vehicle
+  location systems data}.
+\newblock PhD thesis, Texas A\&M University, 2005.
+
+\bibitem{junchaya1992advanced}
+Thanavat Junchaya, Gang-Len Chang, and Alberto Santiago.
+\newblock Advanced traffic management system: real-time network traffic
+  simulation methodology with a massively parallel computing architecture.
+\newblock {\em Transportation Research Record}, (1358), 1992.
+
 \bibitem{kalmanFiltering}
 Siem~Jan Koopman.
 \newblock Exact initial kalman filtering and smoothing for nonstationary time
@@ -141,6 +174,11 @@ J.A. Livermore.
   methodology.
 \newblock In {\em SoutheastCon, 2007. Proceedings. IEEE}, pages 82--86, March
   2007.
+
+\bibitem{mahmassani1991review}
+Hani~S Mahmassani, Srinivas Peeta, Gang-Len Chang, and Thanavat Junchaya.
+\newblock A review of dynamic assignment and traffic simulation models for
+  adis/atms applications, 1991.
 
 \bibitem{TFL2}
 BBC News.
@@ -193,6 +231,11 @@ Mohsen Ramezani and Nikolas Geroliminis.
 \newblock {\em Transportation Research Part B: Methodological}, 46(10):1576 --
   1590, 2012.
 
+\bibitem{riter1977automatic}
+Stephen Riter and Jan McCoy.
+\newblock Automatic vehicle location--an overview.
+\newblock {\em IEEE Transactions on Vehicular Technology}, 26(1), 1977.
+
 \bibitem{infoBusesInservice}
 Steve Robinson.
 \newblock Ticket info on buses in service, 2010.
@@ -210,6 +253,11 @@ A.~Sboner, A.~Romanel, A.~Malossini, F.~Ciocchetta, F.~Demichelis, I.~Azzini,
 Robert~H Shumway and David~S Stoffer.
 \newblock {\em Time series analysis and its applications: with R examples}.
 \newblock Springer Science \& Business Media, 2010.
+
+\bibitem{smith1997traffic}
+Brian~L Smith and Michael~J Demetsky.
+\newblock Traffic flow forecasting: comparison of modeling approaches.
+\newblock {\em Journal of transportation engineering}, 123(4):261--266, 1997.
 
 \bibitem{Su2006}
 Zhendong Su and Gary Wassermann.
@@ -263,7 +311,9 @@ Alan Wong and Nick Hounsell.
 
 \bibitem{youKim}
 Jinsoo You and Tschangho~John Kim.
-\newblock Empirical analysis of a travel-time forecasting model.
-\newblock {\em Geographical Analysis}, 39(4):397--417, 2007.
+\newblock Towards developing a travel time forecasting model for location-based
+  services: A review.
+\newblock In {\em Methods and Models in Transport and Telecommunications},
+  pages 45--61. Springer, 2005.
 
 \end{thebibliography}

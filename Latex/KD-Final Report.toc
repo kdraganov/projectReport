@@ -7,50 +7,52 @@
 \contentsline {section}{\numberline {2.1}London Bus Network}{7}
 \contentsline {section}{\numberline {2.2}CentreComm}{8}
 \contentsline {section}{\numberline {2.3}iBus AVL}{9}
-\contentsline {section}{\numberline {2.4}iBus AVL Data}{11}
-\contentsline {section}{\numberline {2.5}Related Work}{13}
-\contentsline {section}{\numberline {2.6}Time Series}{14}
-\contentsline {subsection}{\numberline {2.6.1}Moving Averages}{15}
-\contentsline {subsubsection}{Simple Moving Average}{15}
-\contentsline {subsubsection}{Weighted Moving Average}{16}
-\contentsline {subsubsection}{Exponential Moving Average}{16}
-\contentsline {subsubsection}{Summary}{17}
-\contentsline {subsection}{\numberline {2.6.2}Peak Detection}{17}
-\contentsline {section}{\numberline {2.7}Other}{18}
-\contentsline {section}{\numberline {2.8}Summary}{18}
-\contentsline {chapter}{\numberline {3}Specification}{19}
-\contentsline {section}{\numberline {3.1}User Requirements}{19}
-\contentsline {section}{\numberline {3.2}Functional Requirements}{20}
-\contentsline {chapter}{\numberline {4}Design}{22}
-\contentsline {section}{\numberline {4.1}Use cases}{24}
-\contentsline {section}{\numberline {4.2}System architecture}{25}
-\contentsline {section}{\numberline {4.3}State Machine}{26}
-\contentsline {section}{\numberline {4.4}Class organisation}{26}
-\contentsline {subsection}{\numberline {4.4.1}iBusMonitor}{27}
-\contentsline {subsection}{\numberline {4.4.2}BusNetwork}{27}
-\contentsline {subsection}{\numberline {4.4.3}BusStop}{27}
-\contentsline {subsection}{\numberline {4.4.4}Route}{28}
-\contentsline {subsection}{\numberline {4.4.5}Observation}{28}
-\contentsline {subsection}{\numberline {4.4.6}Run}{28}
-\contentsline {subsection}{\numberline {4.4.7}Section}{28}
-\contentsline {subsection}{\numberline {4.4.8}Disruption}{28}
-\contentsline {section}{\numberline {4.5}User Interface}{29}
-\contentsline {chapter}{\numberline {5}Implementation}{31}
-\contentsline {section}{\numberline {5.1}Disruption Engine}{31}
-\contentsline {subsection}{\numberline {5.1.1}Bus Network representation}{33}
-\contentsline {subsection}{\numberline {5.1.2}Monitoring and processing new feeds}{34}
-\contentsline {subsection}{\numberline {5.1.3}Bus network state update}{35}
-\contentsline {section}{\numberline {5.2}Graphical User Interface}{39}
-\contentsline {section}{\numberline {5.3}Problems}{42}
-\contentsline {chapter}{\numberline {6}Testing}{46}
-\contentsline {section}{\numberline {6.1}Unit Testing}{46}
-\contentsline {section}{\numberline {6.2}White Box Testing}{46}
-\contentsline {section}{\numberline {6.3}Functional Testing}{47}
-\contentsline {section}{\numberline {6.4}Stress Testing}{48}
-\contentsline {chapter}{\numberline {7}Results \& Evaluation}{52}
-\contentsline {section}{\numberline {7.1}Engine}{52}
-\contentsline {section}{\numberline {7.2}Visualisation}{54}
-\contentsline {chapter}{\numberline {8}Professional \& Ethical Issues}{55}
-\contentsline {chapter}{\numberline {9}Conclusion}{57}
-\contentsline {section}{\numberline {9.1}Future Work}{58}
-\contentsline {chapter}{References}{64}
+\contentsline {section}{\numberline {2.4}Related Work}{11}
+\contentsline {section}{\numberline {2.5}Time Series}{14}
+\contentsline {subsection}{\numberline {2.5.1}Moving Averages}{16}
+\contentsline {subsubsection}{Simple Moving Average}{16}
+\contentsline {subsubsection}{Weighted Moving Average}{20}
+\contentsline {subsubsection}{Exponentially Weighted Moving Average}{22}
+\contentsline {subsubsection}{Summary}{24}
+\contentsline {subsection}{\numberline {2.5.2}Peak Detection}{24}
+\contentsline {section}{\numberline {2.6}Other}{25}
+\contentsline {section}{\numberline {2.7}Summary}{25}
+\contentsline {chapter}{\numberline {3}Specification}{26}
+\contentsline {section}{\numberline {3.1}User Requirements}{26}
+\contentsline {section}{\numberline {3.2}Functional Requirements}{27}
+\contentsline {chapter}{\numberline {4}Design}{29}
+\contentsline {section}{\numberline {4.1}Use cases}{31}
+\contentsline {section}{\numberline {4.2}System architecture}{32}
+\contentsline {section}{\numberline {4.3}State Machine}{33}
+\contentsline {section}{\numberline {4.4}Class organisation}{33}
+\contentsline {subsection}{\numberline {4.4.1}iBusMonitor}{34}
+\contentsline {subsection}{\numberline {4.4.2}BusNetwork}{34}
+\contentsline {subsection}{\numberline {4.4.3}BusStop}{34}
+\contentsline {subsection}{\numberline {4.4.4}Route}{35}
+\contentsline {subsection}{\numberline {4.4.5}Observation}{35}
+\contentsline {subsection}{\numberline {4.4.6}Run}{35}
+\contentsline {subsection}{\numberline {4.4.7}Section}{35}
+\contentsline {subsection}{\numberline {4.4.8}Disruption}{35}
+\contentsline {section}{\numberline {4.5}User Interface}{36}
+\contentsline {chapter}{\numberline {5}Implementation}{38}
+\contentsline {section}{\numberline {5.1}iBus AVL Data}{38}
+\contentsline {section}{\numberline {5.2}Disruption Engine}{41}
+\contentsline {subsection}{\numberline {5.2.1}Bus Network representation}{43}
+\contentsline {subsection}{\numberline {5.2.2}Monitoring and processing new feeds}{44}
+\contentsline {subsection}{\numberline {5.2.3}Bus network state update}{44}
+\contentsline {section}{\numberline {5.3}Graphical User Interface}{48}
+\contentsline {section}{\numberline {5.4}Problems}{52}
+\contentsline {chapter}{\numberline {6}Testing}{55}
+\contentsline {section}{\numberline {6.1}Unit Testing}{55}
+\contentsline {section}{\numberline {6.2}White Box Testing}{55}
+\contentsline {section}{\numberline {6.3}Functional Testing}{56}
+\contentsline {section}{\numberline {6.4}Stress Testing}{57}
+\contentsline {chapter}{\numberline {7}Results \& Evaluation}{61}
+\contentsline {section}{\numberline {7.1}Evaluation}{61}
+\contentsline {subsection}{\numberline {7.1.1}Disruption Engine}{61}
+\contentsline {subsection}{\numberline {7.1.2}Visualisation}{63}
+\contentsline {section}{\numberline {7.2}Results}{64}
+\contentsline {chapter}{\numberline {8}Professional \& Ethical Issues}{65}
+\contentsline {chapter}{\numberline {9}Conclusion}{67}
+\contentsline {section}{\numberline {9.1}Future Work}{68}
+\contentsline {chapter}{References}{75}

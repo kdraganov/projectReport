@@ -1,8 +1,62 @@
 \chapter{Implementation}
 This chapter aims to present the reader with explanation of the key implementation aspects. These include major challenges, decisions and problems that have been encountered and taken during the course of this project. I have tried to avoid going into too much technical details except where this is essential and provides the reader with better insight and understanding of the material.
 
-The system I have developed as a prototype which to satisfy our aims consists of two sub systems. These are the disruption engine which address the first aim of detecting disruptions in the bus network and a web front end application which to visualise the calculated disruptions. Below I have presented the major implementation decisions and challenges that were faced during the development of this system. We begin with the disruption engine as this is where core functionality lays. Then we cover the visualisation part which can be viewed as an extension of the disruption engine.
+The system I have developed as a prototype which to satisfy our aims consists of two sub systems. These are the disruption engine which address the first aim of detecting disruptions in the bus network and a web front end application which to visualise the calculated disruptions. Below I have presented the major implementation decisions and challenges that were faced during the development of this system. We begin with first describing the data that has been provided by TFL for this project. Afterwards we go into discussion of the implementation of the disruption engine 
+which captures the core functionality and business logic of the system. Then we cover the visualisation part which can be viewed as an extension of the disruption engine.
 
+\section{iBus AVL Data}
+%Include a sample of the data and explanation of all fields
+%Explain what the schedule deviation value means
+%Include discussion on how the network is represented and the source of the file - TFL open data
+%iBus system generate very short telegram messages with the bus location \cite{Hounsell201276}. This information is then processed on a server and more information is calculated and derived.
+%The data that has been provided by Technical Service Group (TSG) at TFL for this project consists of preprocessed iBus feeds. This feeds currently are being generated every 5 minutes. Each file consists of the following fields:
+%The information we are interested is the deviation from the schedule. This is calculated by knowing the expected arrival time of the bus at a stop from the schedule and is compared to the observed time. This value is calculated the same way for both low and high frequency buses(Low frequency buses are supposed to run according to a fixed schedule (e.g. a bus should arrive at stop at predefined time) and usually routes which have less than 5 buses an hour. High frequency bus routes should maintain headways - this meaning a bus should be arriving at stop at predefined intervals (e.g. each 2 minutes)). More about the supplied data for this project would be covered in the requirements section.
+%Key property of time series data is stationarity. This means that the behaviour of the time series data does not change over time. In our case the data generally speaking the time series data is not stationary. However if we consider short window size it might be possible to treat the data as close to stationary.
+The data that is used for this project is provided by the Technical Service Group (TSG) at TFL. This data consists of comma separated value (CSV) files. There is an individual file for every different bus operator which contains the data for all buses currently operated by this company. Initially every bus in the network would transmit its unique identification number and GPS coordinates approximately every 30 seconds \cite{Hounsell201276}. This information is then preprocessed by a central server. This results in more information being derived as the central server has knowledge of the whole network and the bus schedules and headways. This results in the CSV feed files that have been provided to us for this project. An example of the content of the raw feed file and a formatted version is presented in figure~\ref{fig:rawDataSample} and ~\ref{fig:formattedDataSample} respectively . Below I have provided a detailed explanation of each field in these files \cite{infoBusesInservice}.
+\begin{itemize}
+	\item \textbf{Vehicle Id} - this is a unique id of the vehicle.
+	\item \textbf{Bonnet Code} - this is the bonnet code of the bus.
+	\item \textbf{Registration Number} - this is the number of the registration plate of the bus. 
+	\item \textbf{Time of Data} -  this refers to the date and time of when this data is received from the respective vehicle.
+	\item \textbf{Base Version} - this the version of the system that is run by the respective bus.
+	%\item \textbf{Block Number} - this is the block number on which the vehicle is running.
+	\item \textbf{Trip Id} - stores the internal trips id
+	\footnote{\label{loggedProperly}This is only valid when bus is properly logged.}$^{,}$\footnote{\label{routeVariant}Not available in route variant.}. This would increment every time a bus starts new run either at end of its current run or if it is curtailed.
+	\item \textbf{LBSL\footnote{London bus services limited \cite{lbsl}} Trip Number} - this is LBSL trip number\footnotemark[\ref{loggedProperly}]. This is similar to the Trip Id however this is a global trip id thus it is incremented whenever a bus in the network start a new trip.
+	\item \textbf{Trip Type} - the type of the trip as follows:
+\begin{enumerate}
+\item - From depot to start stop of the block.
+\item - To new starting point.
+\item - Normal trip with passengers.
+\item - From the last stop of the block to the depot.
+\item - Without passengers.
+\item - Route variant.
+\item - Vehicle not logged in either block or route.
+\end{enumerate}
+	\item \textbf{Contract Route} - the route name\footnotemark[\ref{loggedProperly}]$^{,}$\footnotemark[\ref{routeVariant}].
+	\item \textbf{Last Stop ShortDesc} - this is the lbsl code of the last stop visited by the respective bus\footnotemark[\ref{loggedProperly}]$^{,}$\footnotemark[\ref{routeVariant}].
+	\item \textbf{Schedule Deviation} - this is the standard deviation from the schedule, calculated using the bus position telegram, for the respective bus\footnotemark[\ref{loggedProperly}]$^{,}$\footnotemark[\ref{routeVariant}].
+	\item \textbf{Longitude} - this is longitude of the place from where the vehicle is sending the telegram\footnote{\label{gps}GPS raw data divided by 3,600,000.}.
+	\item \textbf{Latitude} - this is latitude of the place from where the vehicle is sending the telegram\footnotemark[\ref{gps}].
+	\item \textbf{Event Id} - the last event Id.
+	\item \textbf{Duration} - currently not being populated.
+\end{itemize}
+
+The information we are interested is the deviation from the schedule. This value is calculated the same way for both low\footnote{Less than 5 buses per hour.} and high\footnote{5 or more buses per hour.} frequency buses by knowing the bus schedule. It must be noted that it is possible vehicles would start the route run already with some deviation from the schedule.
+
+\begin{figure}[ht!]
+	\makebox[\textwidth][c]{\includegraphics[width=1.7\textwidth]{Figures/ibusSampleRaw.png}}
+	\caption{Sample Raw iBus Data}
+\label{fig:rawDataSample}
+\end{figure}
+
+\begin{figure}[ht!]
+	\makebox[\textwidth][c]{\includegraphics[width=1.7\textwidth]{Figures/ibusSampleFormatted.png}}
+	\caption{Formatted Sample iBus Data}
+\label{fig:formattedDataSample}
+\end{figure}
+
+\FloatBarrier
 \section{Disruption Engine}
 The disruption engine is implemented based on the design given in the previous chapter. The main implementation language used to the implementation is Scala. Scala is both functional and object oriented language \cite{odersky2008programming}. It is a type-safe Java Virtual Machine (JVM) language  \cite{odersky2008programming}. This means that it is compatible with existing Java\footnote{\url{https://www.java.com/en/download/faq/whatis_java.xml}} code which allows for reuse of existing Java libraries. Scala was first introduced back in 2003, however it has been only in the past few years that it had gained more popularity. In addition Scala enables the programmer to write more concise and clear code than Java. The decision of using Scala has also been influenced by the fact that I have good knowledge of the object oriented programming paradigm as well as experience in Java. This allowed me to quickly learn Scala and put it into use.
 
@@ -36,7 +90,7 @@ Once feed processing has finished the system need to update the bus network stat
 \end{figure}
 The difference in the schedule deviation between $x_2$ and $x_1$ is then calculated (see table figure~\ref{fig:example1Table}). 
 \begin{figure}[ht]
-	\makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{Figures/implementationExample1Table.png}}
+	\makebox[\textwidth][c]{\includegraphics[width=0.8\textwidth]{Figures/implementationExample1Table.png}}
 	\caption{Example schedule deviation calculations for the example in figure~\ref{fig:example1}}
 	\label{fig:example1Table}
 \end{figure}
