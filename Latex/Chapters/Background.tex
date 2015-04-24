@@ -107,7 +107,7 @@ Time series is a sequence of data readings taken during successive time interval
 
 \begin{figure}[ht]
 	\makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{Figures/timeSeriesDataComponents.png}}
-	\caption{Time series data components}%taken from https://www.stat.auckland.ac.nz/~wild/ChanceEnc/Ch14.pdf
+	\caption{Time series data components examples taken from \cite{wildchance}}%taken from https://www.stat.auckland.ac.nz/~wild/ChanceEnc/Ch14.pdf
 	\label{fig:timeSeriesDataComponents}
 \end{figure}
 
@@ -213,16 +213,30 @@ If a trend indication with better smoothing and little reaction for shorter move
 %The weighted moving follows the movement even more closely than the exponential moving average. Determining which one to use depends on the objective. 
 
 \subsection{Peak Detection}
-Detection and analysis of peaks (spikes) and valleys in time series is important in many applications (e.g signal processing, bioinformatics and many more). Peaks and valleys usually represent either significant events or errors in time series data. In our domain we are mostly interested in detecting high sudden changes in the traffic congestion conditions (e.g along route/sections in the bus network). Peaks could be easily identified by visualising the data, however we are interested in automating this process. In the literature has many examples of peak detection application one such for example is \cite{simplePeakDetection} used for spike detection in microarray data (anther example could be found in \cite{Azami2014491}). We do not go into details of any particular algorithms here because of the time constraints of this project (a study peak detection algorithms could be found in \cite{ventzas2011peak}). However it is worth to note that spike detection and analysis could be used to classify events that are detected. A simple example could be to distinguish if given detected congestion/disruption is incident related (e.g. sudden) or it is general traffic jam (e.g. rush hour).
+Peaks and valleys represent significant events where the graph changes from increasing to decreasing behaviour and vice verse (decreasing to increasing). In the domain of our project we are mostly concerned with peak detection as we are not interested to know if buses are gaining time (e.g. are going ahead of schedule). Mathematically viewed peaks and valleys represent local maxima and local minima respectively \cite{simon1994mathematics}.
 
-\section{Other}
-[MOVE THIS TO CONCLUSION AS DIRECTION FOR FUTURE WOKR]
-Other approaches that could be used include Kalman filtering \cite{kalmanFiltering} \cite{Guo201450}, Markov Chains \cite{Qi201495} \cite{Ramezani20121576}, Machine learning \cite{herring2010real}, Bayesian networks \cite{Wang201479}. 
+Detection and analysis of peaks (spikes) and valleys in time series is important in many applications (e.g signal processing, bioinformatics, medicine and many more) \cite{ventzas2011peak}. Peaks and valleys usually represent either significant events or errors in time series data. In our domain we are mostly interested in detecting high sudden changes in the traffic congestion conditions (e.g along route/sections in the bus network). In figure~\ref{fig:peakExampleGraph} we can see an example of such peak (highlighted in red) we would be interested to detect.
+
+\begin{figure}[ht]
+	\makebox[\textwidth][c]{\includegraphics[]{Figures/peakExampleGraph.png}}
+	\caption{X-axis shows us the sections along the route and the Y-axis represents the schedule deviation in minutes}
+	\label{fig:peakExampleGraph}
+\end{figure}
+
+Peaks could be easily identified by visualising the data as in the above example. However to be applicable in real application this process should be automated. Different peak searching algorithms are studied and presented in \cite{ventzas2011peak}.
+
+%In the literature has many examples of peak detection application one such for example is \cite{simplePeakDetection} used for spike detection in microarray data (anther example could be found in \cite{Azami2014491}).
+
+%We do not go into details of any particular algorithms here because of the time constraints of this project (a study peak detection algorithms could be found in \cite{ventzas2011peak}).
+
+\FloatBarrier
+%\section{Other}
+%However it is worth to note that spike detection and analysis could be used to classify events that are detected. A simple example could be to distinguish if given detected congestion/disruption is incident related (e.g. sudden) or it is general traffic jam (e.g. rush hour).
+%[MOVE THIS TO CONCLUSION AS DIRECTION FOR FUTURE WOKR] - check this http://www.cs.technion.ac.il/users/wwwb/cgi-bin/tr-get.cgi/2012/CS/CS-2012-06.pdf
+%Other approaches that could be used include Kalman filtering \cite{kalmanFiltering} \cite{Guo201450}, Markov Chains \cite{Qi201495} \cite{Ramezani20121576}, Machine learning \cite{herring2010real}, Bayesian networks \cite{Wang201479}. 
 
 %In this report we do not go into further details of these alternative  as the aim of the project is to fully understand the requirements of the CentreComm and propose a prototype which to serve as a proof of concept.
-
 %Markov chain is a stochastic process that transitions from one state to another using some state space. It is characterised by the property of having no memory. This means that the next state depends only on the current state and not on the preceding sequence of state transitions. This is called a Markov property.
-
 %Markov chains are usually used in modelling many practical problems. They are also effective in modelling time series. In this paper, we apply the Markov chains model to analyse and predict the time series. Some series can be expressed by a first-order discrete-time Markov chain and others must be expressed by a higher order Markov chain model. Numerical examples are given. The results show that the performance and effectiveness of the Markov chain model to predict the time series is very well.[TAKEN FROM - Application of Markov Chains to Analyze and Predict the Time Series]
 
 \section{Summary}

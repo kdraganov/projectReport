@@ -21,15 +21,28 @@ In the below sections I have presented the system at an abstract level. This fol
 %This technique is known as Model-Driven Architecture (MDA) software design approach \cite{mda}.
 
 \section{Use cases}
-Based on the user requirements stated in the previous chapter a use case diagram has been derived and presented in figure A.1 in Appendix A. The use case diagram depicts the way users(actors) interact with the tool (system). There a three types of users of the system (every next type is extension of the previous as it can be seen from the diagram):
+Based on the user requirements stated in the previous chapter a use case diagram has been derived and presented in figure~\ref{fig:useCase} below. The use case diagram depicts the way users(actors) interact with the tool (system). There a three types of users of the system (every next type is extension of the previous as it can be seen from the diagram):
 \begin{itemize}
 	\item \textbf{Normal} users are people with general access to the system. They have read-only right and can interact with the system by requesting a list of disruptions and more details for a selected from them disruption. They have also access to the disruption history of the network. This use case was not in the initial requirements and was identified as a useful feature during demonstrations of the prototype to TFL.
 	\item \textbf{Operator} is assumed to be a CentreComm staff member who is required to authenticate into the system. This would allow them the extra functionalities of adding comments to disruptions for others to see. Such users also have the functionality, of hiding and showing disruptions that are currently detected in the bus network, available to them.
 	\item \textbf{Administrator} users have the most privileges of all type of users of the system. In addition to the above actions they are also allowed to view and change the configuration settings of the system. This is to allow easier configuration of the application.
 \end{itemize}
 
+\begin{figure}
+	\makebox[\textwidth][c]{\includegraphics[width=1.2\textwidth]{Figures/UseCases.png}}
+	\caption{Use Case Diagram}
+\label{fig:useCase}
+\end{figure}
+
+\FloatBarrier
 \section{System architecture}
-In figure A.2 in Appendix A the architecture diagram of the system could be seen. The overall architecture is following a four-tier architecture with an model view controller (MVC) pattern for the user interface. This architecture allows us to decompose to system into separate subsystems where lower tiers do not depend on higher tiers. This system allows for the implementation details of subsystems to be changed without affecting other components if the interfaces do not change.
+In figure~\ref{fig:systemArchitecture} the architecture diagram of the system could be seen. The overall architecture is following a four-tier architecture with an model view controller (MVC) pattern for the user interface. This architecture allows us to decompose to system into separate subsystems where lower tiers do not depend on higher tiers. This system allows for the implementation details of subsystems to be changed without affecting other components if the interfaces do not change.
+
+\begin{figure}
+	\makebox[\textwidth][c]{\includegraphics[width=1.2\textwidth]{Figures/Architecture.png}}
+	\caption{System Architecture Diagram}
+\label{fig:systemArchitecture}
+\end{figure}
 
 As it can be seen from the diagram the system is divided in four main layers:
 \begin{itemize}
@@ -46,26 +59,37 @@ As it can be seen from the diagram the system is divided in four main layers:
 \end{itemize}
 This architecture diagram represents coarse grained view of the system to be implemented. Each of the components presented above could be implemented as a number of smaller components and modules depending on the specific technologies.
 
+\FloatBarrier
 \section{State Machine}
-State machine diagrams are useful in explaining what in what states the system could be and how it transitions from one state to the other. The state machine diagram of the disruption engine component of our system is presented in figure A.5 in Appendix A. This diagram represent the states in which the disruption engine could reside and the available transitions. As it can be seen from the figure once the engine is initialised correctly it enters a continuous loop. This loop represents the engine waiting for new feeds to be detected by the system. Once detected they are processed and the bus network state is updated. If the change of the bus network has not changes from what was previously observed the tool does not make any changes to the database, else it would write all the changes that have been detected and calculated. In case the system fails to connect or write the changes to the database the system terminates producing the appropriate error alerting the maintenance personnel. This behaviour is appropriate for this project as its scope is to produce a proof concept working prototype rather than a fully functional ready to deploy production tool.
+State machine diagrams are useful in explaining what in what states the system could be and how it transitions from one state to the other. The state machine diagram of the disruption engine component of our system is presented in figure~\ref{fig:stateMachine} below. This diagram represent the states in which the disruption engine could reside and the available transitions. As it can be seen from the figure once the engine is initialised correctly it enters a continuous loop. This loop represents the engine waiting for new feeds to be detected by the system. Once detected they are processed and the bus network state is updated. If the change of the bus network has not changes from what was previously observed the tool does not make any changes to the database, else it would write all the changes that have been detected and calculated. In case the system fails to connect or write the changes to the database the system terminates producing the appropriate error alerting the maintenance personnel. This behaviour is appropriate for this project as its scope is to produce a proof concept working prototype rather than a fully functional ready to deploy production tool.
 
+\begin{figure}
+	\makebox[\textwidth][c]{\includegraphics[width=1.2\textwidth]{Figures/StateDiagram.png}}
+	\caption{State Machine Diagram}
+\label{fig:stateMachine}
+\end{figure}
+
+\FloatBarrier
 \section{Class organisation}
-Class decomposition diagrams are the main building block of object oriented programming paradigm. They are widely used tool for the organisation and design of a software system. The diagram consist of classes, which encapsulate some attributes (state) and methods (functionalities), and the associations between the individual class. Each class is depicted by a box with the name of the class on top and its member attributes and methods below. Associations are represented by lines connecting those classes where a relation exists. In figure A.3 in Appendix A we have depicted the class diagram of the disruption engine component from the architecture diagram. We have only presented the class diagram of this component as this is the component which captures the main business logic with regards to detecting the disruptions in the bus network. In the below subsections I have provided some explanation of the most important classes in the class diagram.
+Class decomposition diagrams are the main building block of object oriented programming paradigm. They are widely used tool for the organisation and design of a software system. The diagram consist of classes, which encapsulate some attributes (state) and methods (functionalities), and the associations between the individual class. Each class is depicted by a box with the name of the class on top and its member attributes and methods below. Associations are represented by lines connecting those classes where a relation exists. In figure~\ref{fig:useCase} below we have depicted the class diagram of the disruption engine component from the architecture diagram. We have only presented the class diagram of this component as this is the component which captures the main business logic with regards to detecting the disruptions in the bus network. In the below subsections I have provided some explanation of the most important classes in the class diagram.
+
+\begin{figure}
+	\makebox[\textwidth][c]{\includegraphics[width=1.2\textwidth]{Figures/Class.png}}
+	\caption{Class Diagram}
+\label{fig:class}
+\end{figure}
 
 \subsection{iBusMonitor}
 This could be viewed as the entry point of the tool engine. It most notable attribute is the link to the configuration file specifying the database connection properties. It can have a number of bus network and is responsible for initialising the tool and monitoring. This means it encapsulates the logic for listening for new feed files being published.
 
-\subsection{BusNetwork}
-This class represent a given bus network. In the context of this project this can be viewed as the TFL bus network. This object encapsulates all attributes that relate to the network state and its behaviour. Each bus network consists of at least one bus stop and at least one route otherwise it does not make any sense to have a network without any stops or routes.
-
 \subsection{BusStop}
 The bus stop class is representation of a bus stop in the bus network. It consists of a number of expected attributes that a stop would have. We also make the assumption that a single stop can belong to only one bus network.
 
+\subsection{BusNetwork}
+This class represent a given bus network. In the context of this project this can be viewed as the TFL bus network. This object encapsulates all attributes that relate to the network state and its behaviour. Each bus network consists of at least one bus stop and at least one route otherwise it does not make any sense to have a network without any stops or routes.
+
 \subsection{Route}
 This class is one of the most important in the context of this project as it encapsulates the state of a single route in the network. Each route is associated with at least one run (in most cases each route would have two runs In/Out-bound) and a number of observations. 
-
-\subsection{Observation}
-The observation class captures the state and functionality of a single observation. By observation we mean a single reading extracted from the AVL data input. This reading is expected to be coming from a single bus logged on a given bus route, thus it would belong to this route. 
 
 \subsection{Run}
 This object represent a route's run state and methods. Its main properties consist of list of consecutive readings made on this run for each logged bus. It also provides interface for detecting and updating disruptions on this run, thus it needs to keep track of the disruptions that were previously seen along this run.
@@ -73,9 +97,13 @@ This object represent a route's run state and methods. Its main properties consi
 \subsection{Section}
 This is the most basic part of a bus route apart from the bus stop. Each section represents the part of the route between two consecutive bus stops along this route. This means it is characterised by a start and end stop and the sequence of this section along the route. In this class we calculate the delay per individual section (more on how this is done in the following chapter).
 
+\subsection{Observation}
+The observation class captures the state and functionality of a single observation. By observation we mean a single reading extracted from the AVL data input. This reading is expected to be coming from a single bus logged on a given bus route, thus it would belong to this route. 
+
 \subsection{Disruption}
 This class simply captures all the attributes of a disruption. Each disruption would have an identification number, sections between the disruption is observed and the corresponding delay and trend. It also provides methods for updating and saving the details to the database.
 
+\FloatBarrier
 \section{User Interface}
 The user interface of our system is addressing the second main aim of this project the one of visualising the calculated list of delays. The design and rational behind the user interface has been developed throughout discussions and meetings with CentreComm staff. The main requirement for the design is to be easy to identify the most important issues in the network. One of the uses of the user interface would be on a large screen walls which to be used not only by CentreComm, but by Traffic Management and even the Metropolitan Police. Another usage would be by the individual operators to access it through their personal computers. This has led to the decision of using a web base application for the purpose of satisfying those requirements. Using web rather than a standalone application we allow for our system to be accessible from any device capable of running a browser (e.g. computer, laptop, smart TV, smart-phone, tablet etc.). Another advantage is that we only need to deploy the web application ones and it can be universally accessed through the local network or even through the internet.
 
@@ -85,11 +113,9 @@ We have decided to use tabular approach for visualising the prioritised list of 
 
 The overall architecture of the structure of the user interface can be seen in the architecture diagram in figure A.2 in Appendix A. An early mock-up of the graphic user interface can be seen in figure~\ref{fig:guiProposal}. This has however evolved a lot through the project. In chapter 5 below we will give detailed description of the implemented visualisation.
 
+
 \begin{figure}[ht]
 	\makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{Figures/guiProposal.png}}
 	\caption{Initial GUI mock-up}
 	\label{fig:guiProposal}
 \end{figure}
-
-
-%Include discussion on what is the visualisation design. How did it evolve [we could include earlier mock-ups]

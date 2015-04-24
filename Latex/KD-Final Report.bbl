@@ -13,12 +13,6 @@ Greater~London Authority.
   2014.
 \newblock Online; accessed 22-October-2014.
 
-\bibitem{Azami2014491}
-Hamed Azami and Saeid Sanei.
-\newblock Spike detection approaches for noisy neuronal data: Assessment and
-  comparison.
-\newblock {\em Neurocomputing}, 133(0):491 -- 506, 2014.
-
 \bibitem{bcsCodeOfConduct}
 BCS.
 \newblock Bcs code of conduct.
@@ -241,18 +235,15 @@ Steve Robinson.
 \newblock Ticket info on buses in service, 2010.
 \newblock Proposed Change Paper Provided by TFL.
 
-\bibitem{simplePeakDetection}
-A.~Sboner, A.~Romanel, A.~Malossini, F.~Ciocchetta, F.~Demichelis, I.~Azzini,
-  E.~Blanzieri, and R.~Dell’Anna.
-\newblock Simple methods for peak and valley detection in time series
-  microarray data.
-\newblock In Patrick McConnell, SimonM. Lin, and Patrick Hurban, editors, {\em
-  Methods of Microarray Data Analysis V}, pages 27--44. Springer US, 2007.
-
 \bibitem{shumway2010time}
 Robert~H Shumway and David~S Stoffer.
 \newblock {\em Time series analysis and its applications: with R examples}.
 \newblock Springer Science \& Business Media, 2010.
+
+\bibitem{simon1994mathematics}
+Carl~P Simon and Lawrence Blume.
+\newblock {\em Mathematics for economists}, volume~7.
+\newblock Norton New York, 1994.
 
 \bibitem{smith1997traffic}
 Brian~L Smith and Michael~J Demetsky.
@@ -302,6 +293,11 @@ Jian Wang, Wei Deng, and Yuntao Guo.
 \newblock {\em Transportation Research Part C: Emerging Technologies}, 43, Part
   1(0):79 -- 94, 2014.
 \newblock Special Issue on Short-term Traffic Flow Forecasting.
+
+\bibitem{wildchance}
+Christopher~J Wild and George~AF Seber.
+\newblock Chance encounters: A first course in data analysis and inference
+  reviewed by flavia jolliffe.
 
 \bibitem{eps354267}
 Alan Wong and Nick Hounsell.
