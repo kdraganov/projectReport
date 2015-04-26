@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.9.29)  25 APR 2015 02:24
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.9.29)  26 APR 2015 02:54
 entering extended mode
 **KD-Final*Report.tex
 
@@ -324,7 +324,13 @@ x\Chapters/Evaluation.aux")
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\Chapters/ProfessionalIssues.aux")
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
-x\Chapters/Conclusion.aux"))
+x\Chapters/Conclusion.aux")
+("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
+x\Appendices/appendix.aux")
+("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
+x\Appendices/UserGuide.aux")
+("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
+x\Appendices/SourceCode.aux"))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
 LaTeX Font Info:    ... okay on input line 76.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 76.
@@ -512,16 +518,8 @@ Package pdftex.def Info: Figures/iBus.png used on input line 36.
 (pdftex.def)             Requested size: 339.6699pt x 356.63486pt.
 
 [9] [10 <E:/Kings College London/Computer Science/Final Year Project/Final repo
-rt/Latex/Figures/iBus.png>] [11]
-
-LaTeX Warning: Reference `fig:Vlahogianni201431' on page 12 undefined on input 
-line 55.
-
-
-LaTeX Warning: Reference `fig:Vlahogianni201434' on page 12 undefined on input 
-line 55.
-
-[12] <Figures/modelsProsCons.png, id=64, 663.98062pt x 435.87843pt>
+rt/Latex/Figures/iBus.png>] [11] [12]
+<Figures/modelsProsCons.png, id=64, 663.98062pt x 435.87843pt>
 File: Figures/modelsProsCons.png Graphic file (type png)
 
 <use Figures/modelsProsCons.png>
@@ -694,14 +692,14 @@ Chapter 5.
 File: Figures/ibusSampleRaw.png Graphic file (type png)
 
 <use Figures/ibusSampleRaw.png>
-Package pdftex.def Info: Figures/ibusSampleRaw.png used on input line 47.
+Package pdftex.def Info: Figures/ibusSampleRaw.png used on input line 48.
 (pdftex.def)             Requested size: 577.43779pt x 54.92975pt.
 
 <Figures/ibusSampleFormatted.png, id=199, 1396.4672pt x 136.25906pt>
 File: Figures/ibusSampleFormatted.png Graphic file (type png)
 
 <use Figures/ibusSampleFormatted.png>
-Package pdftex.def Info: Figures/ibusSampleFormatted.png used on input line 53.
+Package pdftex.def Info: Figures/ibusSampleFormatted.png used on input line 54.
 
 (pdftex.def)             Requested size: 577.43779pt x 56.34268pt.
  [47] [48 <E:/Kings College London/Computer Science/Final Year Project/Final re
@@ -711,7 +709,7 @@ port/Latex/Figures/ibusSampleRaw.png> <E:/Kings College London/Computer Science
 File: Figures/sectionExample.png Graphic file (type png)
 
 <use Figures/sectionExample.png>
-Package pdftex.def Info: Figures/sectionExample.png used on input line 65.
+Package pdftex.def Info: Figures/sectionExample.png used on input line 66.
 (pdftex.def)             Requested size: 339.6699pt x 82.1002pt.
  [49 <E:/Kings College London/Computer Science/Final Year Project/Final report/
 Latex/Figures/sectionExample.png>]
@@ -719,7 +717,7 @@ Latex/Figures/sectionExample.png>]
 File: Figures/DBModel.png Graphic file (type png)
 
 <use Figures/DBModel.png>
-Package pdftex.def Info: Figures/DBModel.png used on input line 78.
+Package pdftex.def Info: Figures/DBModel.png used on input line 79.
 (pdftex.def)             Requested size: 407.60284pt x 562.95529pt.
  [50] [51 <E:/Kings College London/Computer Science/Final Year Project/Final re
 port/Latex/Figures/DBModel.png>] [52]
@@ -728,7 +726,7 @@ File: Figures/implementationExample1.png Graphic file (type png)
 
 <use Figures/implementationExample1.png>
 Package pdftex.def Info: Figures/implementationExample1.png used on input line 
-93.
+94.
 (pdftex.def)             Requested size: 339.6699pt x 36.61249pt.
 
 <Figures/implementationExample1Table.png, id=225, 310.91156pt x 222.07968pt>
@@ -736,7 +734,7 @@ File: Figures/implementationExample1Table.png Graphic file (type png)
 
 <use Figures/implementationExample1Table.png>
 Package pdftex.def Info: Figures/implementationExample1Table.png used on input 
-line 99.
+line 100.
 (pdftex.def)             Requested size: 271.73695pt x 194.09897pt.
  [53 <E:/Kings College London/Computer Science/Final Year Project/Final report/
 Latex/Figures/implementationExample1.png>] [54 <E:/Kings College London/Compute
@@ -747,7 +745,7 @@ File: Figures/implementationExample3.png Graphic file (type png)
 
 <use Figures/implementationExample3.png>
 Package pdftex.def Info: Figures/implementationExample3.png used on input line 
-113.
+114.
 (pdftex.def)             Requested size: 339.6699pt x 44.3626pt.
 
 <Figures/implementationExample2.png, id=237, 956.82469pt x 124.96687pt>
@@ -755,47 +753,17 @@ File: Figures/implementationExample2.png Graphic file (type png)
 
 <use Figures/implementationExample2.png>
 Package pdftex.def Info: Figures/implementationExample2.png used on input line 
-121.
+122.
 (pdftex.def)             Requested size: 339.6699pt x 44.3626pt.
  [56 <E:/Kings College London/Computer Science/Final Year Project/Final report/
 Latex/Figures/implementationExample3.png> <E:/Kings College London/Computer Sci
 ence/Final Year Project/Final report/Latex/Figures/implementationExample2.png>]
- [57] [58]
-
-LaTeX Warning: Reference `fig:ui1' on page 59 undefined on input line 150.
-
-
-LaTeX Warning: Reference `fig:ui10' on page 59 undefined on input line 150.
-
-
-LaTeX Warning: Reference `fig:ui1' on page 59 undefined on input line 150.
-
-
-LaTeX Warning: Reference `fig:ui3' on page 59 undefined on input line 150.
-
-
-LaTeX Warning: Reference `fig:ui8' on page 59 undefined on input line 150.
-
-
-LaTeX Warning: Reference `fig:ui1' on page 59 undefined on input line 150.
-
-
-LaTeX Warning: Reference `fig:ui4' on page 59 undefined on input line 152.
-
-
-LaTeX Warning: Reference `fig:ui7' on page 59 undefined on input line 152.
-
-
-LaTeX Warning: Reference `fig:ui10' on page 59 undefined on input line 152.
-
-
-LaTeX Warning: Reference `fig:ui2' on page 59 undefined on input line 152.
-
-[59] [60] [61] <Figures/diversion.png, id=257, 956.82469pt x 187.45032pt>
+ [57] [58] [59] [60] [61]
+<Figures/diversion.png, id=257, 956.82469pt x 187.45032pt>
 File: Figures/diversion.png Graphic file (type png)
 
 <use Figures/diversion.png>
-Package pdftex.def Info: Figures/diversion.png used on input line 166.
+Package pdftex.def Info: Figures/diversion.png used on input line 167.
 (pdftex.def)             Requested size: 339.6699pt x 66.54388pt.
  [62 <E:/Kings College London/Computer Science/Final Year Project/Final report/
 Latex/Figures/diversion.png>]) [63]
@@ -1143,41 +1111,34 @@ x\Appendices/appendix.aux")
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\Appendices/UserGuide.aux")
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
-x\Appendices/SourceCode.aux"))
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+x\Appendices/SourceCode.aux")) ) 
 Here is how much of TeX's memory you used:
- 5750 strings out of 493921
- 89275 string characters out of 3147267
- 205685 words of memory out of 3000000
- 8810 multiletter control sequences out of 15000+200000
+ 5759 strings out of 493921
+ 89962 string characters out of 3147267
+ 206771 words of memory out of 3000000
+ 8813 multiletter control sequences out of 15000+200000
  56494 words of font info for 44 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  35i,10n,53p,2600b,1777s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rmtt.enc}{C:/Program Files
-/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc
-/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-math
-sy.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}<C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.
-9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
-lic/lm/lmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb
-><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi7.pfb><C:/Program Files
-/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lm
-r5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm
-/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy7.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/lm/lmtt8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt9.p
-fb>
-Output written on "KD-Final Report.pdf" (133 pages, 4345265 bytes).
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm
+/lm-rmtt.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Prog
+ram Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 
+2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvi
+ps/lm/lm-mathex.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/lm/lmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
+lm/lmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/lm/lmr5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
+ublic/lm/lmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lms
+y7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt8.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/lm/lmtt9.pfb>
+Output written on "KD-Final Report.pdf" (133 pages, 4345884 bytes).
 PDF statistics:
  586 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
