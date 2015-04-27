@@ -1,0 +1,23 @@
+<div class="row">
+    <h1>Edit</h1>
+</div>
+<div class="row">
+    <div class="large-8 large-offset-2 columns" style="text-align: center">
+        <strong><%= @configs.key %></strong>
+    </div>
+</div>
+<div class="row" style="margin-top: 1em; margin-bottom: 1em;">
+    <div class="large-8 large-offset-2 columns">
+        <input id="value" type="text" value="<%= @configs.value %>">
+        <input id="key" type="hidden" value="<%= @configs.key %>">
+    </div>
+</div>
+<div class="row">
+    <div class="large-2 large-offset-4 columns">
+        <button class="button radius" onclick="$('#revealModal').foundation('reveal', 'close');">Back</button>
+    </div>
+    <div class="large-6 columns">
+        <button class="button radius" onclick="save()">Save</button>
+    </div>
+</div>
+<a class="close-reveal-modal">&#215;</a>

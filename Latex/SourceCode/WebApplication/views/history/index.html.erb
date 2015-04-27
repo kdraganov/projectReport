@@ -1,0 +1,97 @@
+<div class="row">
+    <div class="large-6 medium-4 columns">
+        <h1>History</h1>
+    </div>
+    <div class="large-6 medium-8 columns end">
+        <div class="large-5 medium-5 columns" style="padding-top: 25px;">
+            <input id="fromDate" name="from" type="text" placeholder="From" value="<%= session[:fromFilter] %>"/>
+        </div>
+        <div class="large-5 medium-5 columns" style="padding-top: 25px;">
+            <input id="toDate" name="to" type="text" placeholder="To" value="<%= session[:toFilter] %>"/>
+        </div>
+        <div class="large-2 medium-2 columns end" style="padding-top: 25px;">
+            <button class="button radius tiny" type="button" onclick="update()">Filter</button>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="large-12 columns">
+        <div id="disruptionList">
+            <%= render 'list' %>
+        </div>
+    </div>
+</div>
+
+
+<div id="revealModal" class="reveal-modal xlarge" data-reveal>
+</div>
+
+<script type="text/javascript">
+    function clearFilters() {
+        new $.ajax('/history/filter', {
+            method: 'get',
+            data: {sort: "", direction: "", from: "", to: ""},
+            success: function (result) {
+                $("#disruptionList").html(result);
+                $('#fromDate').val("");
+                $('#toDate').val("");
+                $(document).foundation('tooltip', 'reflow');
+            }
+        });
+    }
+
+    function update() {
+        new $.ajax('/history/filter', {
+            method: 'get',
+            data: {from: $('#fromDate').val(), to: $('#toDate').val()},
+            success: function (result) {
+                $("#disruptionList").html(result);
+                $(document).foundation('tooltip', 'reflow');
+            }
+        });
+    }
+
+    $('#fromDate').datetimepicker({
+        format: 'd/m/Y H:i:s',
+        dayOfWeekStart: 1,
+        lang: 'en-GB',
+        closeOnTimeSelect: true,
+//        closeOnDateSelect: true,
+        roundTime: 'floor',
+        onShow: function (ct) {
+            date = $('#toDate').val().split(" ")[0].split("/")
+            date = date[2] + "/" + date[1] + "/" + date[0]
+            this.setOptions({
+                maxDate: $('#toDate').val() ? date : '0'
+            })
+        }
+    })
+    $('#toDate').datetimepicker({
+        format: 'd/m/Y H:i:s',
+        dayOfWeekStart: 1,
+        lang: 'en-GB',
+        closeOnTimeSelect: true,
+//        closeOnDateSelect: true,
+        roundTime: 'ceil',
+        onShow: function (ct) {
+            date = $('#fromDate').val().split(" ")[0].split("/")
+            date = date[2] + "/" + date[1] + "/" + date[0]
+            this.setOptions({
+                minDate: $('#fromDate').val() ? date : false
+            })
+        }
+    })
+
+    function sort(column, direction) {
+        new $.ajax('/history/filter', {
+            method: 'get',
+            data: {sort: column, direction: direction},
+            success: function (result) {
+                $("#disruptionList").html(result);
+                $(document).foundation('tooltip', 'reflow');
+            }
+        });
+    }
+</script>
+

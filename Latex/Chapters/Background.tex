@@ -15,7 +15,7 @@ The London bus network is one of the most advanced and renowned in the world. It
 
 However, under different circumstances some delays occurring on a given route are beyond the control of the individual bus operator companies. A simple example could be a burst water/gas pipe on a street used by a bus route or any other incident (even terrorist attacks \cite{centreComm}) and even simply a severe congestion. In situations like this, bus operators have no authority or power to respond or overcome such problems on their own. This is where CentreComm comes into place to respond and deal with these issues. In situations like this the bus drivers or operators would need to alert and ask CentreComm to intervene. The emergency command and control room at TFL can do so by, for example implementing a short/long term diversions or curtailments (short turning) on/for some of the buses on the affected routes. They (CentreComm) can also seek assistance from London Traffic Control Centre\footnote{\url{http://www.tfl.gov.uk/corporate/about-tfl/what-we-do/roads}} or even the Police under given circumstances.
 
-Buses in the network can be classified by multiple factors however, for the purpose of this report, the main distinction we need to consider, apart from fixed and headway based schedules are \textbf{high} and \textbf{low} frequency bus routes \cite{busTendering}. High frequency routes are those where 5 or more buses attend a given stop per hour, whereas low frequency routes are those that have a stop being visited by 4 or less buses an hour.
+Buses in the network can be classified by multiple factors however, for the purpose of this report, the main distinction that needs to be considered, apart from fixed and headway based schedules are \textbf{high} and \textbf{low} frequency bus routes \cite{busTendering}. High frequency routes are those where 5 or more buses attend a given stop per hour, whereas low frequency routes are those that have a stop being visited by 4 or less buses an hour.
 
 %there are 5 or more buses per hour attending a given bus stop. Low frequency routes are those that have 4 or less buses at a stop.
 %These operators agree with TFL that the routes they are operating would be served either according to a predefined fixed schedule (e.g. a bus stop need to be served at 1pm, 3pm etc.)or on a headway (e.g. a bus stop need to be served every 5 minutes).
@@ -42,17 +42,17 @@ The OBU is responsible for a number of tasks including a regular (approximately 
 CentreComm operators have access to an online GIS system showing each bus location in the network on a map in real time. This system also allows them to see whether a given bus is behind, ahead or on time according to its schedule. However, this does not show or alert the control room staff if a bus or a route is disrupted. Control room staff can also see when was a given bus expected to arrive at a given bus stop and when it actually arrived. Again, this is only per individual bus and there are no automatic alerts set, in case a given route or stop is experiencing delays. Currently the work-flow is such that on-duty CentreComm staff needs to go and analyse all this information manually (once bus drivers or bus company operator have contacted/alerted the control room) in order to figure out if there is a problem and how severe it actually is. This is a very inefficient, tedious and error-prone process. Here is where this project comes into place to address the lack of preprocessed information and automated alerts.
 
 \section{Related Work}
-The literature is full of research towards accurately predicting bus arrival times with various computational models being used \cite{altinkaya2013urban}. Predicting bus arrival is complex as many factors need to be considered such as, bus dwell time at stops, general congestion and others \cite{jeong2005prediction}. This is also closely related to the issues of bus prioritisations for which we can find numerous examples in the literature. Some examples of work done towards bus prioritisation at traffic signals and junctions can be found in \cite{eps52676} and \cite{clarke2007}. However, these are not directly related to our problem domain and thus are not discussed further in this report. This is because we are not interested to know when is the next bus due to arrive at a stop or should we give priority to a bus at traffic signal. We want to know if buses experience increased travel time, because of which they get delayed travelling through some parts of the network. 
+The literature is full of research towards accurately predicting bus arrival times with various computational models being used \cite{altinkaya2013urban}. Predicting bus arrival is complex as many factors need to be considered such as, bus dwell time at stops, general congestion and others \cite{jeong2005prediction}. This is also closely related to the issues of bus prioritisations for which numerous examples can be found in the literature. Some examples of work done towards bus prioritisation at traffic signals and junctions can be found in \cite{eps52676} and \cite{clarke2007}. However, these are not directly related to our problem domain and thus are not discussed further in this report. This is because we are not interested to know when is the next bus due to arrive at a stop or should we give priority to a bus at traffic signal. We want to know if buses experience increased travel time, because of which they get delayed travelling through some parts of the network. 
  
 %The literature is abundant of research on addressing the issues of bus prioritisation at traffic signals and junctions \cite{eps52676} and \cite{clarke2007}, but this is not directly related to our problem domain and thus is not discussed further in this report.
  
 %This however is not what this project is about as we are not interested to know when is the next bus due to arrive at stop, but we want to know if buses get delayed travelling through some parts of the network. 
 
-The main problem posed by this project of detecting disruptions in the bus network can be also translated to short term traffic congestion detection and/or travel time calculation. This is valid as we are not interested in individual bus delays. Some examples of such single instances of bus disruptions are: customer incident on board of a single bus, technical fault with this bus or other issue(s) which are affecting a single vehicle rather than the entire route or network. We are interested into finding routes/sections in the network which are delayed/disrupted and this is beyond the control of individual bus operators. Most often such problems are due to some sort of congestion or road closures/repairs. However, road problems are in most cases linked with increased traffic congestions as roads are used by other vehicles as well. In order to address this problem we have focussed our attention towards work which relates to calculating the bus travel times or gives short-term traffic congestion predictions in a given transport network.
+The main problem posed by this project of detecting disruptions in the bus network can be also translated to short term traffic congestion detection and/or travel time calculation. This is valid as we are not interested in individual bus delays. Some examples of such single instances of bus disruptions are: customer incident on board of a single bus, technical fault with this bus or other issue(s) which are affecting a single vehicle rather than the entire route or network. This project is concerned with finding routes/sections in the network which are delayed/disrupted and this is beyond the control of individual bus operators. Most often such problems are due to some sort of congestion or road closures/repairs. However, road problems are in most cases linked with increased traffic congestions as roads are used by other vehicles as well. In order to address this problem we have focussed our attention towards work which relates to calculating the bus travel times or gives short-term traffic congestion predictions in a given transport network.
 
 The literature contains plenty of work done toward detecting and calculating travel times in non-urban environment. This includes approaches based on AVL probe data and automatic vehicle identification (AVI), as well as induction loops \cite{Vlahogianni20143}. There is also plenty of research done towards traffic congestion detection based on AVL probe data \cite{Vlahogianni20143}. However, there are significant challenges due to the nature of the urban environment itself. Densely populated areas are influenced by many factors which can be affecting the general traffic flow. Another problem posed by urban environments is the irregularity of the AVL data transmission because of, for example weak or lost signal at times (e.g. due to high buildings) or even the presence of some noise which reduces the accuracy of the transmitted location. 
 
-There is however, little research to my knowledge, which focusses on the issues of detecting and short-term forecasting traffic congestion/disruptions in arterial urban environment  \cite{Vlahogianni20143} \cite{5625144}. From the tables shown in figures ~\ref{fig:Vlahogianni201431} to ~\ref{fig:Vlahogianni201434} in Appendix A taken from \cite{Vlahogianni20143} we can easily see that most of what has been done has focussed on motorways and also has employed data from static detector points (e.g automatic vehicle identification). Only in recent years we can see that more attention has been given to the use of GPS and AVL data. This is probably due to increased popularity and usage of these technologies.
+There is however, little research to my knowledge, which focusses on the issues of detecting and short-term forecasting traffic congestion/disruptions in arterial urban environment  \cite{Vlahogianni20143, 5625144}. From the tables shown in figures ~\ref{fig:Vlahogianni201431} to ~\ref{fig:Vlahogianni201434} in Appendix A taken from \cite{Vlahogianni20143} we can easily see that most of what has been done has focussed on motorways and also has employed data from static detector points (e.g automatic vehicle identification). Only in recent years we can see that more attention has been given to the use of GPS and AVL data. This is probably due to increased popularity and usage of these technologies.
 
 %As it can be seen from the tables in figures ~\ref{fig:Vlahogianni201431} to ~\ref{fig:Vlahogianni201434} shown in Appendix A taken from \cite{Vlahogianni20143}.
 
@@ -88,14 +88,14 @@ The advantages and disadvantages of the listed types and models are summarised i
 
 \begin{figure}[ht]
 	\makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{Figures/modelsProsCons.png}}
-	\caption{Traffic forecasting types and models \cite{youKim}}
+	\caption{Advantages and disadvantages of the different traffic forecasting types and models \cite{youKim}.}
 	\label{fig:modelsProsCons}
 \end{figure}
 
 From the above mentioned, the most widely used and well defined are the statistical models. From them the historical approaches are relatively easy for implementation and have fast execution speed, but have difficulty with dealing with incidents. Time series models have many applications and are well formulated. Because of these reasons and also the nature of the data that has been made available (detailed description of which can be found in Chapter 5) for this project, we will focus our attention on time series analysis for the rest of this report.
 
 \section{Time Series}
-Time series is a sequence of data readings taken during successive time intervals \cite{shumway2010time}. This could be a continuous recording of readings or a set of discrete readings. In the context of our project we have the continuous process of bus readings (generated by the AVL system) being transmitted which generate a discrete set of observations. This results in a data set of measurement values which consists of the actual values with some noise. Time series data contains four main components (illustrated in figure~\ref{fig:timeSeriesDataComponents})\cite{brockwell2002introduction}:
+Time series is a sequence of data readings taken during successive time intervals \cite{shumway2010time}. This could be a continuous recording of readings or a set of discrete readings. In the context of this project we have the continuous process of bus readings (generated by the AVL system) being transmitted which generate a discrete set of observations. This results in a data set of measurement values which consists of the actual values with some noise. Time series data contains four main components (illustrated in figure~\ref{fig:timeSeriesDataComponents}) \cite{brockwell2002introduction}:
 \begin{itemize}
 	\item \textbf{Trend} - this is the long term pattern that the given time series data follows. The trend can have positive or negative value depending on whether the data exhibits an increase or decrease respectively in the long term pattern. Time series data with no trend (it does not show nether increase or decrease) is said to be stationary.
 	\item \textbf{Cyclical} - this is when we can see that the data show up and down movement around a given trend is referred to as cyclical pattern. Main characteristic of the cycle is its duration which can depend on the type of measurement.
@@ -105,7 +105,7 @@ Time series is a sequence of data readings taken during successive time interval
 
 \begin{figure}[ht]
 	\makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{Figures/timeSeriesDataComponents.png}}
-	\caption{Time series data components examples taken from \cite{wildchance}}%taken from https://www.stat.auckland.ac.nz/~wild/ChanceEnc/Ch14.pdf
+	\caption{Time series data components example (taken from \cite{wildchance})}%taken from https://www.stat.auckland.ac.nz/~wild/ChanceEnc/Ch14.pdf
 	\label{fig:timeSeriesDataComponents}
 \end{figure}
 
@@ -114,11 +114,11 @@ Analysis of time series data could be performed in order to extract and calculat
 %Time series analysis is performed on time series data in order to extract some meaningful statistics from the data. In addition to the time series analysis time series forecasting could also be performed to come up with a prediction for the next period in time based on what has been observed in the past. In our problem this would mean having a number of bus readings we could analyse them and come up with prediction of what would be state in the next point in time. There also different smoothing techniques which would remove random abnormal fluctuation (e.g. an incident with a single bus).In the below sections we look at a number of different approaches to analysing and forecasting the next state of the network from the available data in real-time (we update our forecast whenever more data becomes available).
 
 \subsection{Moving Averages}
-One technique commonly used in time series analysis is moving averages which represent a form of smoothing. Smoothing means to dampen the effect of noise and irregularities in the original time series. Moving average, also called rolling or running average is a statistical calculation method. It helps to analyse data series by calculating a series of averages of subsets of the data. Moving averages are commonly used in time series data analysis when the data is fairly stable and does not have significant trend, cyclical or seasonal effects. It can be used in order to smooth out a time series data with the aim of highlighting or estimating the underlying trend of the data. The other main usage is as a forecasting method, again for time series. The main strength of these methods is that they are easy to understand. Moving averages are often used as the building block for more complex time series analysis. Below we present some of the main types of moving averages that are used in practice. \cite{brockwell2009time,shumway2010time}
+One technique commonly used in time series analysis is moving averages which represent a form of smoothing. Smoothing means to dampen the effect of noise and irregularities in the original time series. Moving average, also called rolling or running average is a statistical calculation method. It helps to analyse data series by calculating a series of averages of subsets of the data. Moving averages are commonly used in time series data analysis when the data is fairly stable and does not have significant trend, cyclical or seasonal effects. It can be used in order to smooth out a time series data with the aim of highlighting or estimating the underlying trend of the data. The other main usage is as a forecasting method, again for time series. The main strength of these methods is that they are easy to understand. Moving averages are often used as the building block for more complex time series analysis. Below I have presented some of the main types of moving averages that are used in practice. \cite{brockwell2009time,shumway2010time}
 
 %It is universal analysis technique. It is type of mathematical convolution \cite{shumway2010time}.It can also be referred to as rolling or moving mean and it acts like a filter.
 \subsubsection{Simple Moving Average}
-Simple moving average (SMA) is calculated by adding all the observations for a given period of time and dividing this sum by the number of observations. This is popular statistical technique which is mainly used to calculate the trend direction. The simple average is only useful for estimating the next forecast when the data does not contain any trends. Each observation is weighted equally. If we consider shorter period window (meaning we only consider less observation e.g. only the last 5 or 10) for our averages they would react quicker to changes. While if we work with bigger period windows the averages would have greater lag. The equation for calculating SMA is given below in equation~\ref{sma}. In this $n$ is the size of the window (e.g. the number of reading we are considering) and $Value(i)$ is the actual value of observation $i$. 
+Simple moving average (SMA) is calculated by adding all the observations for a given period of time and dividing this sum by the number of observations. This is popular statistical technique which is mainly used to calculate the trend direction. The simple average is only useful for estimating the next forecast when the data does not contain any trends. Each observation is weighted equally. If we consider shorter period window (meaning less observations are considered e.g. only the last 5 or 10) for our averages they would react quicker to changes. While if we work with bigger period windows the averages would have greater lag. The equation for calculating SMA is given below in equation~\ref{sma}. In this $n$ is the size of the window (e.g. the number of reading we are considering) and $Value(i)$ is the actual value of observation $i$. 
 
 \begin{equation}\label{sma}
 	SMA = \frac{\sum_{0\le i\le n}\textrm{Value(i)}}{n}
@@ -133,7 +133,7 @@ In the table on figure~\ref{fig:smaTable} we can see sample time series data wit
 \end{figure}
 
 \begin{figure}[ht]
-	\makebox[\textwidth][c]{\includegraphics[]{Figures/smaGraph.png}}
+	\makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{Figures/smaGraph.png}}
 	\caption{}
 	\label{fig:smaGraph}
 \end{figure}
@@ -147,14 +147,14 @@ Another form of SMA is centered moving average (CMA). Both are very similiar in 
 \end{figure}
 
 \begin{figure}[ht]
-	\makebox[\textwidth][c]{\includegraphics[]{Figures/cmaGraph.png}}
+	\makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{Figures/cmaGraph.png}}
 	\caption{}
 	\label{fig:cmaGraph}
 \end{figure}
 
 \FloatBarrier
 \subsubsection{Weighted Moving Average}
-The problem with the simple moving average is that it weighs all data points equally, meaning that both older and newer data would have the same effect on the average. This however, is not the case when using weighted moving average (WMA). In WMA model each data point would be weighted differently according to the period of time when the observation was made. For example, if we consider a $n$ period moving average we can calculate the weight for the value taken in period $i$ where $0\le i\le n$ by the following formula: \[\textrm{Weight(i)} = \frac{2i}{n(n+1)}\] This would mean that recent data has bigger impact on the result. However it should be noted that the weighting formula given is only an example as it is the most natural and widely used weigthing scheme for WMA. It is possible to use different weighting formula, one such alternative could be: \[\textrm{Weight(i)} = \frac{2^i}{\sum_{0\le x\le n}2^x}\] this would result in putting more weight on more recent data (e.g. older data is having less effect). The general equation for calculating WMA is given below as equation~\ref{wma}, where $n$ is the number of observations (the size of the window).
+The problem with the simple moving average is that it weighs all data points equally, meaning that both older and newer data would have the same effect on the average. This however, is not the case when using weighted moving average (WMA). In WMA model each data point would be weighted differently according to the period of time when the observation was made. For example, if we consider a $n$ period moving average we can calculate the weight for the value taken in period $i$ where $0\le i\le n$ by the following formula: \[\textrm{Weight(i)} = \frac{2i}{n(n+1)}\] This would mean that recent data has bigger impact on the result. However, it should be noted that the weighting formula given is only an example as it is the most natural and widely used weigthing scheme for WMA. It is possible to use different weighting formula, one such alternative could be: \[\textrm{Weight(i)} = \frac{2^i}{\sum_{0\le x\le n}2^x}\] this would result in putting more weight on more recent data (e.g. older data is having less effect). The general equation for calculating WMA is given below as equation~\ref{wma}, where $n$ is the number of observations (the size of the window).
 
 \begin{equation}\label{wma}
 WMA = \frac{\sum_{0\le i\le n}(\textrm{Weight(i)}\textrm{Value(i)})}{\sum_{0\le i\le n}Weight(i)}
@@ -169,40 +169,38 @@ An example of the application of WMA is shown in the table in figure~\ref{fig:wm
 \end{figure}
 
 \begin{figure}[ht]
-	\makebox[\textwidth][c]{\includegraphics[]{Figures/wmaGraph.png}}
+	\makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{Figures/wmaGraph.png}}
 	\caption{}
 	\label{fig:wmaGraph}
 \end{figure}
 
 \FloatBarrier
 \subsubsection{Exponentially Weighted Moving Average}
-Exponential smoothing was first suggested by Robert Goodell Brown \cite{FOR3980040103}. Exponentially weighted moving average (EWMA) or also called exponential smoothing or simply exponential moving average (EMA) is very similar to WMA. The main difference is that in order to calculate it, we do not need to keep all the data, but we could only store the latest value and the previous forecast only. Exponential moving average weights the data points exponentially which means that the oldest data would have minimalistic effect on the result. There exist a few exponential smoothing techniques including single, double and triple exponential moving average [REFERENCE]. Equations 2.3 and 2.4 give the simplest way for calculating single exponential smoothing. In this equation $\alpha$ is called the smoothing factor and it is usually a value between $0$ and $1$. The closer $\alpha$ is to $0$, the greater smoothing effect it has. This however makes it less responsive to recent changes thus produces greater lag. Values of $\alpha$ that are near to $1$ have less smoothing effect, but are very reactive to recent changes in the data. 
-
+Exponential smoothing was first suggested by Robert Goodell Brown \cite{FOR3980040103}. Exponentially weighted moving average (EWMA) or also called exponential smoothing or simply exponential moving average (EMA) is very similar to WMA. The main difference is that in order to calculate it, we do not need to keep all the data, but we could only store the latest value and the previous forecast only. Exponential moving average weights the data points exponentially which means that the oldest data would have minimalistic effect on the result. There exist a few exponential smoothing techniques including single, double and triple exponential moving average \cite{gardner1985exponential}. Equations 2.3 and 2.4 give the simplest way for calculating single exponential smoothing. In this equation $\alpha$ is called the smoothing factor and it is usually a value between $0$ and $1$. The closer $\alpha$ is to $0$, the greater smoothing effect it has. This however, makes it less responsive to recent changes thus produces greater lag. Values of $\alpha$ that are near to $1$ have less smoothing effect, but are very reactive to recent changes in the data.
 \begin{align}\label{ema}
 EMA_1 = Value_1 \\
 \textrm{for } t > 1\textrm{, }EMA_t = \alpha Value_t + (1-\alpha) EMA_{t-1}
 \end{align}
-
 Example of the application of EMA with different values of $\alpha$ ($0.2$ and $0.8$) is shown in figures~\ref{fig:emaTable} and~\ref{fig:emaGraph}. From this simple example it can be clearly seen the effect the value of $\alpha$ has on the output value. From the graph (figure~\ref{fig:emaGraph}) it can be seen that the smaller $\alpha$ value of $0.2$ has greater smoothing effect, but greater lag. The bigger value of this constant increases the reactivity to recent changes, but produces less smoothed line.
 \begin{figure}[ht]
-	\makebox[\textwidth][c]{\includegraphics[]{Figures/emaTable.png}}
+	\makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{Figures/emaTable.png}}
 	\caption{}
 	\label{fig:emaTable}
 \end{figure}
 
 \begin{figure}[ht]
-	\makebox[\textwidth][c]{\includegraphics[]{Figures/emaGraph.png}}
+	\makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{Figures/emaGraph.png}}
 	\caption{}
 	\label{fig:emaGraph}
 \end{figure}
 %Exponential Smoothing for Predicting Demand. Cambridge, Massachusetts: Arthur D. Little Inc. p. 15.] and then expanded by Charles C. Holt in 1957.[Holt, Charles C. (1957). "Forecasting Trends and Seasonal by Exponentially Weighted Averages". Office of Naval Research Memorandum 52. reprinted in Holt, Charles C. (January–March 2004). "Forecasting Trends and Seasonal by Exponentially Weighted Averages". International Journal of Forecasting 20 (1): 5–10. doi:10.1016]
 \FloatBarrier
 \subsubsection{Summary}
-If we compare the presented moving average methods (SMA, CMA, WMA and EMA) we can clearly see that the SMA and CMA offer the most smoothing. However, this comes with the trade-off of an increased lag (e.g. it takes longer to reflect recent changes). 
+If we compare the presented moving average methods (SMA, CMA, WMA and EMA) it can clearly be seen that the SMA and CMA offer the most smoothing. However, this comes with the trade-off of an increased lag (e.g. it takes longer to reflect recent changes). 
 
 The weighted moving average performance is influenced by the choice of window size, as well as the choice of weights. There is no single rule what weights one should use and most often this is based on intuition and simulations in order to get optimal results.
 
-As we have seen in the given examples, the exponential moving average performance depends heavily on the chosen values for the $\alpha$ constant. EMA offers the advantage of not having to keep all data point values in memory for the periods of our window. Whereas all the other presented techniques require us to specify a widow size for our moving average and also to have the data for these periods available in memory. The choice of window size for the SMA, CMA and WMA has direct impact on the sensitivity (speed of reaction) of the method to changes. Increased size of the window results in less reactive moving average and increase in the opposite.
+As we have seen in the given examples, the exponential moving average performance depends heavily on the chosen values for the $\alpha$ constant. EMA offers the advantage of not having to keep all data point values in memory for the periods of our window, whereas all the other presented techniques require us to specify a widow size for our moving average and also to have the data for these periods available in memory. The choice of window size for the SMA, CMA and WMA has direct impact on the sensitivity (speed of reaction) of the method to changes. Increased size of the window results in less reactive moving average and increase in the opposite.
 
 If a trend indication with better smoothing and little reaction for shorter movements is required, then the simple average should produce the best results. However if smoothing is desired where you can still see shorter movements, then it is better to use either WMA or EMA. Using either of those techniques, requires us to make some choices regarding what parameters (window size and weight for WMA and value of $\alpha$ for EMA) to use in order to obtain best results.
 
@@ -210,13 +208,13 @@ If a trend indication with better smoothing and little reaction for shorter move
 %The weighted moving follows the movement even more closely than the exponential moving average. Determining which one to use depends on the objective. 
 
 \subsection{Peak Detection}
-Peaks and valleys represent significant events where the graph changes from increasing to decreasing behaviour and vice versa (decreasing to increasing). In the domain of our project we are mostly concerned with peak detection as we are not interested to know if buses are gaining time (e.g. are going ahead of schedule). Mathematically viewed peaks and valleys represent local maxima and local minima respectively \cite{simon1994mathematics}.
+Peaks and valleys represent significant events where the graph changes from increasing to decreasing behaviour and vice versa (decreasing to increasing). In the domain of our project we are mostly concerned with peak detection as it is not of interested to us to know if buses are gaining time (e.g. are going ahead of schedule). Mathematically viewed peaks and valleys represent local maxima and local minima respectively \cite{simon1994mathematics}.
 
 Detection and analysis of peaks (spikes) and valleys in time series is important in many applications (e.g signal processing, bioinformatics, medicine and many more) \cite{ventzas2011peak}. Peaks and valleys usually represent either significant events or errors in time series data. In our domain we are mostly interested in detecting high sudden changes in the traffic congestion conditions (e.g along route/sections in the bus network). In figure~\ref{fig:peakExampleGraph} we can see an example of such peak (highlighted in red) we would be interested to detect.
 
 \begin{figure}[ht]
-	\makebox[\textwidth][c]{\includegraphics[]{Figures/peakExampleGraph.png}}
-	\caption{X-axis shows us the sections along the route and the Y-axis represents the schedule deviation in minutes}
+	\makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{Figures/peakExampleGraph.png}}
+	\caption{Time series data peak example}
 	\label{fig:peakExampleGraph}
 \end{figure}
 

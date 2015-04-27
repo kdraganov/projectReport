@@ -97,7 +97,7 @@
   		\begin{flushright}
         		      \normalsize{\@author}\\*
 		      \normalsize{\@date}\\*
-		      %\normalsize{Word count: \@wordCount}
+		      \normalsize{Word count: \@wordCount}
   		\end{flushright}
 
 	%Acknowledgements

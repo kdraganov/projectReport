@@ -1,0 +1,21 @@
+<% if (session[:operatorId] != nil && session[:operatorAdmin]) %>
+    <div class="row">
+        <div class="large-12 columns" style="font-size: 0.8em;text-align: right;font-weight: bold;">
+            <a id="pause" onclick="setSpeed(0)">Pause</a> |
+            <a id="slow" onclick="setSpeed(1)">Slow</a> |
+            <a id="normal" onclick="setSpeed(2)">Normal</a> |
+            <a id="fast" onclick="setSpeed(3)">Fast</a> |
+            <a id="fast" onclick="setSpeed(4)">Very Fast</a>
+        </div>
+    </div>
+    <script type="text/javascript">
+        function setSpeed(speed) {
+            new $.ajax('/main/speed', {
+                method: 'get',
+                data: {speed: speed},
+                success: function (result) {
+                }
+            });
+        }
+    </script>
+<% end %>

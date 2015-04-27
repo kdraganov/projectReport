@@ -1,0 +1,57 @@
+<div class="row">
+    <div class="large-12 columns">
+        <h1>Disruptions</h1>
+    </div>
+</div>
+
+<div id="disruptionList">
+    <%= render 'list' %>
+</div>
+
+<%= render 'main/engineSpeedControl' %>
+
+<div id="revealModal" class="reveal-modal xlarge" data-reveal>
+</div>
+
+<script type="text/javascript">
+    function poll(timeout) {
+        setTimeout(function () {
+            if ($("#disruptionList") != null) {
+                ajaxPollCall();
+            }
+        }, timeout);
+    }
+
+    function ajaxPollCall() {
+        if (document.URL == "<%= request.protocol + request.host%>" + ":3000/disruption/index" || document.URL == "<%= request.protocol + request.host%>" + ":3000/") {
+            new $.ajax('/disruption/list', {
+                method: 'get',
+                success: function (result) {
+                    if (result.update) {
+                        $("#disruptionList").html(result.partial);
+                    }
+                    poll(result.timeout)
+                }
+            });
+        }
+    }
+
+    $(document).ready(function () {
+        poll("<%= @lastUpdateTime %>", <%= @timeout %>);
+    });
+
+    function sort(column, direction){
+        new $.ajax('/disruption/list', {
+            method: 'get',
+            data: {sort: column, direction: direction},
+            success: function (result) {
+                if (result.update) {
+                    $("#disruptionList").html(result.partial);
+                } else {
+                    $("#lastUpdateTime").html(result.lastUpdateTime)
+                }
+                $(document).foundation('tooltip', 'reflow');
+            }
+        });
+    }
+</script>

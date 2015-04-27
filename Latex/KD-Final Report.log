@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.9.29)  26 APR 2015 02:54
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.9.29)  27 APR 2015 02:43
 entering extended mode
 **KD-Final*Report.tex
 
@@ -305,6 +305,23 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen126
+\captionmargin@=\dimen127
+\captionwidth=\dimen128
+\caption@tempdima=\dimen129
+\caption@indent=\dimen130
+\caption@parindent=\dimen131
+\caption@hangindent=\dimen132
+)
+\c@ContinuedFloat=\count144
+Package caption Info: listings package is loaded.
+)
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\KD-Final Report.aux"
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
@@ -331,35 +348,36 @@ x\Appendices/appendix.aux")
 x\Appendices/UserGuide.aux")
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\Appendices/SourceCode.aux"))
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 76.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 120.
+
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count144
-\scratchdimen=\dimen126
+\scratchcounter=\count145
+\scratchdimen=\dimen133
 \scratchbox=\box30
-\nofMPsegments=\count145
-\nofMParguments=\count146
+\nofMPsegments=\count146
+\nofMParguments=\count147
 \everyMPshowfont=\toks24
-\MPscratchCnt=\count147
-\MPscratchDim=\dimen127
-\MPnumerator=\count148
-\makeMPintoPDFobject=\count149
+\MPscratchCnt=\count148
+\MPscratchDim=\dimen134
+\MPnumerator=\count149
+\makeMPintoPDFobject=\count150
 \everyMPtoPDFconversion=\toks25
 )
 *geometry* driver: auto-detecting
@@ -396,7 +414,9 @@ File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count150
+\c@lstlisting=\count151
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: <default>
@@ -433,7 +453,7 @@ File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 File: FrontMatter/logo.png Graphic file (type png)
 
 <use FrontMatter/logo.png>
-Package pdftex.def Info: FrontMatter/logo.png used on input line 77.
+Package pdftex.def Info: FrontMatter/logo.png used on input line 121.
 (pdftex.def)             Requested size: 93.94933pt x 85.91946pt.
  [1
 
@@ -445,7 +465,7 @@ omputer Science/Final Year Project/Final report/Latex/FrontMatter/logo.png (PNG
 x\FrontMatter/abstract.tex") [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 77--77
+Underfull \hbox (badness 10000) in paragraph at lines 121--121
 
  []
 
@@ -519,12 +539,12 @@ Package pdftex.def Info: Figures/iBus.png used on input line 36.
 
 [9] [10 <E:/Kings College London/Computer Science/Final Year Project/Final repo
 rt/Latex/Figures/iBus.png>] [11] [12]
-<Figures/modelsProsCons.png, id=64, 663.98062pt x 435.87843pt>
+<Figures/modelsProsCons.png, id=64, 660.96938pt x 432.11438pt>
 File: Figures/modelsProsCons.png Graphic file (type png)
 
 <use Figures/modelsProsCons.png>
 Package pdftex.def Info: Figures/modelsProsCons.png used on input line 90.
-(pdftex.def)             Requested size: 339.6699pt x 222.9801pt.
+(pdftex.def)             Requested size: 339.6699pt x 222.06995pt.
  [13] [14 <E:/Kings College London/Computer Science/Final Year Project/Final re
 port/Latex/Figures/modelsProsCons.png>]
 Overfull \hbox (3.24811pt too wide) in paragraph at lines 102--103
@@ -538,7 +558,7 @@ Overfull \hbox (5.23737pt too wide) in paragraph at lines 102--103
 ing sum-mer months
  []
 
-<Figures/timeSeriesDataComponents.png, id=71, 393.72093pt x 298.11375pt>
+<Figures/timeSeriesDataComponents.png, id=72, 393.72093pt x 298.11375pt>
 File: Figures/timeSeriesDataComponents.png Graphic file (type png)
 
 <use Figures/timeSeriesDataComponents.png>
@@ -546,182 +566,175 @@ Package pdftex.def Info: Figures/timeSeriesDataComponents.png used on input lin
 e 107.
 (pdftex.def)             Requested size: 339.6699pt x 257.18707pt.
  [15 <E:/Kings College London/Computer Science/Final Year Project/Final report/
-Latex/Figures/timeSeriesDataComponents.png>] [16] <Figures/smaTable.png, id=79,
- 215.30438pt x 166.37157pt>
+Latex/Figures/timeSeriesDataComponents.png>] [16] <Figures/smaTable.png, id=80,
+ 209.28188pt x 166.37157pt>
 File: Figures/smaTable.png Graphic file (type png)
 
 <use Figures/smaTable.png>
 Package pdftex.def Info: Figures/smaTable.png used on input line 130.
-(pdftex.def)             Requested size: 215.30385pt x 166.37114pt.
+(pdftex.def)             Requested size: 209.28134pt x 166.37114pt.
 
-<Figures/smaGraph.png, id=80, 453.19313pt x 255.20343pt>
+<Figures/smaGraph.png, id=81, 456.20438pt x 256.70906pt>
 File: Figures/smaGraph.png Graphic file (type png)
 
 <use Figures/smaGraph.png>
 Package pdftex.def Info: Figures/smaGraph.png used on input line 136.
-(pdftex.def)             Requested size: 453.19202pt x 255.2028pt.
-
-<Figures/cmaTable.png, id=81, 207.77625pt x 166.37157pt>
+(pdftex.def)             Requested size: 339.6699pt x 191.14075pt.
+ [17 <E:/Kings College London/Computer Science/Final Year Project/Final report/
+Latex/Figures/smaTable.png> <E:/Kings College London/Computer Science/Final Yea
+r Project/Final report/Latex/Figures/smaGraph.png>]
+<Figures/cmaTable.png, id=91, 210.03468pt x 166.37157pt>
 File: Figures/cmaTable.png Graphic file (type png)
 
 <use Figures/cmaTable.png>
 Package pdftex.def Info: Figures/cmaTable.png used on input line 144.
-(pdftex.def)             Requested size: 207.77573pt x 166.37114pt.
+(pdftex.def)             Requested size: 210.03416pt x 166.37114pt.
 
-<Figures/cmaGraph.png, id=82, 362.10281pt x 217.5628pt>
+<Figures/cmaGraph.png, id=92, 456.20438pt x 256.70906pt>
 File: Figures/cmaGraph.png Graphic file (type png)
 
 <use Figures/cmaGraph.png>
 Package pdftex.def Info: Figures/cmaGraph.png used on input line 150.
-(pdftex.def)             Requested size: 362.10191pt x 217.56227pt.
- [17 <E:/Kings College London/Computer Science/Final Year Project/Final report/
-Latex/Figures/smaTable.png>] [18 <E:/Kings College London/Computer Science/Fina
-l Year Project/Final report/Latex/Figures/smaGraph.png> <E:/Kings College Londo
-n/Computer Science/Final Year Project/Final report/Latex/Figures/cmaTable.png>]
- [19 <E:/Kings College London/Computer Science/Final Year Project/Final report/
-Latex/Figures/cmaGraph.png>]
-<Figures/wmaTable.png, id=96, 344.03531pt x 166.37157pt>
+(pdftex.def)             Requested size: 339.6699pt x 191.14075pt.
+ [18 <E:/Kings College London/Computer Science/Final Year Project/Final report/
+Latex/Figures/cmaTable.png> <E:/Kings College London/Computer Science/Final Yea
+r Project/Final report/Latex/Figures/cmaGraph.png>]
+<Figures/wmaTable.png, id=98, 344.03531pt x 166.37157pt>
 File: Figures/wmaTable.png Graphic file (type png)
 
 <use Figures/wmaTable.png>
 Package pdftex.def Info: Figures/wmaTable.png used on input line 166.
 (pdftex.def)             Requested size: 344.03447pt x 166.37114pt.
 
-<Figures/wmaGraph.png, id=97, 362.10281pt x 217.5628pt>
+<Figures/wmaGraph.png, id=99, 456.20438pt x 256.70906pt>
 File: Figures/wmaGraph.png Graphic file (type png)
 
 <use Figures/wmaGraph.png>
 Package pdftex.def Info: Figures/wmaGraph.png used on input line 172.
-(pdftex.def)             Requested size: 362.10191pt x 217.56227pt.
- [20
-
-] [21 <E:/Kings College London/Computer Science/Final Year Project/Final report
-/Latex/Figures/wmaTable.png> <E:/Kings College London/Computer Science/Final Ye
-ar Project/Final report/Latex/Figures/wmaGraph.png>] <Figures/emaTable.png, id=
-105, 505.89pt x 166.37157pt>
+(pdftex.def)             Requested size: 339.6699pt x 191.14075pt.
+ [19] [20 <E:/Kings College London/Computer Science/Final Year Project/Final re
+port/Latex/Figures/wmaTable.png> <E:/Kings College London/Computer Science/Fina
+l Year Project/Final report/Latex/Figures/wmaGraph.png>] <Figures/emaTable.png,
+ id=108, 512.66531pt x 166.37157pt>
 File: Figures/emaTable.png Graphic file (type png)
 
 <use Figures/emaTable.png>
-Package pdftex.def Info: Figures/emaTable.png used on input line 188.
-(pdftex.def)             Requested size: 505.88875pt x 166.37114pt.
+Package pdftex.def Info: Figures/emaTable.png used on input line 186.
+(pdftex.def)             Requested size: 339.6699pt x 110.23204pt.
 
-<Figures/emaGraph.png, id=106, 393.72093pt x 227.34938pt>
+<Figures/emaGraph.png, id=109, 456.20438pt x 256.70906pt>
 File: Figures/emaGraph.png Graphic file (type png)
 
 <use Figures/emaGraph.png>
-Package pdftex.def Info: Figures/emaGraph.png used on input line 194.
-(pdftex.def)             Requested size: 393.71997pt x 227.34882pt.
- [22
-
-] [23 <E:/Kings College London/Computer Science/Final Year Project/Final report
-/Latex/Figures/emaTable.png> <E:/Kings College London/Computer Science/Final Ye
-ar Project/Final report/Latex/Figures/emaGraph.png>] [24
-
-] <Figures/peakExampleGraph.png, id=116, 412.54124pt x 217.5628pt>
+Package pdftex.def Info: Figures/emaGraph.png used on input line 192.
+(pdftex.def)             Requested size: 339.6699pt x 191.14075pt.
+ [21 <E:/Kings College London/Computer Science/Final Year Project/Final report/
+Latex/Figures/emaTable.png>] [22 <E:/Kings College London/Computer Science/Fina
+l Year Project/Final report/Latex/Figures/emaGraph.png>] <Figures/peakExampleGr
+aph.png, id=119, 455.45157pt x 256.70906pt>
 File: Figures/peakExampleGraph.png Graphic file (type png)
 
 <use Figures/peakExampleGraph.png>
-Package pdftex.def Info: Figures/peakExampleGraph.png used on input line 218.
-(pdftex.def)             Requested size: 412.54024pt x 217.56227pt.
-) [25 <E:/Kings College London/Computer Science/Final Year Project/Final report
-/Latex/Figures/peakExampleGraph.png>]
-[26]
+Package pdftex.def Info: Figures/peakExampleGraph.png used on input line 216.
+(pdftex.def)             Requested size: 339.6699pt x 191.45412pt.
+ [23]) [24 <E:/Kings College London/Computer Science/Final Year Project/Final r
+eport/Latex/Figures/peakExampleGraph.png>]
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\Chapters/Specification.tex"
 Chapter 3.
-[27
+[25
 
 
 
-] [28]) [29]
+] [26]) [27]
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\Chapters/Design.tex"
 Chapter 4.
-[30
+[28
 
 
 
-] [31] <Figures/UseCases.png, id=139, 510.58755pt x 582.0144pt>
+] [29] <Figures/UseCases.png, id=143, 510.4671pt x 581.89395pt>
 File: Figures/UseCases.png Graphic file (type png)
 
 <use Figures/UseCases.png>
-Package pdftex.def Info: Figures/UseCases.png used on input line 32.
-(pdftex.def)             Requested size: 407.60284pt x 464.64415pt.
- [32] [33 <E:/Kings College London/Computer Science/Final Year Project/Final re
-port/Latex/Figures/UseCases.png>] [34]
-<Figures/Architecture.png, id=151, 472.164pt x 615.9813pt>
+Package pdftex.def Info: Figures/UseCases.png used on input line 31.
+(pdftex.def)             Requested size: 407.60284pt x 464.65453pt.
+ [30] [31 <E:/Kings College London/Computer Science/Final Year Project/Final re
+port/Latex/Figures/UseCases.png>] [32]
+<Figures/Architecture.png, id=153, 472.164pt x 615.9813pt>
 File: Figures/Architecture.png Graphic file (type png)
 
 <use Figures/Architecture.png>
-Package pdftex.def Info: Figures/Architecture.png used on input line 57.
+Package pdftex.def Info: Figures/Architecture.png used on input line 56.
 (pdftex.def)             Requested size: 407.60284pt x 531.7544pt.
- [35] [36 <E:/Kings College London/Computer Science/Final Year Project/Final re
+ [33] [34 <E:/Kings College London/Computer Science/Final Year Project/Final re
 port/Latex/Figures/Architecture.png>]
-<Figures/StateDiagram.png, id=159, 414.95026pt x 506.73315pt>
+<Figures/StateDiagram.png, id=162, 414.8298pt x 506.6127pt>
 File: Figures/StateDiagram.png Graphic file (type png)
 
 <use Figures/StateDiagram.png>
-Package pdftex.def Info: Figures/StateDiagram.png used on input line 67.
-(pdftex.def)             Requested size: 407.60284pt x 497.77039pt.
- [37] [38 <E:/Kings College London/Computer Science/Final Year Project/Final re
-port/Latex/Figures/StateDiagram.png>] [39]
-[40] <Figures/Class.png, id=174, 563.9469pt x 809.424pt>
+Package pdftex.def Info: Figures/StateDiagram.png used on input line 66.
+(pdftex.def)             Requested size: 407.60284pt x 497.79892pt.
+ [35] [36 <E:/Kings College London/Computer Science/Final Year Project/Final re
+port/Latex/Figures/StateDiagram.png>] [37]
+[38] <Figures/Class.png, id=175, 563.9469pt x 809.424pt>
 File: Figures/Class.png Graphic file (type png)
 
 <use Figures/Class.png>
-Package pdftex.def Info: Figures/Class.png used on input line 101.
+Package pdftex.def Info: Figures/Class.png used on input line 100.
 (pdftex.def)             Requested size: 407.60284pt x 585.03268pt.
- [41] [42 <E:/Kings College London/Computer Science/Final Year Project/Final re
-port/Latex/Figures/Class.png>] [43]
-<Figures/guiProposal.png, id=185, 604.50844pt x 377.91188pt>
+ [39] [40 <E:/Kings College London/Computer Science/Final Year Project/Final re
+port/Latex/Figures/Class.png>] [41]
+<Figures/guiProposal.png, id=187, 604.50844pt x 377.91188pt>
 File: Figures/guiProposal.png Graphic file (type png)
 
 <use Figures/guiProposal.png>
-Package pdftex.def Info: Figures/guiProposal.png used on input line 120.
+Package pdftex.def Info: Figures/guiProposal.png used on input line 119.
 (pdftex.def)             Requested size: 339.6699pt x 212.34424pt.
-) [44 <E:/Kings College London/Computer Science/Final Year Project/Final report
+) [42 <E:/Kings College London/Computer Science/Final Year Project/Final report
 /Latex/Figures/guiProposal.png>]
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\Chapters/Implementation.tex"
 Chapter 5.
-[45
+[43
 
 
 
-] [46] <Figures/ibusSampleRaw.png, id=198, 1282.03969pt x 121.95563pt>
+] [44] <Figures/ibusSampleRaw.png, id=199, 1282.03969pt x 121.95563pt>
 File: Figures/ibusSampleRaw.png Graphic file (type png)
 
 <use Figures/ibusSampleRaw.png>
 Package pdftex.def Info: Figures/ibusSampleRaw.png used on input line 48.
 (pdftex.def)             Requested size: 577.43779pt x 54.92975pt.
 
-<Figures/ibusSampleFormatted.png, id=199, 1396.4672pt x 136.25906pt>
+<Figures/ibusSampleFormatted.png, id=200, 1396.4672pt x 136.25906pt>
 File: Figures/ibusSampleFormatted.png Graphic file (type png)
 
 <use Figures/ibusSampleFormatted.png>
 Package pdftex.def Info: Figures/ibusSampleFormatted.png used on input line 54.
 
 (pdftex.def)             Requested size: 577.43779pt x 56.34268pt.
- [47] [48 <E:/Kings College London/Computer Science/Final Year Project/Final re
+ [45] [46 <E:/Kings College London/Computer Science/Final Year Project/Final re
 port/Latex/Figures/ibusSampleRaw.png> <E:/Kings College London/Computer Science
 /Final Year Project/Final report/Latex/Figures/ibusSampleFormatted.png>]
-<Figures/sectionExample.png, id=208, 953.06062pt x 230.36063pt>
+<Figures/sectionExample.png, id=210, 953.06062pt x 230.36063pt>
 File: Figures/sectionExample.png Graphic file (type png)
 
 <use Figures/sectionExample.png>
 Package pdftex.def Info: Figures/sectionExample.png used on input line 66.
 (pdftex.def)             Requested size: 339.6699pt x 82.1002pt.
- [49 <E:/Kings College London/Computer Science/Final Year Project/Final report/
+ [47 <E:/Kings College London/Computer Science/Final Year Project/Final report/
 Latex/Figures/sectionExample.png>]
-<Figures/DBModel.png, id=212, 507.5763pt x 701.019pt>
+<Figures/DBModel.png, id=214, 507.5763pt x 701.019pt>
 File: Figures/DBModel.png Graphic file (type png)
 
 <use Figures/DBModel.png>
 Package pdftex.def Info: Figures/DBModel.png used on input line 79.
 (pdftex.def)             Requested size: 407.60284pt x 562.95529pt.
- [50] [51 <E:/Kings College London/Computer Science/Final Year Project/Final re
-port/Latex/Figures/DBModel.png>] [52]
-<Figures/implementationExample1.png, id=224, 956.82469pt x 103.13531pt>
+ [48] [49 <E:/Kings College London/Computer Science/Final Year Project/Final re
+port/Latex/Figures/DBModel.png>] [50]
+<Figures/implementationExample1.png, id=225, 956.82469pt x 103.13531pt>
 File: Figures/implementationExample1.png Graphic file (type png)
 
 <use Figures/implementationExample1.png>
@@ -729,18 +742,18 @@ Package pdftex.def Info: Figures/implementationExample1.png used on input line
 94.
 (pdftex.def)             Requested size: 339.6699pt x 36.61249pt.
 
-<Figures/implementationExample1Table.png, id=225, 310.91156pt x 222.07968pt>
+<Figures/implementationExample1Table.png, id=226, 310.91156pt x 222.07968pt>
 File: Figures/implementationExample1Table.png Graphic file (type png)
 
 <use Figures/implementationExample1Table.png>
 Package pdftex.def Info: Figures/implementationExample1Table.png used on input 
 line 100.
 (pdftex.def)             Requested size: 271.73695pt x 194.09897pt.
- [53 <E:/Kings College London/Computer Science/Final Year Project/Final report/
-Latex/Figures/implementationExample1.png>] [54 <E:/Kings College London/Compute
+ [51 <E:/Kings College London/Computer Science/Final Year Project/Final report/
+Latex/Figures/implementationExample1.png>] [52 <E:/Kings College London/Compute
 r Science/Final Year Project/Final report/Latex/Figures/implementationExample1T
-able.png>] [55]
-<Figures/implementationExample3.png, id=236, 956.82469pt x 124.96687pt>
+able.png>] [53]
+<Figures/implementationExample3.png, id=238, 956.82469pt x 124.96687pt>
 File: Figures/implementationExample3.png Graphic file (type png)
 
 <use Figures/implementationExample3.png>
@@ -748,65 +761,65 @@ Package pdftex.def Info: Figures/implementationExample3.png used on input line
 114.
 (pdftex.def)             Requested size: 339.6699pt x 44.3626pt.
 
-<Figures/implementationExample2.png, id=237, 956.82469pt x 124.96687pt>
+<Figures/implementationExample2.png, id=239, 956.82469pt x 124.96687pt>
 File: Figures/implementationExample2.png Graphic file (type png)
 
 <use Figures/implementationExample2.png>
 Package pdftex.def Info: Figures/implementationExample2.png used on input line 
 122.
 (pdftex.def)             Requested size: 339.6699pt x 44.3626pt.
- [56 <E:/Kings College London/Computer Science/Final Year Project/Final report/
+ [54 <E:/Kings College London/Computer Science/Final Year Project/Final report/
 Latex/Figures/implementationExample3.png> <E:/Kings College London/Computer Sci
 ence/Final Year Project/Final report/Latex/Figures/implementationExample2.png>]
- [57] [58] [59] [60] [61]
-<Figures/diversion.png, id=257, 956.82469pt x 187.45032pt>
+ [55] [56] [57] [58]
+<Figures/diversion.png, id=256, 956.82469pt x 187.45032pt>
 File: Figures/diversion.png Graphic file (type png)
 
 <use Figures/diversion.png>
 Package pdftex.def Info: Figures/diversion.png used on input line 167.
 (pdftex.def)             Requested size: 339.6699pt x 66.54388pt.
- [62 <E:/Kings College London/Computer Science/Final Year Project/Final report/
-Latex/Figures/diversion.png>]) [63]
+ [59] [60 <E:/Kings College London/Computer Science/Final Year Project/Final re
+port/Latex/Figures/diversion.png>]) [61]
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\Chapters/Testing.tex"
 Chapter 6.
-[64
+[62
 
 
 
-] [65] [66] [67] [68]
-<Figures/StressTestResults.png, id=280, 1086.30844pt x 202.50656pt>
+] [63] [64] [65] [66]
+<Figures/StressTestResults.png, id=282, 1086.30844pt x 202.50656pt>
 File: Figures/StressTestResults.png Graphic file (type png)
 
 <use Figures/StressTestResults.png>
 Package pdftex.def Info: Figures/StressTestResults.png used on input line 42.
 (pdftex.def)             Requested size: 339.6699pt x 63.3202pt.
-) [69 <E:/Kings College London/Computer Science/Final Year Project/Final report
+) [67 <E:/Kings College London/Computer Science/Final Year Project/Final report
 /Latex/Figures/StressTestResults.png>]
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\Chapters/Evaluation.tex"
 Chapter 7.
-[70
+[68
 
 
 
-] [71] [72]) [73]
+] [69] [70]) [71]
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\Chapters/ProfessionalIssues.tex"
 Chapter 8.
+[72
+
+
+
+]) [73]
+("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
+x\Chapters/Conclusion.tex"
+Chapter 9.
 [74
 
 
 
-]) [75]
-("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
-x\Chapters/Conclusion.tex"
-Chapter 9.
-[76
-
-
-
-] [77]) [78]
+] [75]) [76]
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\KD-Final Report.bbl"
 Underfull \hbox (badness 10000) in paragraph at lines 10--15
@@ -819,7 +832,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--15
 . gov . uk / dataset /$
  []
 
-[79
+[77
 
 
 ]
@@ -880,19 +893,19 @@ $\OT1/lmtt/m/n/10 annual-[]passenger-[]journeys-[]on-[]london-[]s-[]buses-[]top
 -[]2-[]4-[]billion$\OT1/lmr/m/n/10 .
  []
 
-[80] [81]
-Underfull \hbox (badness 1092) in paragraph at lines 178--182
+[78] [79]
+Underfull \hbox (badness 1092) in paragraph at lines 183--187
 []\OT1/lmr/m/n/10 BBC News.  Ex-tra 500 buses planned for grow-ing cap-i-tal be
 -fore
  []
 
 
-Underfull \hbox (badness 2547) in paragraph at lines 178--182
+Underfull \hbox (badness 2547) in paragraph at lines 183--187
 \OT1/lmr/m/n/10 2021.  $\OT1/lmtt/m/n/10 http : / / www . bbc . co . uk / news 
 / uk-[]england-[]london-[]30285777$\OT1/lmr/m/n/10 ,
  []
 
-[82] [83]) [84]
+[80] [81]) [82]
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\Appendices/appendix.tex"
 Appendix A.
@@ -902,7 +915,7 @@ pdfTeX warning: pdflatex (file E:/Kings College London/Computer Science/Final Y
 ear Project/Final report/Latex/Figures/shortTermForecastResearchTable.pdf): PDF
  inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
-<Figures/shortTermForecastResearchTable.pdf, id=334, page=1, 745.46204pt x 546.
+<Figures/shortTermForecastResearchTable.pdf, id=336, page=1, 745.46204pt x 546.
 29295pt>
 File: Figures/shortTermForecastResearchTable.pdf Graphic file (type pdf)
  <use Figures/shortTermForecastResearchTable.pdf, page 1>
@@ -919,7 +932,7 @@ pdfTeX warning: pdflatex (file E:/Kings College London/Computer Science/Final Y
 ear Project/Final report/Latex/Figures/shortTermForecastResearchTable.pdf): PDF
  inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
-<Figures/shortTermForecastResearchTable.pdf, id=335, page=2, 745.46204pt x 546.
+<Figures/shortTermForecastResearchTable.pdf, id=337, page=2, 745.46204pt x 546.
 29295pt>
 File: Figures/shortTermForecastResearchTable.pdf Graphic file (type pdf)
  <use Figures/shortTermForecastResearchTable.pdf, page 2>
@@ -932,7 +945,7 @@ pdfTeX warning: pdflatex (file E:/Kings College London/Computer Science/Final Y
 ear Project/Final report/Latex/Figures/shortTermForecastResearchTable.pdf): PDF
  inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
-<Figures/shortTermForecastResearchTable.pdf, id=336, page=3, 745.46204pt x 546.
+<Figures/shortTermForecastResearchTable.pdf, id=338, page=3, 745.46204pt x 546.
 29295pt>
 File: Figures/shortTermForecastResearchTable.pdf Graphic file (type pdf)
  <use Figures/shortTermForecastResearchTable.pdf, page 3>
@@ -945,108 +958,133 @@ pdfTeX warning: pdflatex (file E:/Kings College London/Computer Science/Final Y
 ear Project/Final report/Latex/Figures/shortTermForecastResearchTable.pdf): PDF
  inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
-<Figures/shortTermForecastResearchTable.pdf, id=337, page=4, 745.46204pt x 546.
+<Figures/shortTermForecastResearchTable.pdf, id=339, page=4, 745.46204pt x 546.
 29295pt>
 File: Figures/shortTermForecastResearchTable.pdf Graphic file (type pdf)
  <use Figures/shortTermForecastResearchTable.pdf, page 4>
 Package pdftex.def Info: Figures/shortTermForecastResearchTable.pdf, page4 used
  on input line 23.
 (pdftex.def)             Requested size: 611.40686pt x 448.06316pt.
- [85
+ [83
 
 
-] [86 <E:/Kings College London/Computer Science/Final Year Project/Final report
+] [84 <E:/Kings College London/Computer Science/Final Year Project/Final report
 /Latex/Figures/shortTermForecastResearchTable.pdf, page is rotated 90 degrees>]
- [87 <E:/Kings College London/Computer Science/Final Year Project/Final report/
+ [85 <E:/Kings College London/Computer Science/Final Year Project/Final report/
 Latex/Figures/shortTermForecastResearchTable.pdf, page is rotated 90 degrees>] 
-[88 <E:/Kings College London/Computer Science/Final Year Project/Final report/L
+[86 <E:/Kings College London/Computer Science/Final Year Project/Final report/L
 atex/Figures/shortTermForecastResearchTable.pdf, page is rotated 90 degrees>] [
-89 <E:/Kings College London/Computer Science/Final Year Project/Final report/La
+87 <E:/Kings College London/Computer Science/Final Year Project/Final report/La
 tex/Figures/shortTermForecastResearchTable.pdf, page is rotated 90 degrees>]
-<Figures/UI/1.png, id=385, 1127.71312pt x 758.08218pt>
+<Figures/UI/1.png, id=387, 1127.71312pt x 758.08218pt>
 File: Figures/UI/1.png Graphic file (type png)
  <use Figures/UI/1.png>
 Package pdftex.def Info: Figures/UI/1.png used on input line 31.
 (pdftex.def)             Requested size: 577.43779pt x 388.17839pt.
 
-<Figures/UI/2.png, id=386, 1127.71312pt x 758.08218pt>
+<Figures/UI/2.png, id=388, 1127.71312pt x 758.08218pt>
 File: Figures/UI/2.png Graphic file (type png)
  <use Figures/UI/2.png>
 Package pdftex.def Info: Figures/UI/2.png used on input line 37.
 (pdftex.def)             Requested size: 577.43779pt x 388.17839pt.
 
-<Figures/UI/3.png, id=387, 1127.71312pt x 758.08218pt>
+<Figures/UI/3.png, id=389, 1127.71312pt x 758.08218pt>
 File: Figures/UI/3.png Graphic file (type png)
  <use Figures/UI/3.png>
 Package pdftex.def Info: Figures/UI/3.png used on input line 43.
 (pdftex.def)             Requested size: 577.43779pt x 388.17839pt.
 
-<Figures/UI/4.png, id=388, 1127.71312pt x 758.08218pt>
+<Figures/UI/4.png, id=390, 1127.71312pt x 758.08218pt>
 File: Figures/UI/4.png Graphic file (type png)
  <use Figures/UI/4.png>
 Package pdftex.def Info: Figures/UI/4.png used on input line 49.
 (pdftex.def)             Requested size: 577.43779pt x 388.17839pt.
 
-<Figures/UI/5.png, id=389, 1127.71312pt x 758.08218pt>
+<Figures/UI/5.png, id=391, 1127.71312pt x 758.08218pt>
 File: Figures/UI/5.png Graphic file (type png)
  <use Figures/UI/5.png>
 Package pdftex.def Info: Figures/UI/5.png used on input line 55.
 (pdftex.def)             Requested size: 577.43779pt x 388.17839pt.
 
-<Figures/UI/6.png, id=390, 1127.71312pt x 758.08218pt>
+<Figures/UI/6.png, id=392, 1127.71312pt x 758.08218pt>
 File: Figures/UI/6.png Graphic file (type png)
  <use Figures/UI/6.png>
 Package pdftex.def Info: Figures/UI/6.png used on input line 61.
 (pdftex.def)             Requested size: 577.43779pt x 388.17839pt.
 
-<Figures/UI/7.png, id=391, 1127.71312pt x 758.08218pt>
+<Figures/UI/7.png, id=393, 1127.71312pt x 758.08218pt>
 File: Figures/UI/7.png Graphic file (type png)
  <use Figures/UI/7.png>
 Package pdftex.def Info: Figures/UI/7.png used on input line 67.
 (pdftex.def)             Requested size: 577.43779pt x 388.17839pt.
 
-<Figures/UI/8.png, id=392, 1129.97156pt x 782.925pt>
+<Figures/UI/8.png, id=394, 1129.97156pt x 782.925pt>
 File: Figures/UI/8.png Graphic file (type png)
  <use Figures/UI/8.png>
 Package pdftex.def Info: Figures/UI/8.png used on input line 73.
 (pdftex.def)             Requested size: 577.43779pt x 400.09883pt.
 
-<Figures/UI/9.png, id=393, 1129.97156pt x 782.925pt>
+<Figures/UI/9.png, id=395, 1129.97156pt x 782.925pt>
 File: Figures/UI/9.png Graphic file (type png)
  <use Figures/UI/9.png>
 Package pdftex.def Info: Figures/UI/9.png used on input line 79.
 (pdftex.def)             Requested size: 577.43779pt x 400.09883pt.
 
-<Figures/UI/10.png, id=394, 1129.97156pt x 782.925pt>
+<Figures/UI/10.png, id=396, 1129.97156pt x 782.925pt>
 File: Figures/UI/10.png Graphic file (type png)
  <use Figures/UI/10.png>
 Package pdftex.def Info: Figures/UI/10.png used on input line 85.
 (pdftex.def)             Requested size: 577.43779pt x 400.09883pt.
 )
-[90
+[88
 
  <E:/Kings College London/Computer Science/Final Year Project/Final report/Late
-x/Figures/UI/1.png>] [91 <E:/Kings College London/Computer Science/Final Year P
-roject/Final report/Latex/Figures/UI/2.png>] [92 <E:/Kings College London/Compu
+x/Figures/UI/1.png>] [89 <E:/Kings College London/Computer Science/Final Year P
+roject/Final report/Latex/Figures/UI/2.png>] [90 <E:/Kings College London/Compu
 ter Science/Final Year Project/Final report/Latex/Figures/UI/3.png>]
-[93 <E:/Kings College London/Computer Science/Final Year Project/Final report/L
-atex/Figures/UI/4.png>] [94 <E:/Kings College London/Computer Science/Final Yea
-r Project/Final report/Latex/Figures/UI/5.png>] [95 <E:/Kings College London/Co
+[91 <E:/Kings College London/Computer Science/Final Year Project/Final report/L
+atex/Figures/UI/4.png>] [92 <E:/Kings College London/Computer Science/Final Yea
+r Project/Final report/Latex/Figures/UI/5.png>] [93 <E:/Kings College London/Co
 mputer Science/Final Year Project/Final report/Latex/Figures/UI/6.png>]
-[96 <E:/Kings College London/Computer Science/Final Year Project/Final report/L
-atex/Figures/UI/7.png>] [97 <E:/Kings College London/Computer Science/Final Yea
-r Project/Final report/Latex/Figures/UI/8.png>] [98 <E:/Kings College London/Co
+[94 <E:/Kings College London/Computer Science/Final Year Project/Final report/L
+atex/Figures/UI/7.png>] [95 <E:/Kings College London/Computer Science/Final Yea
+r Project/Final report/Latex/Figures/UI/8.png>] [96 <E:/Kings College London/Co
 mputer Science/Final Year Project/Final report/Latex/Figures/UI/9.png>]
-[99 <E:/Kings College London/Computer Science/Final Year Project/Final report/L
+[97 <E:/Kings College London/Computer Science/Final Year Project/Final report/L
 atex/Figures/UI/10.png>]
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\Appendices/UserGuide.tex"
 Appendix B.
-) [100
+[98
 
 
 
-] [101]
+] ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+File: lstlang1.sty 2014/09/06 1.5e listings language file
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
+)
+LaTeX Font Info:    Try loading font information for OML+lmr on input line 35.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omllmr.fd"
+File: omllmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OML/lmr/m/n' in size <10> not available
+(Font)              Font shape `OML/lmm/m/it' tried instead on input line 35.
+ [99])
+Overfull \hbox (11.96777pt too wide) in paragraph at lines 57--162
+\OT1/lmr/m/n/10 The database used for this project is Post-greSQL 9.4 $\OT1/lmt
+t/m/n/10 https : / / wiki . postgresql .$
+ []
+
+
+Overfull \hbox (2.9593pt too wide) in paragraph at lines 57--162
+$\OT1/lmtt/m/n/10 org / wiki / What \ %27s _ new _ in _ PostgreSQL _ 9 . 4$\OT1
+/lmr/m/n/10 . The database cre-ation scripts
+ []
+
+[100] [101]
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\Appendices/SourceCode.tex"
 Appendix C.
@@ -1054,7 +1092,14 @@ Appendix C.
 
 
 
-] ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+]
+("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
+x\KD-Final Report.lol" [103
+
+] [104])
+\tf@lol=\write4
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2014/09/06 1.5e listings language file
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang2.sty"
@@ -1063,29 +1108,607 @@ File: lstlang2.sty 2014/09/06 1.5e listings language file
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang3.sty"
 File: lstlang3.sty 2014/09/06 1.5e listings language file
 )
+Overfull \hbox (6.0pt too wide) in paragraph at lines 11--11
+[][][][][][][] 
+ []
+
+
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
-x\SourceCode/Disruption.scala" [103] [104] [105]
-Overfull \hbox (3.51926pt too wide) in paragraph at lines 106--107
-[][][][][][][][][][][]  
+x\SourceCode/DisruptionEngine/app.scala" [105]) [106]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 12--12
+[][][][][][][] 
  []
 
-[106]
-Overfull \hbox (3.51926pt too wide) in paragraph at lines 136--137
-[][][][][][][][][][][]  
- []
 
-[107] [108]
-Overfull \hbox (36.5942pt too wide) in paragraph at lines 201--202
+("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
+x\SourceCode/DisruptionEngine/BusStop.scala" [107] [108]
+Overfull \hbox (36.5942pt too wide) in paragraph at lines 75--76
 [][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[109]) ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+)
+Overfull \hbox (6.0pt too wide) in paragraph at lines 13--13
+[][][][][][][] 
+ []
+
+
+("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
+x\SourceCode/DisruptionEngine/CustomFilenameFilter.scala" [109])
+Overfull \hbox (6.0pt too wide) in paragraph at lines 14--14
+[][][][][][][] 
+ []
+
+
+("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
+x\SourceCode/DisruptionEngine/DBConnectionPool.scala" [110] [111] [112]
+[113])
+Overfull \hbox (6.0pt too wide) in paragraph at lines 15--15
+[][][][][][][] 
+ []
+
+
+("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
+x\SourceCode/DisruptionEngine/DBTransaction.scala" [114]
+Overfull \hbox (36.5942pt too wide) in paragraph at lines 32--33
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[115] [116])
+Overfull \hbox (6.0pt too wide) in paragraph at lines 16--16
+[][][][][][][] 
+ []
+
+
+("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
+x\SourceCode/DisruptionEngine/Disruption.scala" [117] [118] [119] [120]
+[121]
+Overfull \hbox (3.51926pt too wide) in paragraph at lines 164--165
+[][][][][][][][][][][]  
+ []
+
+[122]
+Overfull \hbox (3.51926pt too wide) in paragraph at lines 196--197
+[][][][][][][][][][][]  
+ []
+
+[123] [124]
+Overfull \hbox (36.5942pt too wide) in paragraph at lines 259--260
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+) [125]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 17--17
+[][][][][][][] 
+ []
+
+
+("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
+x\SourceCode/DisruptionEngine/Environment.scala" [126] [127] [128]
+Overfull \hbox (23.36429pt too wide) in paragraph at lines 106--107
+[][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (28.08928pt too wide) in paragraph at lines 110--111
+[][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (23.36429pt too wide) in paragraph at lines 114--115
+[][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (9.18932pt too wide) in paragraph at lines 118--119
+[][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (13.9143pt too wide) in paragraph at lines 122--123
+[][][][][][][][][][][][][][][][][][]  
+ []
+
+[129]
+Overfull \hbox (18.6393pt too wide) in paragraph at lines 126--127
+[][][][][][][][][][][][][][][][][][]  
+ []
+
+[130] [131])
+Overfull \hbox (6.0pt too wide) in paragraph at lines 18--18
+[][][][][][][] 
+ []
+
+[132]
+("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
+x\SourceCode/DisruptionEngine/FeedThread.scala" [133] [134]
+Overfull \hbox (70.6142pt too wide) in paragraph at lines 73--74
+[][][][][][][][][][][][][][][] 
+ []
+
+[135] [136])
+Overfull \hbox (6.0pt too wide) in paragraph at lines 19--19
+[][][][][][][] 
+ []
+
+
+("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
+x\SourceCode/DisruptionEngine/iBusMonitor.scala" [137]
+Overfull \hbox (60.06418pt too wide) in paragraph at lines 39--40
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[138] [139]
+Overfull \hbox (94.23915pt too wide) in paragraph at lines 112--113
+[][][][][][][][][][][][][][][] 
+ []
+
+[140])
+Overfull \hbox (6.0pt too wide) in paragraph at lines 20--20
+[][][][][][][] 
+ []
+
+
+("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
+x\SourceCode/DisruptionEngine/MissingData.scala" [141] [142])
+Overfull \hbox (6.0pt too wide) in paragraph at lines 21--21
+[][][][][][][] 
+ []
+
+
+("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
+x\SourceCode/DisruptionEngine/Network.scala" [143] [144] [145]
+Overfull \hbox (17.69423pt too wide) in paragraph at lines 87--88
+[][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (46.04417pt too wide) in paragraph at lines 88--89
+[][][][][][][][][][][][][]  
+ []
+
+[146])
+Overfull \hbox (6.0pt too wide) in paragraph at lines 22--22
+[][][][][][][] 
+ []
+
+
+("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
+x\SourceCode/DisruptionEngine/Observation.scala" [147] [148] [149]
+Overfull \hbox (4.46432pt too wide) in paragraph at lines 83--84
+[][][][][][][][][][][][][][][]  
+ []
+
+[150])
+Overfull \hbox (6.0pt too wide) in paragraph at lines 23--23
+[][][][][][][] 
+ []
+
+
+("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
+x\SourceCode/DisruptionEngine/OutputWriter.scala"
+Overfull \hbox (251.10892pt too wide) in paragraph at lines 25--27
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+[151] [152] [153])
+Overfull \hbox (6.0pt too wide) in paragraph at lines 24--24
+[][][][][][][] 
+ []
+
+
+("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
+x\SourceCode/DisruptionEngine/Route.scala" [154] [155] [156] [157]) [158]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 25--25
+[][][][][][][] 
+ []
+
+
+("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
+x\SourceCode/DisruptionEngine/Run.scala" [159] [160] [161] [162] [163] [164]
+[165] [166])
+Overfull \hbox (6.0pt too wide) in paragraph at lines 26--26
+[][][][][][][] 
+ []
+
+
+("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
+x\SourceCode/DisruptionEngine/CustomFilenameFilter.scala" [167])
+Overfull \hbox (6.0pt too wide) in paragraph at lines 27--27
+[][][][][][][] 
+ []
+
+
+("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
+x\SourceCode/DisruptionEngine/SystemMonitor.scala" [168] [169])
+Overfull \hbox (6.0pt too wide) in paragraph at lines 28--28
+[][][][][][][] 
+ []
+
+
+("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
+x\SourceCode/DisruptionEngine/TripType.scala" [170])
+Overfull \hbox (6.0pt too wide) in paragraph at lines 31--31
+[][][][][][][] 
+ []
+
+
+("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
+x\SourceCode/DisruptionEngine/Test/BusNetworkTest.scala" [171]) [172]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 32--32
+[][][][][][][] 
+ []
+
+
+("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
+x\SourceCode/DisruptionEngine/Test/BusStopTest.scala" [173] [174])
+Overfull \hbox (6.0pt too wide) in paragraph at lines 33--33
+[][][][][][][] 
+ []
+
+
+("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
+x\SourceCode/DisruptionEngine/Test/DisruptionTest.scala" [175] [176] [177]
+[178])
+Overfull \hbox (6.0pt too wide) in paragraph at lines 34--34
+[][][][][][][] 
+ []
+
+
+("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
+x\SourceCode/DisruptionEngine/Test/EnvironmentTest.scala" [179] [180] [181])
+Overfull \hbox (6.0pt too wide) in paragraph at lines 35--35
+[][][][][][][] 
+ []
+
+
+("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
+x\SourceCode/DisruptionEngine/Test/ObservationTest.scala" [182]
+Overfull \hbox (51.71423pt too wide) in paragraph at lines 14--15
+[][][][][][][][][]  
+ []
+
+
+Overfull \hbox (42.26425pt too wide) in paragraph at lines 15--16
+[][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (46.98924pt too wide) in paragraph at lines 16--17
+[][][][][][][][][]  
+ []
+
+
+Overfull \hbox (37.53926pt too wide) in paragraph at lines 18--19
+[][][][][][][][][]  
+ []
+
+
+Overfull \hbox (51.71423pt too wide) in paragraph at lines 19--20
+[][][][][][][][][]  
+ []
+
+
+Overfull \hbox (51.71423pt too wide) in paragraph at lines 20--21
+[][][][][][][][]  
+ []
+
+
+Overfull \hbox (174.564pt too wide) in paragraph at lines 24--25
+[][][][][][][][][]  
+ []
+
+
+Overfull \hbox (174.564pt too wide) in paragraph at lines 25--26
+[][][][][][][][][]  
+ []
+
+
+Overfull \hbox (179.28899pt too wide) in paragraph at lines 26--27
+[][][][][][][][][][][][][][][]  
+ []
+
+[183]
+Overfull \hbox (160.38902pt too wide) in paragraph at lines 27--28
+[][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (169.839pt too wide) in paragraph at lines 28--29
+[][][][][][][][][]  
+ []
+
+
+Overfull \hbox (165.11401pt too wide) in paragraph at lines 29--30
+[][][][][][][][]  
+ []
+
+[184]
+Overfull \hbox (46.98924pt too wide) in paragraph at lines 82--83
+[][][][][][][][]  
+ []
+
+
+Overfull \hbox (46.98924pt too wide) in paragraph at lines 83--84
+[][][][][][][][]  
+ []
+
+[185])
+Overfull \hbox (6.0pt too wide) in paragraph at lines 36--36
+[][][][][][][] 
+ []
+
+
+("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
+x\SourceCode/DisruptionEngine/Test/RunTest.scala" [186] [187] [188] [189])
+Overfull \hbox (6.0pt too wide) in paragraph at lines 37--37
+[][][][][][][] 
+ []
+
+
+("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
+x\SourceCode/DisruptionEngine/Test/SectionTest.scala" [190] [191] [192])
+Overfull \hbox (6.0pt too wide) in paragraph at lines 38--38
+[][][][][][][] 
+ []
+
+
+("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
+x\SourceCode/DisruptionEngine/Test/UnitSpec.scala") [193]
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2014/09/06 1.5e listings language file
 )
+Overfull \hbox (6.0pt too wide) in paragraph at lines 45--45
+[][][][][][][] 
+ []
+
+
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
-x\SourceCode/iBusDisruptionDB.backup" [110] [111] [112] [113] [114] [115]
-[116] [117] [118] [119] [120] [121] [122] [123] [124] [125] [126] [127]
-[128])) [129]
+x\SourceCode/WebApplication/views/disruption/_comments.html.erb" [194])
+Overfull \hbox (6.0pt too wide) in paragraph at lines 46--46
+[][][][][][][] 
+ []
+
+
+("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
+x\SourceCode/WebApplication/views/disruption/_details.html.erb" [195])
+Overfull \hbox (6.0pt too wide) in paragraph at lines 47--47
+[][][][][][][] 
+ []
+
+
+("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
+x\SourceCode/WebApplication/views/disruption/_list.erb" [196] [197]
+Overfull \hbox (9.18861pt too wide) in paragraph at lines 59--60
+[][][][][][][][][][] 
+ []
+
+[198] [199]
+Overfull \hbox (24.3083pt too wide) in paragraph at lines 79--80
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (24.3083pt too wide) in paragraph at lines 81--82
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+) [200]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 48--48
+[][][][][][][] 
+ []
+
+
+("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
+x\SourceCode/WebApplication/views/disruption/index.html.erb" [201])
+Overfull \hbox (6.0pt too wide) in paragraph at lines 50--50
+[][][][][][][] 
+ []
+
+
+("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
+x\SourceCode/WebApplication/views/history/_list.html.erb" [202] [203] [204]
+Overfull \hbox (9.18861pt too wide) in paragraph at lines 54--55
+[][][][][][][][][][] 
+ []
+
+[205])
+Overfull \hbox (6.0pt too wide) in paragraph at lines 51--51
+[][][][][][][] 
+ []
+
+
+("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
+x\SourceCode/WebApplication/views/history/index.html.erb" [206] [207] [208])
+Overfull \hbox (6.0pt too wide) in paragraph at lines 54--54
+[][][][][][][] 
+ []
+
+
+("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
+x\SourceCode/WebApplication/views/layouts/_flash.html.erb" [209])
+Overfull \hbox (6.0pt too wide) in paragraph at lines 55--55
+[][][][][][][] 
+ []
+
+
+("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
+x\SourceCode/WebApplication/views/layouts/_loginModal.erb") [210]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 56--56
+[][][][][][][] 
+ []
+
+
+("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
+x\SourceCode/WebApplication/views/layouts/_privacyModal.erb" [211]
+Overfull \hbox (361.6735pt too wide) in paragraph at lines 47--48
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[212])
+Overfull \hbox (6.0pt too wide) in paragraph at lines 57--57
+[][][][][][][] 
+ []
+
+
+("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
+x\SourceCode/WebApplication/views/layouts/_termsModal.erb" [213] [214])
+Overfull \hbox (6.0pt too wide) in paragraph at lines 58--58
+[][][][][][][] 
+ []
+
+
+("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
+x\SourceCode/WebApplication/views/layouts/application.html.erb" [215] [216]
+[217]) [218]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 60--60
+[][][][][][][] 
+ []
+
+
+("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
+x\SourceCode/WebApplication/views/main/_engineSpeedControl.erb")
+Overfull \hbox (6.0pt too wide) in paragraph at lines 61--61
+[][][][][][][] 
+ []
+
+
+("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
+x\SourceCode/WebApplication/views/main/about.html.erb" [219] [220] [221])
+Overfull \hbox (6.0pt too wide) in paragraph at lines 63--63
+[][][][][][][] 
+ []
+
+
+("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
+x\SourceCode/WebApplication/views/settings/_edit.html.erb" [222])
+Overfull \hbox (6.0pt too wide) in paragraph at lines 64--64
+[][][][][][][] 
+ []
+
+
+("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
+x\SourceCode/WebApplication/views/settings/index.html.erb" [223] [224])
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+File: lstlang1.sty 2014/09/06 1.5e listings language file
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang2.sty"
+File: lstlang2.sty 2014/09/06 1.5e listings language file
+)
+Overfull \hbox (6.0pt too wide) in paragraph at lines 67--67
+[][][][][][][] 
+ []
+
+
+("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
+x\SourceCode/WebApplication/controllers/application_controller.rb" [225])
+Overfull \hbox (6.0pt too wide) in paragraph at lines 68--68
+[][][][][][][] 
+ []
+
+
+("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
+x\SourceCode/WebApplication/controllers/disruption_controller.rb" [226]
+[227] [228] [229] [230] [231] [232] [233])
+Overfull \hbox (6.0pt too wide) in paragraph at lines 69--69
+[][][][][][][] 
+ []
+
+
+("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
+x\SourceCode/WebApplication/controllers/history_controller.rb" [234] [235]
+[236])
+Overfull \hbox (6.0pt too wide) in paragraph at lines 70--70
+[][][][][][][] 
+ []
+
+
+("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
+x\SourceCode/WebApplication/controllers/main_controller.rb" [237] [238])
+Overfull \hbox (6.0pt too wide) in paragraph at lines 71--71
+[][][][][][][] 
+ []
+
+
+("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
+x\SourceCode/WebApplication/controllers/settings_controller.rb" [239])
+Overfull \hbox (6.0pt too wide) in paragraph at lines 74--74
+[][][][][][][] 
+ []
+
+
+("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
+x\SourceCode/WebApplication/helpers/application_helper.rb" [240])
+Overfull \hbox (6.0pt too wide) in paragraph at lines 75--75
+[][][][][][][] 
+ []
+
+
+("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
+x\SourceCode/WebApplication/helpers/disruption_helper.rb" [241])
+Overfull \hbox (6.0pt too wide) in paragraph at lines 78--78
+[][][][][][][] 
+ []
+
+
+("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
+x\SourceCode/WebApplication/models/bus_stop.rb" [242])
+Overfull \hbox (6.0pt too wide) in paragraph at lines 79--79
+[][][][][][][] 
+ []
+
+
+("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
+x\SourceCode/WebApplication/models/Disruption.rb" [243] [244] [245])
+Overfull \hbox (6.0pt too wide) in paragraph at lines 80--80
+[][][][][][][] 
+ []
+
+
+("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
+x\SourceCode/WebApplication/models/disruption_comment.rb")
+Overfull \hbox (6.0pt too wide) in paragraph at lines 81--81
+[][][][][][][] 
+ []
+
+
+("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
+x\SourceCode/WebApplication/models/engine_configuration.rb")
+Overfull \hbox (6.0pt too wide) in paragraph at lines 82--82
+[][][][][][][] 
+ []
+
+
+("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
+x\SourceCode/WebApplication/models/operator.rb" [246])
+Overfull \hbox (6.0pt too wide) in paragraph at lines 83--83
+[][][][][][][] 
+ []
+
+
+("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
+x\SourceCode/WebApplication/models/section.rb" [247])
+Overfull \hbox (6.0pt too wide) in paragraph at lines 84--84
+[][][][][][][] 
+ []
+
+
+("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
+x\SourceCode/WebApplication/models/sections_lost_time.rb")
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+File: lstlang1.sty 2014/09/06 1.5e listings language file
+)
+Overfull \hbox (6.0pt too wide) in paragraph at lines 89--89
+[][][][][][][] 
+ []
+
+
+("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
+x\SourceCode/Database/iBusDisruptionDB.backup" [248] [249] [250] [251] [252]
+[253] [254] [255] [256] [257] [258] [259] [260] [261] [262] [263] [264]
+[265])) [266]
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\KD-Final Report.aux"
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
@@ -1113,13 +1736,13 @@ x\Appendices/UserGuide.aux")
 ("E:\Kings College London\Computer Science\Final Year Project\Final report\Late
 x\Appendices/SourceCode.aux")) ) 
 Here is how much of TeX's memory you used:
- 5759 strings out of 493921
- 89962 string characters out of 3147267
- 206771 words of memory out of 3000000
- 8813 multiletter control sequences out of 15000+200000
+ 8045 strings out of 493921
+ 140834 string characters out of 3147267
+ 251418 words of memory out of 3000000
+ 10898 multiletter control sequences out of 15000+200000
  56494 words of font info for 44 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 35i,10n,53p,2600b,1777s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,10n,53p,2592b,1770s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm
 /lm-rmtt.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Prog
 ram Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 
@@ -1138,9 +1761,9 @@ pe1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lms
 y7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Progra
 m Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt8.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/public/lm/lmtt9.pfb>
-Output written on "KD-Final Report.pdf" (133 pages, 4345884 bytes).
+Output written on "KD-Final Report.pdf" (270 pages, 4455783 bytes).
 PDF statistics:
- 586 PDF objects out of 1000 (max. 8388607)
+ 1033 PDF objects out of 1200 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  211 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,16 +1,89 @@
+%Complete source code listings must be submitted as an appendix to the report. The project source codes are usually spread out over several files/units. You should try to help the reader to navigate through your source code by providing a ``table of contents'' (titles of these files/units and one line descriptions). The first page of the program listings folder must contain the following statement certifying the work as your own: ``I verify that I am the sole author of the programs contained in this folder, except where explicitly stated to the contrary''. Your (typed) signature and the date should follow this statement.
+%All work on programs must stop once the code is submitted. You are required to keep safely several copies of this version of the program - one copy must be kept on the departmental disk space - and you must use one of these copies in the project examination. Your examiners may ask to see the last-modified dates of your program files, and may ask you to demonstrate that the program files you use in the project examination are identical to the program files you had stored on the departmental disk space before you submitted the project. Any attempt to demonstrate code that is not included in your submitted source listings is an attempt to cheat; any such attempt will be reported to the KCL Misconduct Committee.
+%\textbf{You may find it easier to firstly generate a PDF of your source code using a text editor and then merge it to the end of your report. There are many free tools available that allow you to merge PDF files.}
 \chapter{Source Code}
-Complete source code listings must be submitted as an appendix to the report. The project source codes are usually spread out over several files/units. You should try to help the reader to navigate through your source code by providing a ``table of contents'' (titles of these files/units and one line descriptions). The first page of the program listings folder must contain the following statement certifying the work as your own: ``I verify that I am the sole author of the programs contained in this folder, except where explicitly stated to the contrary''. Your (typed) signature and the date should follow this statement.
 
-All work on programs must stop once the code is submitted. You are required to keep safely several copies of this version of the program - one copy must be kept on the departmental disk space - and you must use one of these copies in the project examination. Your examiners may ask to see the last-modified dates of your program files, and may ask you to demonstrate that the program files you use in the project examination are identical to the program files you had stored on the departmental disk space before you submitted the project. Any attempt to demonstrate code that is not included in your submitted source listings is an attempt to cheat; any such attempt will be reported to the KCL Misconduct Committee.
+\lstlistoflistings
 
-\textbf{You may find it easier to firstly generate a PDF of your source code using a text editor and then merge it to the end of your report. There are many free tools available that allow you to merge PDF files.}
+%\section{Disruption Engine}
+
+%\subsection{Source}
+\lstinputlisting[style=myScalastyle, caption=Engine Source - App Object (Main Class)]{SourceCode/DisruptionEngine/app.scala}
+\lstinputlisting[style=myScalastyle, caption=Engine Source - BusStop Class]{SourceCode/DisruptionEngine/BusStop.scala}
+\lstinputlisting[style=myScalastyle, caption=Engine Source - CustomFilenameFilter Class]{SourceCode/DisruptionEngine/CustomFilenameFilter.scala}
+\lstinputlisting[style=myScalastyle, caption=Engine Source - DBConnectionPool Class]{SourceCode/DisruptionEngine/DBConnectionPool.scala}
+\lstinputlisting[style=myScalastyle, caption=Engine Source - DBTransaction Class]{SourceCode/DisruptionEngine/DBTransaction.scala}
+\lstinputlisting[style=myScalastyle, caption=Engine Source - Disruption Class]{SourceCode/DisruptionEngine/Disruption.scala}
+\lstinputlisting[style=myScalastyle, caption=Engine Source - Environment Class]{SourceCode/DisruptionEngine/Environment.scala}
+\lstinputlisting[style=myScalastyle, caption=Engine Source - FeedThread Class]{SourceCode/DisruptionEngine/FeedThread.scala}
+\lstinputlisting[style=myScalastyle, caption=Engine Source - iBusMonitor Class]{SourceCode/DisruptionEngine/iBusMonitor.scala}
+\lstinputlisting[style=myScalastyle, caption=Engine Source - MissingData Class]{SourceCode/DisruptionEngine/MissingData.scala}
+\lstinputlisting[style=myScalastyle, caption=Engine Source - Network Class]{SourceCode/DisruptionEngine/Network.scala}
+\lstinputlisting[style=myScalastyle, caption=Engine Source - Observation Class]{SourceCode/DisruptionEngine/Observation.scala}
+\lstinputlisting[style=myScalastyle, caption=Engine Source - OutputWriter Class]{SourceCode/DisruptionEngine/OutputWriter.scala}
+\lstinputlisting[style=myScalastyle, caption=Engine Source - Route Class]{SourceCode/DisruptionEngine/Route.scala}
+\lstinputlisting[style=myScalastyle, caption=Engine Source - Run Class]{SourceCode/DisruptionEngine/Run.scala}
+\lstinputlisting[style=myScalastyle, caption=Engine Source - Section Class]{SourceCode/DisruptionEngine/CustomFilenameFilter.scala}
+\lstinputlisting[style=myScalastyle, caption=Engine Source - SystemMonitor Class]{SourceCode/DisruptionEngine/SystemMonitor.scala}
+\lstinputlisting[style=myScalastyle, caption=Engine Source - TripType Class]{SourceCode/DisruptionEngine/TripType.scala}
+
+%\subsection{Tests}
+\lstinputlisting[style=myScalastyle, caption=Engine Source - BusNetwork Test]{SourceCode/DisruptionEngine/Test/BusNetworkTest.scala}
+\lstinputlisting[style=myScalastyle, caption=Engine Source - BusStop Test]{SourceCode/DisruptionEngine/Test/BusStopTest.scala}
+\lstinputlisting[style=myScalastyle, caption=Engine Source - Disruption Test]{SourceCode/DisruptionEngine/Test/DisruptionTest.scala}
+\lstinputlisting[style=myScalastyle, caption=Engine Source - Environment Test]{SourceCode/DisruptionEngine/Test/EnvironmentTest.scala}
+\lstinputlisting[style=myScalastyle, caption=Engine Source - Observation Test]{SourceCode/DisruptionEngine/Test/ObservationTest.scala}
+\lstinputlisting[style=myScalastyle, caption=Engine Source - Run Test]{SourceCode/DisruptionEngine/Test/RunTest.scala}
+\lstinputlisting[style=myScalastyle, caption=Engine Source - Section Test]{SourceCode/DisruptionEngine/Test/SectionTest.scala}
+\lstinputlisting[style=myScalastyle, caption=Engine Source - UnitSpec]{SourceCode/DisruptionEngine/Test/UnitSpec.scala}
 
 
-\section{Engine}
-\lstinputlisting[style=myScalastyle]{SourceCode/Disruption.scala}
-%[language=Scala]
 
-\section{Web Front End}
+%\section{Web Application}
 
-\section{Database}
-\lstinputlisting[style=mySQL]{SourceCode/iBusDisruptionDB.backup}
+%\subsection{Views}
+\lstinputlisting[style=myHTMLStyle, caption=Web Application - Disruption Comments Partial View]{SourceCode/WebApplication/views/disruption/_comments.html.erb}
+\lstinputlisting[style=myHTMLStyle, caption=Web Application - Disruption Details Partial View]{SourceCode/WebApplication/views/disruption/_details.html.erb}
+\lstinputlisting[style=myHTMLStyle, caption=Web Application - Disruption List Partial View]{SourceCode/WebApplication/views/disruption/_list.erb}
+\lstinputlisting[style=myHTMLStyle, caption=Web Application - Disruption Index View]{SourceCode/WebApplication/views/disruption/index.html.erb}
+
+\lstinputlisting[style=myHTMLStyle, caption=Web Application - History List Partial View]{SourceCode/WebApplication/views/history/_list.html.erb}
+\lstinputlisting[style=myHTMLStyle, caption=Web Application - History Index View]{SourceCode/WebApplication/views/history/index.html.erb}
+
+
+\lstinputlisting[style=myHTMLStyle, caption=Web Application - Layout Flash Partial View]{SourceCode/WebApplication/views/layouts/_flash.html.erb}
+\lstinputlisting[style=myHTMLStyle, caption=Web Application - Layout Login Modal Partial View]{SourceCode/WebApplication/views/layouts/_loginModal.erb}
+\lstinputlisting[style=myHTMLStyle, caption=Web Application - Layout Privacy Modal Partial View]{SourceCode/WebApplication/views/layouts/_privacyModal.erb}
+\lstinputlisting[style=myHTMLStyle, caption=Web Application - Layout Terms Modal Partial View]{SourceCode/WebApplication/views/layouts/_termsModal.erb}
+\lstinputlisting[style=myHTMLStyle, caption=Web Application - Layout Application View]{SourceCode/WebApplication/views/layouts/application.html.erb}
+
+\lstinputlisting[style=myHTMLStyle, caption=Web Application - Main Engine Speed Control Partial View]{SourceCode/WebApplication/views/main/_engineSpeedControl.erb}
+\lstinputlisting[style=myHTMLStyle, caption=Web Application - Main Index View]{SourceCode/WebApplication/views/main/about.html.erb}
+
+\lstinputlisting[style=myHTMLStyle, caption=Web Application - Settings Edit Partial View]{SourceCode/WebApplication/views/settings/_edit.html.erb}
+\lstinputlisting[style=myHTMLStyle, caption=Web Application - Settings Index View]{SourceCode/WebApplication/views/settings/index.html.erb}
+
+%\subsection{Controllers}
+\lstinputlisting[style=myRubyStyle, caption=Web Application - Application Controller]{SourceCode/WebApplication/controllers/application_controller.rb}
+\lstinputlisting[style=myRubyStyle, caption=Web Application - Disruption Controller]{SourceCode/WebApplication/controllers/disruption_controller.rb}
+\lstinputlisting[style=myRubyStyle, caption=Web Application - History Controller]{SourceCode/WebApplication/controllers/history_controller.rb}
+\lstinputlisting[style=myRubyStyle, caption=Web Application - Main Controller]{SourceCode/WebApplication/controllers/main_controller.rb}
+\lstinputlisting[style=myRubyStyle, caption=Web Application - Settings Controller]{SourceCode/WebApplication/controllers/settings_controller.rb}
+
+%\subsection{Helpers}
+\lstinputlisting[style=myRubyStyle, caption=Web Application - Application Helper]{SourceCode/WebApplication/helpers/application_helper.rb}
+\lstinputlisting[style=myRubyStyle, caption=Web Application - Disruption Helper]{SourceCode/WebApplication/helpers/disruption_helper.rb}
+
+%\subsection{Models}
+\lstinputlisting[style=myRubyStyle, caption=Web Application - Bus Stop Model]{SourceCode/WebApplication/models/bus_stop.rb}
+\lstinputlisting[style=myRubyStyle, caption=Web Application - Disruption Model]{SourceCode/WebApplication/models/Disruption.rb}
+\lstinputlisting[style=myRubyStyle, caption=Web Application - Disruption Comment Model]{SourceCode/WebApplication/models/disruption_comment.rb}
+\lstinputlisting[style=myRubyStyle, caption=Web Application - Engine Configuration Model]{SourceCode/WebApplication/models/engine_configuration.rb}
+\lstinputlisting[style=myRubyStyle, caption=Web Application - Operator Model]{SourceCode/WebApplication/models/operator.rb}
+\lstinputlisting[style=myRubyStyle, caption=Web Application - Section Model]{SourceCode/WebApplication/models/section.rb}
+\lstinputlisting[style=myRubyStyle, caption=Web Application - Section Lost Time Model]{SourceCode/WebApplication/models/sections_lost_time.rb}
+
+
+
+%\section{Database}
+\lstinputlisting[style=pgSQL, caption=Database creation script]{SourceCode/Database/iBusDisruptionDB.backup}

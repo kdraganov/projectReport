@@ -1,0 +1,61 @@
+<div class="row">
+    <div class="large-12 columns">
+        <h1>Settings</h1>
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="large-12 columns">
+        <table id="settings" class="sortable" width="100%">
+            <thead>
+            <tr>
+                <th>Key</th>
+                <th>Value</th>
+                <th class="sorttable_nosort" style="text-align: center;">Edit</th>
+            </tr>
+            </thead>
+            <tbody>
+            <% @configs.each do |config| %>
+                <tr>
+                    <td><%= config.key %></td>
+                    <td id="<%= config.key %>"><%= config.value %></td>
+                    <td style="text-align: center;">
+                        <% if config.editable %>
+                        <a href="<%= settings_edit_path(id: config.key) %>" data-reveal-id="revealModal" data-reveal-ajax="true">
+                            <%= image_tag "edit.png", size: "24", alt: "Edit", title: "Edit configuration parameter" %>
+                        </a>
+                        <% end %>
+                    </td>
+                </tr>
+            <% end %>
+            </tbody>
+        </table>
+        <% if @configs.total_entries > 20 %>
+            <div class="apple_pagination">
+                <%= will_paginate @configs, :container => false %>
+            </div>
+        <% end %>
+    </div>
+</div>
+
+
+<div id="revealModal" class="reveal-modal small" data-reveal>
+</div>
+
+
+<script type="text/javascript">
+    function save() {
+        new $.ajax('/settings/save', {
+            method: 'post',
+            data: {key: $('#key').val(), value: $('#value').val()},
+            success: function (result) {
+                if (!result.error) {
+                    $('#revealModal').foundation('reveal', 'close');
+                    document.getElementById(result.key).innerHTML = result.newValue;
+                    showAlert("Value changed successfully!", "success")
+                }
+            }
+        });
+    }
+</script>

@@ -1,0 +1,32 @@
+<fieldset>
+    <legend><h1>Comments</h1></legend>
+    <div class="panel">
+        <i><%= @disruption.comments.empty? ? "No comments to display" : "" %></i>
+        <% @disruption.comments.order(timestamp: :desc).each do |comment| %>
+            <div class="row" style="margin-top: 0.3em;">
+                <div class="small-7 medium-7 columns">
+                    <span style="font-weight: bold; color: #0066CC;"><%= comment.operator.username %></span></div>
+                <div class="small-5 medium-5 columns">
+                    <div style="text-align: right;">
+                        <i>Added on <b><%= comment.timestamp.strftime("%H:%M:%S %m/%d/%Y") %></b></i></div>
+                </div>
+                <div class="large-12 columns" style="margin-top: 0.2em;border-bottom: 1px inset #DDDDDD; border-bottom-radius: 25px; padding-bottom: 0.3em;">
+                    <p class="text-justify">  <%= comment.comment.gsub(/\n/, '<br>').html_safe %> </p>
+                </div>
+            </div>
+        <% end %>
+    </div>
+</fieldset>
+<% if (session[:operatorId] != nil) %>
+    <div class="row" style="margin-top: 0.3em;">
+        <form>
+            <fieldset>
+                <legend>New comment</legend>
+                <textarea id="commentText" name="comment" placeholder="Type in your comment here..." rows="4"/>
+                <input id="commentId" type="hidden" value="<%= @disruption.id %>"/>
+                <a class="button radius small right" onclick="addNewComment()">Add</a>
+            </fieldset>
+        </form>
+    </div>
+<% end %>
+<a class="close-reveal-modal">&#215;</a>

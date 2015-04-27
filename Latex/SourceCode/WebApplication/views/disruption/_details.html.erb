@@ -1,0 +1,15 @@
+<h4>Route <%= getLinkToBusRoute(@disruption.route, @disruption.getRunString).html_safe %>
+    disrupted <%= @disruption.getRunString.downcase %>- first detected at  <%= @disruption.getDetectedAt(true) %>
+</h4>
+<h5>Average lost time of <strong><%= @disruption.getDelay %></strong> minutes observed between
+    <%= getLinkToBusStop(@disruption.fromStop).html_safe %> and
+    <%= getLinkToBusStop(@disruption.toStop).html_safe %></h5>
+
+<div class="row">
+    <div class="large-12 columns">
+        <div style="text-align: center; overflow-x: auto; overflow-y: hidden; ">
+            <div id="lineGraph" style="display:inline-block; margin: 0 auto;"></div>
+        </div>
+    </div>
+</div>
+<a class="close-reveal-modal">&#215;</a>

@@ -11,6 +11,11 @@
 \usepackage{listings}
 \usepackage{xcolor}
 
+\usepackage{caption}
+\DeclareCaptionFont{white}{\color{white}}
+\DeclareCaptionFormat{listing}{\colorbox{gray}{\parbox{\textwidth}{#1#2#3}}}
+\captionsetup[lstlisting]{format=listing,labelfont=white,textfont=white}
+
 \definecolor{dkgreen}{rgb}{0,0.6,0}
 \definecolor{gray}{rgb}{0.5,0.5,0.5}
 \definecolor{mauve}{rgb}{0.58,0,0.82}
@@ -35,7 +40,47 @@
   tabsize=3,
 }
 
-\lstdefinestyle{mySQL}{
+\lstdefinestyle{myRubyStyle}{
+  title=\lstname        
+  frame=tb,
+  language=ruby,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=left,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  frame=false,
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3,
+}
+
+\lstdefinestyle{myHTMLStyle}{
+  title=\lstname        
+  frame=tb,
+  language=HTML,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=left,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  frame=false,
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3,
+}
+
+\lstdefinestyle{pgSQL}{
   title=\lstname      
   frame=tb,
   language=SQL,
@@ -55,7 +100,6 @@
   tabsize=3,
 }
 
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Front Matter - project title, name, supervisor name and date
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -69,7 +113,7 @@
 \studentID{1101314}
 \supervisor{Dr Steffen Zschaler}
 \date{September 2014 - April 2015}
-\wordCount{}
+\wordCount{17934}
 \abstractFile{FrontMatter/abstract.tex}
 \ackFile{FrontMatter/acknowledgements.tex} %Remove line if you do not want acknowledgements
 
